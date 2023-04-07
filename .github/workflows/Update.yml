@@ -95,17 +95,35 @@ jobs:
         }
         ' chinav6.tmp>IPTV/地方频道.m3u
        
-        # 生成V6其他频道
+        # 生成V6数字频道
         awk '
-        {
-          if($0~/group-title=\"('"$GROUP_NAME_CCTV"'|'"$GROUP_NAME_SATT"'|'"$GROUP_NAME_LOCAL"')\"/) {next};
+        { 
           if($0~/\#EXTM3U/) {print $0};
-          if($0~/group-title=/) {m=NR; n=NR+1};
+          if($0~/group-title=\"'"$GROUP_NAME_DIG"'\"/) {m=NR; n=NR+1};
           if(m<=NR && NR<=n) {
             print $0;
           };
         }
-        ' chinav6.tmp > IPTV/数字频道.m3u
+        ' chinav6.tmp > Source/Dig.m3u
+        
+        awk -F'"' '
+        {
+          info=$0;
+          name=$4;
+          gsub(/group-title="数字频道.*"/, "group-title=\"'"$GROUP_NAME_DIG"'\"");
+          if($0~/\#EXTM3U/) {print $0};
+          if(info~/EXTINF/ && info!~/URLARU/) {
+            churl="null";
+            close("chinav6.tmp");
+            cmd="awk '\''/"name"/{getline;print}'\'' chinav6.tmp";
+            cmd | getline churl;
+            if(churl!="null") {
+              print info;
+              print churl;
+            };
+            close(cmd);
+          };
+        }
 
 
     - name: 重新排序国内频道并更换透明图标
