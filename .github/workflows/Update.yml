@@ -1,5 +1,5 @@
 name: 生成自用Apple TV直播列表
-
+ 
 on:
   workflow_dispatch:
   push:
@@ -10,29 +10,26 @@ on:
       - 'ChannelList/*.list'
       - 'ChannelLogo/*/*.png'
   schedule:
-    - cron: 0 */1 * * *
+    - cron: '0 5,17 * * *'  # 每天凌晨1点和下午13点运行
   watch:
     types: [started]
 
 env:
   TZ: Asia/Shanghai
   TELEGRAM_NOTIFICATION: true
-  TELEGRAM_NOTIFICATION_CONTENT: <b>📺 AppleTVライブチャンネルが更新しました！</b>
-  SOURCE1: https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u
-  SOURCE1_NAME: source1.tmp
-  SOURCEV6: https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u
-  SOURCEV6_NAME: source6.tmp
-  SOURCE_NAME: source.tmp
-  GROUP_NAME_CCTV: 央视
-  GROUP_NAME_SATT: 卫视
-  GROUP_NAME_JP: 日本
-  GROUP_NAME_EN: 英文
-  GROUP_NAME_SCI: 科教记录
-  GROUP_NAME_HK: 香港
-  GROUP_NAME_TW: 台湾
-  GROUP_NAME_MO: 澳门
-  GROUP_NAME_LOCAL: 地方
-  GROUP_NAME_DIG: 数字
+  TELEGRAM_NOTIFICATION_CONTENT: <b>📺 AppleTV直播频道已更新！</b>
+  GROUP_NAME_CCTV: 央视频道
+  GROUP_NAME_SATT: 卫视频道
+  GROUP_NAME_LOCAL: 地方频道
+  GROUP_NAME_DIG: 数字频道
+  GROUP_NAME_TIYU: 体育频道
+  GROUP_NAME_HK: 香港频道
+  GROUP_NAME_TW: 台湾频道
+  GROUP_NAME_JP: 日本频道
+  GROUP_NAME_KR: 韩国频道
+  GROUP_NAME_EN: 欧美难道
+  # GROUP_NAME_MO: 澳门频道
+  
   HKTW_ADD: false
   GET: true
 
@@ -47,27 +44,22 @@ jobs:
         ref: main
         fetch-depth: 0
         lfs: true
-    
-    - name: Set git identity
-      run : |
-        git config --global user.email "hououinkami@gmail.com"
-        git config --global user.name "hououinkami"
-    
+        
+
     - name: 获取当前日期
       id: date
       run: echo "DATE=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
     
-    - name: 获取最新源
-      run : |
-        wget $SOURCE1 -O $SOURCE1_NAME
-        wget $SOURCEV6 -O $SOURCEV6_NAME
+
     
     - name: 国内频道
-      run : |
+      if: env.GET == 'false'
+      run : | 
+       wget https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u -O $source6.tmp
         # 生成V6临时文件
         awk '
         {
-          gsub("\"央视","\"'"$GROUP_NAME_CCTV"'");
+          gsub("\"央视频道","\"'"$GROUP_NAME_CCTV"'");
           if($0~/(tvg-name=\"CCTV|CCTV4K)/) {gsub(/group-title=\".*\"/, "group-title=\"'"$GROUP_NAME_CCTV"'\"")};
           gsub(/CCTV5.\"/,"CCTV5+体育赛事\"");
           gsub("\"电视指南","\"CCTV电视指南");
@@ -79,10 +71,8 @@ jobs:
           if($0!~/group-title=\"('"$GROUP_NAME_CCTV"'|'"$GROUP_NAME_SATT"'|'"$GROUP_NAME_LOCAL"')\"/) {gsub(/group-title=\".*\"/, "group-title=\"'"$GROUP_NAME_DIG"'\"")};
           print $0;
         }
-        ' $SOURCEV6_NAME>chinav6.tmp
-        echo "********V6临时文件********"
-        cat chinav6.tmp
-
+        ' $source6.tmp>chinav6.tmp
+        
         # 生成V6央视卫视
         awk '
         {
@@ -92,10 +82,8 @@ jobs:
             print $0;
           };
         }
-        ' chinav6.tmp>china6.tmp
-        echo "********V6央视卫视********"
-        cat china6.tmp
-
+        ' chinav6.tmp>Source/CCTV.m3u 
+        
         # 生成V6地方电视台
         awk '
         {
@@ -105,27 +93,9 @@ jobs:
             print $0;
           };
         }
-        ' chinav6.tmp>local.tmp
-        echo "********V6地方频道********"
-        cat local.tmp
-
-        # 生成APTV央视卫视
-        awk '
-        {
-          if($0~/\#EXTM3U/) {print $0};
-          if($0~/group-title=\"央视IPV6\"/ || $0~/group-title=\"卫视IPV6\"/ || $0~/group-title=\"其他\"/) {m=NR; n=NR+1};
-          if(m<=NR && NR<=n) {
-            gsub("央视IPV6","'"$GROUP_NAME_CCTV"'");
-            gsub("\"卫视IPV6","\"'"$GROUP_NAME_SATT"'");
-            gsub(/CCTV5.\"/,"CCTV5+体育赛事\"");
-            print $0;
-          };
-        }
-        ' $SOURCE1_NAME>china1.tmp
-        echo "********APTV临时文件********"
-        cat china1.tmp
-
-        # 生成V6数字电视台
+        ' chinav6.tmp>IPTV/地方频道.m3u
+       
+        # 生成V6其他频道
         awk '
         {
           if($0~/group-title=\"('"$GROUP_NAME_CCTV"'|'"$GROUP_NAME_SATT"'|'"$GROUP_NAME_LOCAL"')\"/) {next};
@@ -135,11 +105,8 @@ jobs:
             print $0;
           };
         }
-        ' chinav6.tmp>Source/Other.m3u
-        echo "********V6其他********"
-        cat Source/Other.m3u
+        ' chinav6.tmp > IPTV/数字频道.m3u
 
-        cat china6.tmp china1.tmp > Source/CCTV.m3u
 
     - name: 重新排序国内频道并更换透明图标
       run : |
@@ -184,36 +151,40 @@ jobs:
             close(cmd);
           };
         }
-        ' ChannelList/China.list>China.tmp
+        ' ChannelList/China.list>IPTV/央视卫视.m3u 
+        
 
-        cat China.tmp local.tmp Source/Other.m3u > China.m3u
 
-    - name: 日本频道
+
+
+
+    - name: 体育频道
       if: env.GET == 'true'
-      run : |
-        wget https://raw.githubusercontent.com/iptv-org/iptv/master/streams/jp.m3u -O japan.tmp
+      run: |
+        wget https://ghproxy.com/https://raw.githubusercontent.com/youshandefeiyang/IPTV/main/main/IPTV.m3u -O feiyang.tmp
+        wget https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u -O source6.tmp
+        wget https://ghproxy.com/https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u -O yang.tmp
+        cat source6.tmp feiyang.tmp yang.tmp > tiyu.tmp
         awk '
         {
           if($0~/\"online\"|\"timeout\"/) {m=NR; n=NR+1};
           if(m<=NR && NR<=n) {
             gsub(/ \(.*p\)/,"");
-            gsub(",TBS",",TBS TV");
-            gsub(/\",/,"\" group-title=\"'"$GROUP_NAME_JP"'\",");
+            gsub(/\",/,"\" group-title=\"'"$GROUP_NAME_TIYU"'\",");
             print $0;
           };
         }
-        ' japan.tmp>Source/Japan.m3u
-
+        ' tiyu.tmp>Source/Tiyu.m3u
         awk -F'"' '
         {
           info=$0;
           name=$4;
-          gsub(/group-title=\"日本.*\"/, "group-title=\"'"$GROUP_NAME_JP"'\"");
+          gsub(/group-title="体育频道.*"/, "group-title=\"'"$GROUP_NAME_TIYU"'\"");
           if($0~/\#EXTM3U/) {print $0};
           if(info~/EXTINF/ && info!~/URLARU/) {
             churl="null";
-            close("Source/Japan.m3u");
-            cmd="awk '\''/"name"/{getline;print}'\'' Source/Japan.m3u";
+            close("tiyu.tmp");
+            cmd="awk '\''/"name"/{getline;print}'\'' tiyu.tmp";
             cmd | getline churl;
             if(churl!="null") {
               print info;
@@ -222,37 +193,208 @@ jobs:
             close(cmd);
           };
         }
-        ' ChannelList/Japan.list>Japan.m3u
+        ' ChannelList/Tiyu.list>IPTV/体育频道.m3u
 
-    - name: 英文频道
+    - name: 香港频道
+      if: env.GET == 'true'
       run : |
+        wget https://raw.githubusercontent.com/lptv800/lptv800.github.io/master/IPTV.m3u -O hk.tmp
         awk '
         {
-          gsub("group-title=\"..英文.*\"","group-title=\"'"$GROUP_NAME_EN"'\"");
-          print $0;
+          if($0~/\"online\"|\"timeout\"/) {m=NR; n=NR+1};
+          if(m<=NR && NR<=n) {
+            gsub(/ \(.*p\)/,"");
+            gsub(/\",/,"\" group-title=\"'"$GROUP_NAME_HK"'\",");
+            print $0;
+          };
         }
-        ' ChannelList/English.list>English.m3u
-
-    - name: 科学记录频道
+        ' hk.tmp>Source/Hongkong.m3u
+        awk -F'"' '
+        {
+          info=$0;
+          name=$4;
+          gsub(/group-title=\"港台频道.*\"/, "group-title=\"'"$GROUP_NAME_HK"'\"");
+          if($0~/\#EXTM3U/) {print $0};
+          if(info~/EXTINF/ && info!~/URLARU/) {
+            churl="null";
+            close("hk.tmp");
+            cmd="awk '\''/"name"/{getline;print}'\'' hk.tmp";
+            cmd | getline churl;
+            if(churl!="null") {
+              print info;
+              print churl;
+            };
+            close(cmd);
+          };
+        }
+        ' ChannelList/Hongkong.list>IPTV/香港频道.m3u
+        
+       
+        
+        
+        
+    - name: 台湾频道
+      if: env.GET == 'true'
       run : |
+        wget https://raw.githubusercontent.com/iptv-org/iptv/master/streams/tw.m3u -O tw.tmp
         awk '
         {
-          gsub("group-title=\"..科教.*\"","group-title=\"'"$GROUP_NAME_SCI"'\"");
-          print $0;
+          if($0~/\"online\"|\"timeout\"/) {m=NR; n=NR+1};
+          if(m<=NR && NR<=n) {
+            gsub(/ \(.*p\)/,"");
+            gsub(/\",/,"\" group-title=\"'"$GROUP_NAME_TW"'\",");
+            print $0;
+          };
         }
-        ' ChannelList/Sciences.list>Sciencestmp1.m3u
+        ' tw.tmp>Source/Taiwan.m3u
+        awk -F'"' '
+        {
+          info=$0;
+          name=$4;
+          gsub(/group-title=\"台湾频道.*\"/, "group-title=\"'"$GROUP_NAME_TW"'\"")
+          if($0~/\#EXTM3U/) {print $0};
+          if(info~/EXTINF/ && info!~/URLARU/) {
+            churl="null";
+            close("tw.tmp");
+            cmd="awk '\''/"name"/{getline;print}'\'' tw.tmp";
+            cmd | getline churl;
+            if(churl!="null") {
+              print info;
+              print churl;
+            };
+            close(cmd);
+          };
+        }
+        ' ChannelList/Taiwan.list>IPTV/台湾频道.m3u
+        
+        
+        
+        
+    
+    - name: 日本频道
+                                                                                                 # 检查环境变量 GET 是否设置为 true
+      if: env.GET == 'true'
+      run : |
+        wget https://raw.githubusercontent.com/iptv-org/iptv/master/streams/jp.m3u -O japan.tmp  # 下载日本频道列表，并将其保存为 japan.tmp
+        awk '                                                                                    # 对列表进行处理，将频道名称、URL 和分组信息提取出来，并保存为 Source/Japan.m3u
+        {
+          if($0~/\"online\"|\"timeout\"/) {m=NR; n=NR+1};                                        # 如果当前行包含 "online" 或 "timeout"，则记录该行号
+          if(m<=NR && NR<=n) {                                                                   # 如果当前行在记录的行号范围内，则进行处理
+            gsub(/ \(.*p\)/,"");                                                                 # 删除括号中的分辨率信息，将 TBS 替换为 TBS TV，添加分组信息，并输出当前行
+            gsub(",TBS",",TBS TV");
+            gsub(/\",/,"\" group-title=\"'"$GROUP_NAME_JP"'\",");
+            print $0;
+          };
+        }
+        ' japan.tmp>Source/Japan.m3u
+        awk -F'"' '                                                                                # 遍历 ChannelList/Japan.list 中的每一行，提取出频道名称和 URL，并保存为 日本频道.m3u
+        {
+          info=$0;                                                                                 # 将当前行保存到变量 info 中
+          name=$4;                                                                                 # 提取频道名称，并保存到变量 name 中
+          gsub(/group-title=\"日韩频道.*\"/, "group-title=\"'"$GROUP_NAME_JP"'\"");                 # 将分组信息中的 "日韩频道" 替换为环境变量 GROUP_NAME_JP 中的值，并输出 #EXTM3U 行
+          if($0~/\#EXTM3U/) {print $0};                                                            # 如果当前行包含 EXTINF，但不包含 URLARU，则说明该行为频道信息，提取出对应 URL，并输出到文件
+          if(info~/EXTINF/ && info!~/URLARU/) {
+            churl="null";                                                                          # 初始化 churl 变量
+            close("japan.tmp");                                                             # 关闭 Source/Japan.m3u 文件，以便重新打开并读取其中的行
+            cmd="awk '\''/"name"/{getline;print}'\'' japan.tmp";                            # 构造命令，从 Source/Japan.m3u 中提取与 name 匹配的行
+            cmd | getline churl;                                                                   # 执行命令，并将输出保存到 churl 中
+            if(churl!="null") {
+              print info;                                                                          # 输出当前行
+              print churl;                                                                         # 输出对应的 URL
+            };
+            close(cmd);                                                                            # 关闭命令执行结果
+          };
+        }
+        ' ChannelList/Japan.list>IPTV/日本频道.m3u                                                       # 输出结果到 日本频道.m3u 文件
+        
+    - name: 韩国频道
+      if: env.GET == 'true'
+      run : |
+        wget https://raw.githubusercontent.com/iptv-org/iptv/master/streams/kr.m3u -O $korea.tmp -O korea.tmp
+        awk '
+        {
+          if($0~/\"online\"|\"timeout\"/) {m=NR; n=NR+1};
+          if(m<=NR && NR<=n) {
+            gsub(/ \(.*p\)/,"");
+            gsub(/\",/,"\" group-title=\"'"$GROUP_NAME_KR"'\",");
+            print $0;
+          };
+        }
+        ' korea.tmp>Source/Korea.m3u
+        awk -F'"' '
+        {
+          info=$0;
+          name=$4;
+          gsub(/group-title=\"日韩频道.*\"/, "group-title=\"'"$GROUP_NAME_KR"'\"");
+          if($0~/\#EXTM3U/) {print $0};
+          if(info~/EXTINF/ && info!~/URLARU/) {
+            churl="null";
+            close("korea.tmp");
+            cmd="awk '\''/"name"/{getline;print}'\'' korea.tmp";
+            cmd | getline churl;
+            if(churl!="null") {
+              print info;
+              print churl;
+            };
+            close(cmd);
+          };
+        }
+        ' ChannelList/Korea.list>IPTV/韩国频道.m3u
 
-        cat Sciencestmp*.m3u > Sciences.m3u
 
+    - name: 欧美频道
+      if: env.GET == 'true'
+      run : |
+        wget https://ghproxy.com/https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u -O en.tmp
+        awk '
+        {
+          if($0~/\"online\"|\"timeout\"/) {m=NR; n=NR+1};
+          if(m<=NR && NR<=n) {
+            gsub(/ \(.*p\)/,"");
+            gsub(/\",/,"\" group-title=\"'"$GROUP_NAME_EN"'\",");
+            print $0;
+          };
+        }
+        ' en.tmp>Source/English.m3u
+        awk -F'"' '
+        {
+          info=$0;
+          name=$4;
+          gsub(/group-title=\"欧美.*\"/, "group-title=\"'"$GROUP_NAME_EN"'\"");
+          if($0~/\#EXTM3U/) {print $0};
+          if(info~/EXTINF/ && info!~/URLARU/) {
+            churl="null";
+            close("en.tmp");
+            cmd="awk '\''/"name"/{getline;print}'\'' en.tmp";
+            cmd | getline churl;
+            if(churl!="null") {
+              print info;
+              print churl;
+            };
+            close(cmd);
+          };
+        }
+        ' ChannelList/English.list>IPTV/欧美频道.m3u
+    
+
+       
+        
     - name: 生成AppleTV总列表
       run : |
-        cat China.m3u Japan.m3u > IPTV.m3u
+        cat IPTV/央视卫视.m3u IPTV/本地频道.m3u IPTV/体育频道.m3u IPTV/数字频道.m3u IPTV/香港频道.m3u IPTV/台湾频道.m3u IPTV/日本频道.m3u IPTV/韩国频道.m3u IPTV/欧美频道.m3u IPTV/熊猫频道.m3u > IPTV_ipv6.m3u
     
     - name: 删除临时文件
       run : |
         rm *.tmp
-        rm *tmp*
         ls
+        
+#   - name: 删除临时文件
+#      run : |
+#        rm *.tmp
+#        rm *tmp*
+#        ls
+        
+        
     
     - name: 判断是否有变更
       if: (!cancelled())
@@ -279,13 +421,13 @@ jobs:
           git commit -m  "Update:${{steps.date.outputs.DATE}}"
           git push origin main
         fi
-
     - name: 移除workflow运行
       if: (!cancelled())
       uses: GitRML/delete-workflow-runs@main
       with:
         retain_days: 1
         keep_minimum_runs: 3
+        
 
     - name: Telegram推送
       if: env.TELEGRAM_NOTIFICATION == 'true' && !cancelled()  
@@ -295,4 +437,3 @@ jobs:
           curl -s "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" -d "chat_id=${{ secrets.TELEGRAM_CHAT_ID }}&text=${{ env.TELEGRAM_NOTIFICATION_CONTENT }}&parse_mode=HTML"
           # curl -d "text=📺 AppleTVライブチャンネル更新しました！" -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendmessage?chat_id=${{ secrets.TELEGRAM_CHAT_ID }}"
         fi
-        
