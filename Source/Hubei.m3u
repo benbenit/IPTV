@@ -1,28 +1,38 @@
-#EXTINF:-1 tvg-id="1778" tvg-name="湖北综合" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/HUBEI2.png" group-title="本地频道",湖北综合
-http://ned2188.eicp.net:8888/udp/239.69.1.42:9892
-#EXTINF:-1 tvg-id="1779" tvg-name="湖北影视" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/HUBEI3.png" group-title="本地频道",湖北影视
-http://hzzzz530.com:4022/udp/239.69.1.204:10866
-#EXTINF:-1 tvg-id="1780" tvg-name="湖北教育" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/HUBEI4.png" group-title="本地频道",湖北教育
-http://hzzzz530.com:4022/udp/239.69.1.206:10878
-#EXTINF:-1 tvg-id="1781" tvg-name="湖北生活" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/HUBEI5.png" group-title="本地频道",湖北生活
-http://hzzzz530.com:4022/udp/239.69.1.205:10872
-#EXTINF:-1 tvg-id="1783" tvg-name="湖北公共·新闻" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/HUBEI7.png" group-title="本地频道",湖北公共·新闻
-http://hzzzz530.com:4022/udp/239.69.1.40:9880
-#EXTINF:-1 tvg-id="" tvg-name="湖北经济" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/HUBEI8.png" group-title="本地频道",湖北经视
-http://hzzzz530.com:4022/udp/239.69.1.41:9886
-#EXTINF:-1 tvg-id="1785" tvg-name="湖北垄上" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/HBLS.png" group-title="本地频道",湖北垄上
-http://hzzzz530.com:4022/udp/239.69.1.43:9898
-#EXTINF:-1 tvg-id="1787" tvg-name="武汉新闻综合" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/WHTV1.png" group-title="本地频道",武汉新闻综合
-http://hzzzz530.com:4022/udp/239.254.96.228:9448
-#EXTINF:-1 tvg-id="1788" tvg-name="武汉电视剧" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/WHTV2.png" group-title="本地频道",武汉电视剧
-http://hzzzz530.com:4022/udp/239.254.96.229:9454
-#EXTINF:-1 tvg-id="1789" tvg-name="武汉科技生活" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/WHTV3.png" group-title="本地频道",武汉科技生活
-http://hzzzz530.com:4022/udp/239.69.1.2:9652
-#EXTINF:-1 tvg-id="1790" tvg-name="武汉经济" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/WHTV4.png" group-title="本地频道",武汉经济
-http://hzzzz530.com:4022/udp/239.69.1.3:9658
-#EXTINF:-1 tvg-id="1791" tvg-name="武汉文体" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/WHTV5.png" group-title="本地频道",武汉文体
-http://hzzzz530.com:4022/udp/239.69.1.4:9664
-#EXTINF:-1 tvg-id="1792" tvg-name="武汉外语" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/WHTV6.png" group-title="本地频道",武汉外语
-http://hzzzz530.com:4022/udp/239.69.1.5:9670
-#EXTINF:-1 tvg-id="1793" tvg-name="武汉少儿" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/WHTV7.png" group-title="本地频道",武汉少儿
-http://hzzzz530.com:4022/udp/239.69.1.6:9676
+
+#EXTINF:-1 tvg-id="1778" tvg-name="湖北综合频道" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/HUBEI2.png" group-title="本地频道",湖北综合HD
+http://wh.re168.com:8089/udp/239.69.1.42:9892
+#EXTINF:-1 tvg-id="1779" tvg-name="湖北影视频道" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/HUBEI3.png" group-title="本地频道",湖北影视HD
+http://wh.re168.com:8089/udp/239.69.1.204:10866
+#EXTINF:-1 tvg-id="1780" tvg-name="湖北教育频道" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/HUBEI4.png" group-title="本地频道",湖北教育HD
+http://wh.re168.com:8089/udp/239.69.1.206:10878
+#EXTINF:-1 tvg-id="1781" tvg-name="湖北生活频道" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/HUBEI5.png" group-title="本地频道",湖北生活HD
+http://wh.re168.com:8089/udp/239.69.1.205:10872
+#EXTINF:-1 tvg-id="1783" tvg-name="湖北公共·新闻" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/HUBEI7.png" group-title="本地频道",湖北公共HD
+http://wh.re168.com:8089/udp/239.69.1.40:9880
+#EXTINF:-1 tvg-id="1784" tvg-name="湖北经视" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/HUBEI8.png" group-title="本地频道", 湖北经视HD
+http://wh.re168.com:8089/udp/239.69.1.41:9886
+#EXTINF:-1 tvg-id="1785" tvg-name="湖北垄上频道" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/HBLS.png" group-title="本地频道",湖北垄上HD
+http://wh.re168.com:8089/udp/239.69.1.43:9898
+#EXTINF:-1 tvg-id="1787" tvg-name="武汉新闻综合频道" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/WHTV1.png" group-title="本地频道",武汉新闻综合HD
+http://wh.re168.com:8089/udp/239.69.1.145:10506
+#EXTINF:-1 tvg-id="1788" tvg-name="武汉电视剧频道" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/WHTV2.png" group-title="本地频道", 武汉电视剧HD
+http://wh.re168.com:8089/udp/239.69.1.146:10512
+#EXTINF:-1 tvg-id="1789" tvg-name="武汉科技生活频道" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/WHTV3.png" group-title="本地频道",武汉生活HD
+http://wh.re168.com:8089/udp/239.69.1.251:11148
+#EXTINF:-1 tvg-id="1790" tvg-name="武汉经济频道" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/WHTV4.png" group-title="本地频道",武汉经济HD
+http://wh.re168.com:8089/udp/239.69.1.35:9850
+#EXTINF:-1 tvg-id="1791" tvg-name="武汉文体频道" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/WHTV5.png" group-title="本地频道",武汉文体HD
+http://wh.re168.com:8089/udp/239.69.1.147:10518
+#EXTINF:-1 tvg-id="1792" tvg-name="武汉外语频道" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/WHTV6.png" group-title="本地频道",武汉外语HD
+http://wh.re168.com:8089/udp/239.69.1.36:9856
+#EXTINF:-1 tvg-id="1793" tvg-name="武汉少儿频道" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/WHTV7.png" group-title="本地频道",武汉少儿HD
+http://wh.re168.com:8089/udp/239.69.1.6:9676
+#EXTINF:-1 tvg-id="1795" tvg-name="武汉教育电视台" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/WETV.png" group-title="本地频道",武汉教育HD
+http://wh.re168.com:8089/udp/239.69.1.60:9994
+
+
+
+
+
+
+
