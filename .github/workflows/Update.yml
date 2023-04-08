@@ -53,7 +53,7 @@ jobs:
 
     
     - name: 国内频道
-      if: env.GET == 'false'
+      if: env.GET == 'true'
       run : | 
        wget https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u -O $source6.tmp
         # 生成V6临时文件
