@@ -309,10 +309,6 @@ jobs:
           if($0~/\#EXTM3U/) {print $0};
           if($0~/group-title=\"体育\"/ || $0~/group-title=\"4K\"/ || $0~/group-title=\"赛事\") {m=NR; n=NR+1};
           if(m<=NR && NR<=n) {
-            gsub(/ \(.*p\)/,"");
-            gsub("体育","'"$GROUP_NAME_TIYU"'");
-            gsub("\"4K","\"'"$GROUP_NAME_TIYU"'");
-            gsub("\"赛事","\"'"$GROUP_NAME_TIYU"'");
             print $0;
           };
         }
