@@ -7,8 +7,6 @@ https://cdn.hklive.tv/xxxx/85/index.m3u8
 https://cdn.hklive.tv/xxxx/81/index.m3u8
 #EXTINF:-1 tvg-id="127" tvg-name="明珠台" tvg-logo="https://vignette.wikia.nocookie.net/evchk/images/d/d2/TVB_Pearl.png" group-title="港台频道",「HK」明珠台
 https://cdn.hklive.tv/xxxx/84/index.m3u8
-#EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="https://github.com/hououinkami/AppleTV/raw/main/ChannelLogo/Hongkong/Phoenix_Chinese.png" group-title="港台频道",「HK」鳳凰衛視中文台
-http://192.168.50.12:5678/gudou.php?id=fhzw_1500
 #EXTINF:-1 tvg-id="143" tvg-name="凤凰香港" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/4/4d/Phoenix_hongkong.png" group-title="港台频道",「HK」鳳凰衛視香港台
 http://198.16.64.10:8278/hkphoenix_twn/playlist.m3u8?tid=MACA2858291128582911&ct=19225&tsum=0f01288bbaa6c0403d07e96b0a5db4ed
 #EXTINF:-1 tvg-id="7122" tvg-name="有线新闻" tvg-logo="https://github.com/hououinkami/AppleTV/raw/main/ChannelLogo/Hongkong/Cable_News.png" group-title="港台频道",「HK」有綫新聞台
