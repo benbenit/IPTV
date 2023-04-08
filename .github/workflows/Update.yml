@@ -104,7 +104,7 @@ jobs:
             print $0;
           };
         }
-        ' chinav6.tmp > Source/Dig.m3u
+        ' chinav6.tmp>Source/Dig.m3u
         
         awk -F'"' '
         {
@@ -124,6 +124,7 @@ jobs:
             close(cmd);
           };
         }
+        ' ChannelList/Dig.list>IPTV/数字频道.m3u
 
 
     - name: 重新排序国内频道并更换透明图标
