@@ -305,21 +305,15 @@ jobs:
     - name: 体育频道
       if: env.GET == 'true'
       run: |
-        wget https://ghproxy.com/https://raw.githubusercontent.com/youshandefeiyang/IPTV/main/main/IPTV.m3u -O feiyang.tmp
+        wget https://raw.githubusercontent.com/youshandefeiyang/IPTV/main/main/IPTV.m3u -O feiyang.tmp
         wget https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u -O source6.tmp
-        wget https://ghproxy.com/https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u -O yang.tmp
+        wget https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u -O yang.tmp
         cat source6.tmp feiyang.tmp yang.tmp > tiyu.tmp
         awk '
-        {
-          if($0~/\"online\"|\"timeout\"/) {m=NR; n=NR+1};
-          if($0~/[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+/) {m=NR; n=NR+1};
-          if(m<=NR && NR<=n) {
-            gsub(/ \(.*p\)/,"");
-            gsub(/\",/,"\" group-title=\"'"$GROUP_NAME_TIYU"'\",");
-            print $0;
-          };
-        }
-        ' tiyu.tmp>tiyu1.tmp
+          $0~/\体育/ {
+          print $0
+         }
+        ' tiyu.tmp > tiyu1.tmp
         awk -F'"' '
         {
           info=$0;
