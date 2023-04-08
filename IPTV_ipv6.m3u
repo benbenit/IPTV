@@ -86,8 +86,6 @@ http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221225492/2/index.
 http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221225483/2/index.m3u8
 #EXTINF:-1,tvg-id="陕西卫视" tvg-name="陕西卫视" tvg-logo="https://upload.112114.xyz/logo/SXTV.png" group-title="卫视频道",陕西卫视
 http://[2409:8087:5011:1020::2b]/180000001002/00000001000000000090000000215607/main.m3u8?IASHttpSessionId=OTT
-#EXTINF:-1,tvg-id="凤凰香港" tvg-name="凤凰香港" tvg-logo="https://upload.112114.xyz/logo/FHXG.png" group-title="卫视频道",凤凰香港
-http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221226251/index.m3u8
 #EXTINF:-1 tvg-id="1778" tvg-name="湖北综合频道" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/HUBEI2.png" group-title="本地频道",湖北综合
 http://wh.re168.com:8089/udp/239.69.1.42:9892
 #EXTINF:-1 tvg-id="1779" tvg-name="湖北影视频道" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/HUBEI3.png" group-title="本地频道",湖北影视
@@ -154,10 +152,10 @@ http://[2409:8087:4402:20:1:1216:401:46]/iptv.cdn.ha.chinamobile.com/PLTV/888888
 http://[2409:8087:4402:20:1:1216:401:38]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226114/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="CCTV5" tvg-logo="https://upload.112114.xyz/logo/CCTV5.png" group-title="体育频道",CCTV-5 体育
 http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225633/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CCTV5+" tvg-logo="https://upload.112114.xyz/logo/CCTV5+.png" group-title="体育频道",CCTV-5+ 赛事
+#EXTINF:-1 tvg-id="" tvg-name="CCTV5+" tvg-logo="https://upload.112114.xyz/logo/CCTV5+.png" group-title="央视频道",CCTV-5+ 体育赛事
 http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225633/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CCTV16-4K-25PHLG源" tvg-logo="https://upload.112114.xyz/logo/16.png" group-title="体育频道",CCTV-16 奥林匹克
-http://113.62.253.22/live.aishang.ctlcdn.com/00000110240389_1/playlist.m3u8?CONTENTID=00000110240389_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR
+#EXTINF:-1 tvg-id="" tvg-name="CCTV16" tvg-logo="https://upload.112114.xyz/logo/16.png" group-title="央视频道",CCTV-16 奥林匹克
+http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221226230/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="CCTV4K-25P-HLG源" tvg-logo="https://upload.112114.xyz/logo/CCTV4K.png" group-title="体育频道",CCTV-4K
 http://159.75.85.63:5679/cctv4k.php
 #EXTINF:-1 tvg-id="" tvg-name="五星体育" tvg-logo="https://raw.githubusercontent.com/qw1363673600/PNG/main/wxty.png" group-title="体育频道",五星体育
