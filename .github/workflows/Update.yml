@@ -306,32 +306,34 @@ jobs:
         cat source6.tmp feiyang.tmp yang.tmp > tiyu.tmp
         awk '
         {
-          if($0~/\#EXTM3U/) {print $0};
-          if($0~/group-title=\"体育\"/ || $0~/group-title=\"4K\"/ || $0~/group-title=\"赛事\") {m=NR; n=NR+1};
-          if(m<=NR && NR<=n) {
-            print $0;
+           if($0~/\#EXTM3U/) {print $0};
+           if($0~/group-title="体育" || $0~/group-title="4K" || $0~/group-title="赛事") {m=NR; n=NR+1};
+           if(m<=NR && NR<=n) {
+             print $0;
           };
         }
-        ' tiyu.tmp>tiyu1.tmp
+        ' tiyu.tmp > tiyu1.tmp
         awk -F'"' '
         {
-          info=$0;
-          name=$4;
-          gsub(/group-title="体育频道.*"/, "group-title=\"'"$GROUP_NAME_TIYU"'\"");
-          if($0~/\#EXTM3U/) {print $0};
-          if(info~/EXTINF/ && info!~/URLARU/) {
-            churl="null";
-            close("tiyu.tmp");
-            cmd="awk '\''/"name"/{getline;print}'\'' tiyu.tmp";
-            cmd | getline churl;
-            if(churl!="null") {
-              print info;
-              print churl;
-            };
-            close(cmd);
-          };
-        }
-        ' ChannelList/Tiyu.list>IPTV/体育频道.m3u
+            info=$0;
+            name=$4;
+            gsub(/group-title="体育频道.*"/, "group-title=\"'"$GROUP_NAME_TIYU"'\"");
+            if($0~/\#EXTM3U/) {print $0};
+            if(info~/EXTINF/ && info!~/URLARU/) {
+              churl="null";
+              close("tiyu.tmp");
+              cmd="awk '\''/"name"/{getline;print}'\'' tiyu.tmp";
+              cmd | getline churl;
+              if(churl!="null") {
+                print info;
+                print churl;
+             };
+             close(cmd);
+           };
+         }
+         ' ChannelList/Tiyu.list > IPTV/体育频道.m3u
+
+
         
         
     - name: 香港频道
