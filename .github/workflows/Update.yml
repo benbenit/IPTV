@@ -405,6 +405,7 @@ jobs:
     - name: 删除临时文件
       run : |
         rm *.tmp
+        rm .tmp
         ls
         
 #   - name: 删除临时文件
