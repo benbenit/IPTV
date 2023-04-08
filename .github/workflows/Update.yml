@@ -312,6 +312,7 @@ jobs:
         awk '
         {
           if($0~/\"online\"|\"timeout\"/) {m=NR; n=NR+1};
+          if($0~/[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+/) {m=NR; n=NR+1};
           if(m<=NR && NR<=n) {
             gsub(/ \(.*p\)/,"");
             gsub(/\",/,"\" group-title=\"'"$GROUP_NAME_TIYU"'\",");
