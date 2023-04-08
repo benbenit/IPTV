@@ -310,10 +310,12 @@ jobs:
         wget https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u -O yang.tmp
         cat source6.tmp feiyang.tmp yang.tmp > tiyu.tmp
         awk '
-          $0~/\体育/ {
-          print $0
-         }
-        ' tiyu.tmp > tiyu1.tmp
+        { 
+          if($0~/\体育/) {print $0};
+            print $0;
+          };
+        }
+        ' tiyu.tmp>tiyu1.tmp 
         awk -F'"' '
         {
           info=$0;
@@ -574,3 +576,6 @@ jobs:
         if [[ "${{steps.status.outputs.STATUS}}" == "change" ]]
         then
           curl -s "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" -d "chat_id=${{ secrets.TELEGRAM_CHAT_ID }}&text=${{ env.TELEGRAM_NOTIFICATION_CONTENT }}&parse_mode=HTML"
+          # curl -d "text=📺 AppleTVライブチャンネル更新しました！" -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendmessage?chat_id=${{ secrets.TELEGRAM_CHAT_ID }}"
+        fi
+        
