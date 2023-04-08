@@ -49,31 +49,57 @@ jobs:
     - name: 获取当前日期
       id: date
       run: echo "DATE=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
+      
+      
+      
     
-
-    
-    - name: 国内频道
+    - name: 下载直播源1
       if: env.GET == 'true'
       run : | 
-       wget https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u -O $source6.tmp
+       wget https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u -O yang.tmp
+        # 生成APTV央视卫视
+        awk '
+        {
+          if($0~/\#EXTM3U/) {print $0};
+          if($0~/group-title=\"央视\"/ || $0~/group-title=\"卫视\"/ || $0~/group-title=\"地区\"/ || $0~/group-title=\"数字\"/) {m=NR; n=NR+1};
+          if(m<=NR && NR<=n) {
+            gsub("央视","'"$GROUP_NAME_CCTV"'");
+            gsub("\"卫视","\"'"$GROUP_NAME_SATT"'");
+            gsub("\"地区","\"'"$GROUP_NAME_LOCAL"'");
+            gsub("\"数字","\"'"$GROUP_NAME_DIG"'");
+            print $0;
+          };
+        }
+        ' yang.tmp > 1.tmp
+    
+     
+
+    
+    - name: 下载直播源2
+      if: env.GET == 'true'
+      run : | 
+       wget https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u -O yuechan.tmp
         # 生成V6临时文件
         awk '
         {
-          gsub("\"央视频道","\"'"$GROUP_NAME_CCTV"'");
-          if($0~/(tvg-name=\"CCTV|CCTV4K)/) {gsub(/group-title=\".*\"/, "group-title=\"'"$GROUP_NAME_CCTV"'\"")};
-          gsub(/CCTV5.\"/,"CCTV5+体育赛事\"");
-          gsub("\"电视指南","\"CCTV电视指南");
-          gsub(/tvg-name=\"中国教育/,"tvg-name=\"CETV");
-          if($0~/NEWTV/) {gsub(",",",NEWTV")};
-          if($0~/tvg-name=\"(CCTV|CETV|CGTN)/) {gsub(/group-title=\".*\"/, "group-title=\"'"$GROUP_NAME_CCTV"'\"")};
-          if($0~/group-title=\"卫视\"/ && $0!~/tvg-name=\".*卫视\".*tvg-logo/) {gsub("\"卫视","\"'"$GROUP_NAME_LOCAL"'")};
-          if($0~/tvg-name=\".*卫视\".*tvg-logo/ || $0~/凤凰/) {gsub(/group-title=\".*\"/, "group-title=\"'"$GROUP_NAME_SATT"'\"")};
-          if($0!~/group-title=\"('"$GROUP_NAME_CCTV"'|'"$GROUP_NAME_SATT"'|'"$GROUP_NAME_LOCAL"')\"/) {gsub(/group-title=\".*\"/, "group-title=\"'"$GROUP_NAME_DIG"'\"")};
-          print $0;
+          if($0~/\#EXTM3U/) {print $0};
+          if($0~/group-title=\"央视\"/ || $0~/group-title=\"卫视\"/ || $0~/group-title=\"地区\"/ || $0~/group-title=\"数字\"/) {m=NR; n=NR+1};
+          if(m<=NR && NR<=n) {
+            gsub("央视","'"$GROUP_NAME_CCTV"'");
+            gsub("\"卫视","\"'"$GROUP_NAME_SATT"'");
+            gsub("\"地区","\"'"$GROUP_NAME_LOCAL"'");
+            gsub("\"数字","\"'"$GROUP_NAME_DIG"'");
+            print $0;
+          };
         }
-        ' $source6.tmp>chinav6.tmp
+        ' yuechan.tmp>2.tmp
         
-        # 生成V6央视卫视
+        
+        
+    - name: 生成v6国内频道
+      if: env.GET == 'true'
+      run : | 
+        # 生成v6央视卫视
         awk '
         {
           if($0~/\#EXTM3U/) {print $0};
@@ -82,9 +108,8 @@ jobs:
             print $0;
           };
         }
-        ' chinav6.tmp>Source/CCTV.m3u 
-        
-        # 生成V6地方电视台
+        ' 2.tmp > cctvv6.tmp
+        # 生成v6地方电视台
         awk '
         {
           if($0~/\#EXTM3U/) {print $0};
@@ -93,9 +118,8 @@ jobs:
             print $0;
           };
         }
-        ' chinav6.tmp>IPTV/地方频道.m3u
-       
-        # 生成V6数字频道
+        ' 2.tmp > localv6.tmp
+        # 生成v6数字频道
         awk '
         { 
           if($0~/\#EXTM3U/) {print $0};
@@ -104,31 +128,7 @@ jobs:
             print $0;
           };
         }
-        ' chinav6.tmp>Source/Dig.m3u
-        
-        awk -F'"' '
-        {
-          info=$0;
-          name=$4;
-          gsub(/group-title="数字频道.*"/, "group-title=\"'"$GROUP_NAME_DIG"'\"");
-          if($0~/\#EXTM3U/) {print $0};
-          if(info~/EXTINF/ && info!~/URLARU/) {
-            churl="null";
-            close("chinav6.tmp");
-            cmd="awk '\''/"name"/{getline;print}'\'' chinav6.tmp";
-            cmd | getline churl;
-            if(churl!="null") {
-              print info;
-              print churl;
-            };
-            close(cmd);
-          };
-        }
-        ' ChannelList/Dig.list>IPTV/数字频道.m3u
-
-
-    - name: 重新排序国内频道并更换透明图标
-      run : |
+        ' 2.tmp > digv6.tmp
         awk -F'"' '
         {
           info=$0;
@@ -140,8 +140,8 @@ jobs:
           if($0~/\#EXTM3U/) {print $0};
           if(info~/综合/) {
             name="CCTV1\"";
-            close("Source/CCTV.m3u");
-            cmd="awk '\''/"name"/{getline;print}'\'' Source/CCTV.m3u";
+            close("cctvv6.tmp");
+            cmd="awk '\''/"name"/{getline;print}'\'' cctvv6.tmp";
             cmd | getline churl;
             print info;
             print churl;
@@ -150,8 +150,8 @@ jobs:
           };
           if(info~/体育赛事/) {
             name="体育赛事";
-            close("Source/CCTV.m3u");
-            cmd="awk '\''/"name"/{getline;print}'\'' Source/CCTV.m3u";
+            close("cctvv6.tmp");
+            cmd="awk '\''/"name"/{getline;print}'\'' cctvv6.tmp";
             cmd | getline churl;
             print info;
             print churl;
@@ -160,8 +160,8 @@ jobs:
           };
           if(info~/EXTINF/ && info!~/HaveURL/) {
             churl="null";
-            close("Source/CCTV.m3u");
-            cmd="awk '\''/"name"/{getline;print}'\'' Source/CCTV.m3u";
+            close("cctvv6.tmp");
+            cmd="awk '\''/"name"/{getline;print}'\'' cctvv6.tmp";
             cmd | getline churl;
             if(churl!="null") {
               print info;
@@ -170,13 +170,138 @@ jobs:
             close(cmd);
           };
         }
-        ' ChannelList/China.list>IPTV/央视卫视.m3u 
+        ' ChannelList/China.list>IPTV/央视卫视v6.m3u 
         
-
-
-
-
-
+        awk -F'"' '
+        {
+          info=$0;
+          name=$4;
+          gsub(/group-title="数字频道.*"/, "group-title=\"'"$GROUP_NAME_DIG"'\"");
+          if($0~/\#EXTM3U/) {print $0};
+          if(info~/EXTINF/ && info!~/URLARU/) {
+            churl="null";
+            close("2.tmp");
+            cmd="awk '\''/"name"/{getline;print}'\'' 2.tmp";
+            cmd | getline churl;
+            if(churl!="null") {
+              print info;
+              print churl;
+            };
+            close(cmd);
+          };
+        }
+        ' ChannelList/Dig.list>IPTV/数字频道v6.m3u
+        
+        
+    - name: 生成v4国内频道
+      if: env.GET == 'true'
+      run : | 
+        # 生成v4央视卫视
+        awk '
+        {
+          if($0~/\#EXTM3U/) {print $0};
+          if($0~/group-title=\"'"$GROUP_NAME_CCTV"'\"/ || $0~/group-title=\"'"$GROUP_NAME_SATT"'\"/) {m=NR; n=NR+1};
+          if(m<=NR && NR<=n) {
+            print $0;
+          };
+        }
+        ' 1.tmp > cctvv4.tmp
+        # 生成v4地方电视台
+        awk '
+        {
+          if($0~/\#EXTM3U/) {print $0};
+          if($0~/group-title=\"'"$GROUP_NAME_LOCAL"'\"/) {m=NR; n=NR+1};
+          if(m<=NR && NR<=n) {
+            print $0;
+          };
+        }
+        ' 1.tmp > localv4.tmp
+        # 生成v4数字频道
+         awk '
+        { 
+          if($0~/\#EXTM3U/) {print $0};
+          if($0~/group-title=\"'"$GROUP_NAME_DIG"'\"/) {m=NR; n=NR+1};
+          if(m<=NR && NR<=n) {
+            print $0;
+          };
+        }
+        ' 1.tmp > digv4.tmp
+        awk -F'"' '
+        {
+          info=$0;
+          name=$4;
+          gsub(/group-title=\"央视.*\"/, "group-title=\"'"$GROUP_NAME_CCTV"'\"");
+          gsub(/group-title=\"卫视.*\"/, "group-title=\"'"$GROUP_NAME_SATT"'\"");
+          # 到第一个空行为止 if(length(info)==0) {exit};
+          if(info~/\#EXIT/) {exit};
+          if($0~/\#EXTM3U/) {print $0};
+          if(info~/综合/) {
+            name="CCTV1\"";
+            close("cctvv4.tmp");
+            cmd="awk '\''/"name"/{getline;print}'\'' cctvv4.tmp";
+            cmd | getline churl;
+            print info;
+            print churl;
+            close(cmd);
+            next;
+          };
+          if(info~/体育赛事/) {
+            name="体育赛事";
+            close("cctvv4.tmp");
+            cmd="awk '\''/"name"/{getline;print}'\'' cctvv4.tmp";
+            cmd | getline churl;
+            print info;
+            print churl;
+            close(cmd);
+            next;
+          };
+          if(info~/EXTINF/ && info!~/HaveURL/) {
+            churl="null";
+            close("cctvv4.tmp");
+            cmd="awk '\''/"name"/{getline;print}'\'' cctvv4.tmp";
+            cmd | getline churl;
+            if(churl!="null") {
+              print info;
+              print churl;
+            };
+            close(cmd);
+          };
+        }
+        ' ChannelList/China.list>IPTV/央视卫视v4.m3u 
+        awk -F'"' '
+        {
+          info=$0;
+          name=$4;
+          gsub(/group-title="数字频道.*"/, "group-title=\"'"$GROUP_NAME_DIG"'\"");
+          if($0~/\#EXTM3U/) {print $0};
+          if(info~/EXTINF/ && info!~/URLARU/) {
+            churl="null";
+            close("1.tmp");
+            cmd="awk '\''/"name"/{getline;print}'\'' 1.tmp";
+            cmd | getline churl;
+            if(churl!="null") {
+              print info;
+              print churl;
+            };
+            close(cmd);
+          };
+        }
+        ' ChannelList/Dig.list>IPTV/数字频道v4.m3u
+        
+        
+        
+    - name: 重新排序国内频道并更换透明图标
+      run : |
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
     - name: 体育频道
       if: env.GET == 'true'
       run: |
@@ -193,7 +318,7 @@ jobs:
             print $0;
           };
         }
-        ' tiyu.tmp>Source/Tiyu.m3u
+        ' tiyu.tmp>tiyu1.tmp
         awk -F'"' '
         {
           info=$0;
@@ -213,7 +338,8 @@ jobs:
           };
         }
         ' ChannelList/Tiyu.list>IPTV/体育频道.m3u
-
+        
+        
     - name: 香港频道
       if: env.GET == 'true'
       run : |
@@ -227,7 +353,7 @@ jobs:
             print $0;
           };
         }
-        ' hk.tmp>Source/Hongkong.m3u
+        ' hk.tmp>hk1.tmp
         awk -F'"' '
         {
           info=$0;
@@ -265,7 +391,7 @@ jobs:
             print $0;
           };
         }
-        ' tw.tmp>Source/Taiwan.m3u
+        ' tw.tmp>tw1.tmp
         awk -F'"' '
         {
           info=$0;
@@ -290,10 +416,9 @@ jobs:
         
         
     
-    - name: 日本频道
-                                                                                                 # 检查环境变量 GET 是否设置为 true
+    - name: 日本频道                                                                                          
       if: env.GET == 'true'
-      run : |
+      run : |                                                                                    # 检查环境变量 GET 是否设置为 true
         wget https://raw.githubusercontent.com/iptv-org/iptv/master/streams/jp.m3u -O japan.tmp  # 下载日本频道列表，并将其保存为 japan.tmp
         awk '                                                                                    # 对列表进行处理，将频道名称、URL 和分组信息提取出来，并保存为 Source/Japan.m3u
         {
@@ -305,7 +430,7 @@ jobs:
             print $0;
           };
         }
-        ' japan.tmp>Source/Japan.m3u
+        ' japan.tmp>japan1.tmp
         awk -F'"' '                                                                                # 遍历 ChannelList/Japan.list 中的每一行，提取出频道名称和 URL，并保存为 日本频道.m3u
         {
           info=$0;                                                                                 # 将当前行保存到变量 info 中
@@ -326,6 +451,7 @@ jobs:
         }
         ' ChannelList/Japan.list>IPTV/日本频道.m3u                                                       # 输出结果到 日本频道.m3u 文件
         
+        
     - name: 韩国频道
       if: env.GET == 'true'
       run : |
@@ -339,7 +465,7 @@ jobs:
             print $0;
           };
         }
-        ' korea.tmp>Source/Korea.m3u
+        ' korea.tmp>korea1.tmp
         awk -F'"' '
         {
           info=$0;
@@ -359,8 +485,8 @@ jobs:
           };
         }
         ' ChannelList/Korea.list>IPTV/韩国频道.m3u
-
-
+        
+        
     - name: 欧美频道
       if: env.GET == 'true'
       run : |
@@ -374,7 +500,7 @@ jobs:
             print $0;
           };
         }
-        ' en.tmp>Source/English.m3u
+        ' en.tmp>en1.tmp
         awk -F'"' '
         {
           info=$0;
@@ -400,19 +526,17 @@ jobs:
         
     - name: 生成AppleTV总列表
       run : |
-        cat IPTV/央视卫视.m3u IPTV/本地频道.m3u IPTV/体育频道.m3u IPTV/数字频道.m3u IPTV/香港频道.m3u IPTV/台湾频道.m3u IPTV/日本频道.m3u IPTV/韩国频道.m3u IPTV/欧美频道.m3u IPTV/熊猫频道.m3u > IPTV_ipv6.m3u
+        cat IPTV/央视卫视v4.m3u IPTV/本地频道.m3u IPTV/数字频道v4.m3u IPTV/体育频道.m3u IPTV/香港频道.m3u IPTV/台湾频道.m3u IPTV/日本频道.m3u IPTV/韩国频道.m3u IPTV/欧美频道.m3u IPTV/熊猫频道.m3u > IPTV_ipv4.m3u
+        cat IPTV/央视卫视v6.m3u IPTV/本地频道.m3u IPTV/数字频道v6.m3u IPTV/体育频道.m3u IPTV/香港频道.m3u IPTV/台湾频道.m3u IPTV/日本频道.m3u IPTV/韩国频道.m3u IPTV/欧美频道.m3u IPTV/熊猫频道.m3u > IPTV_ipv6.m3u
     
     - name: 删除临时文件
       run : |
         rm *.tmp
-        rm .tmp
         ls
+    #   rm .tmp  
+    #   rm *tmp*
         
-#   - name: 删除临时文件
-#      run : |
-#        rm *.tmp
-#        rm *tmp*
-#        ls
+
         
         
     
@@ -455,5 +579,3 @@ jobs:
         if [[ "${{steps.status.outputs.STATUS}}" == "change" ]]
         then
           curl -s "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" -d "chat_id=${{ secrets.TELEGRAM_CHAT_ID }}&text=${{ env.TELEGRAM_NOTIFICATION_CONTENT }}&parse_mode=HTML"
-          # curl -d "text=📺 AppleTVライブチャンネル更新しました！" -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendmessage?chat_id=${{ secrets.TELEGRAM_CHAT_ID }}"
-        fi
