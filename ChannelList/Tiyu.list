@@ -1,34 +1,17 @@
-#EXTINF:-1 tvg-name="东方财经" tvg-logo="http://live.cooltv.top/logo/dfcj.png" group-title="数字频道",东方财经
-#EXTINF:-1 tvg-name="点掌财经" tvg-logo="http://live.cooltv.top/logo/dz.png" group-title="数字频道",点掌财经
-#EXTINF:-1 tvg-id="6559" tvg-name="CCTV风云剧场" tvg-logo="https://epg.112114.xyz/logo/风云剧场.png" group-title="数字频道",风云剧场
-#EXTINF:-1 tvg-id="6557" tvg-name="CCTV风云音乐" tvg-logo="https://epg.112114.xyz/logo/风云音乐.png" group-title="数字频道",风云音乐
-#EXTINF:-1 tvg-id="6558" tvg-name="CCTV第一剧场" tvg-logo="https://epg.112114.xyz/logo/第一剧场.png" group-title="数字频道",第一剧场
-#EXTINF:-1 tvg-id="6564" tvg-name="CCTV女性时尚" tvg-logo="https://epg.112114.xyz/logo/女性时尚.png" group-title="数字频道",女性时尚
-#EXTINF:-1 tvg-id="6000" tvg-name="CCTV风云足球" tvg-logo="https://epg.112114.xyz/logo/风云足球.png" group-title="数字频道",风云足球
-#EXTINF:-1 tvg-id="6563" tvg-name="CCTV兵器科技" tvg-logo="https://epg.112114.xyz/logo/BQKJ.png" group-title="数字频道",兵器科技
-#EXTINF:-1 tvg-id="6562" tvg-name="CCTV怀旧剧场" tvg-logo="https://epg.112114.xyz/logo/HJJC.png" group-title="数字频道",怀旧剧场
-#EXTINF:-1 tvg-id="6560" tvg-name="CCTV世界地理" tvg-logo="https://epg.112114.xyz/logo/SJDL.png" group-title="数字频道",世界地理
-#EXTINF:-1 tvg-id="6569" tvg-name="CCTV央视精品" tvg-logo="https://epg.112114.xyz/logo/文化精品.png" group-title="数字频道",文化精品
-#EXTINF:-1 tvg-id="6584" tvg-name="CCTV央视台球" tvg-logo="https://epg.112114.xyz/logo/YSTQ.png" group-title="数字频道",央视台球
-#EXTINF:-1 tvg-id="6568" tvg-name="CCTV央视高尔夫网球" tvg-logo="https://epg.112114.xyz/logo/高尔夫网球.png" group-title="数字频道",高尔夫网球
-#EXTINF:-1 tvg-id="电视指南" tvg-name="电视指南" tvg-logo="https://live.fanmingming.com/tv/电视指南.png" group-title="数字频道",电视指南
-#EXTINF:-1 tvg-name="都市剧场" tvg-logo="http://live.cooltv.top/logo/sitvdsjc.png" group-title="数字频道",都市剧场
-#EXTINF:-1 tvg-name="欢笑剧场" tvg-logo="http://live.cooltv.top/logo/hxjc.png" group-title="数字频道",欢笑剧场
-#EXTINF:-1 tvg-name="动漫秀场" tvg-logo="http://live.cooltv.top/logo/dmxc.png" group-title="数字频道",动漫秀场
-#EXTINF:-1 tvg-name="乐游" tvg-name="SiTV乐游" tvg-logo="https://live.fanmingming.com/tv/乐游.png" group-title="数字频道",乐游频道
-#EXTINF:-1 tvg-name="金色学堂" tvg-logo="http://live.cooltv.top/logo/jsxt.png" group-title="数字频道",金色学堂
-#EXTINF:-1 tvg-name="法治天地" tvg-logo="http://live.cooltv.top/logo/fztd.png" group-title="数字频道",法治天地
-#EXTINF:-1 tvg-id="1981" tvg-name="生活时尚" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/shenghuoshishang.png" group-title="数字频道",生活时尚
-#EXTINF:-1 tvg-id="1964" tvg-name="劲爆体育" tvg-logo="http://live.cooltv.top/logo/jbty.png" group-title="数字频道",劲爆体育
-#EXTINF:-1 tvg-id="7242" tvg-name="魅力足球" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/meilizuqiu.png" group-title="数字频道",魅力足球
-#EXTINF:-1 tvg-name="游戏风云"tvg-logo="http://live.cooltv.top/logo/yxfy.png" group-title="数字频道",游戏风云
-#EXTINF:-1 tvg-name="七彩戏剧"tvg-logo="http://live.cooltv.top/logo/qcxj.png" group-title="数字频道",七彩戏剧
-#EXTINF:-1 tvg-id="6245" tvg-name="CHC动作电影" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CHC1.jpg" group-title="数字频道",动作电影
-#EXTINF:-1 tvg-id="6246" tvg-name="CHC家庭电影" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CHC2.jpg" group-title="数字频道",家庭影院
-#EXTINF:-1 tvg-id="6241" tvg-name="CHC高清电影" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CHC3.jpg" group-title="数字频道",高清电影
-#EXTINF:-1 tvg-id="1988" tvg-name="地方频道纪实" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shanghaijishi.png" group-title="数字频道",纪实人文
-#EXTINF:-1 tvg-id="6242" tvg-name="求索动物" tvg-logo="" group-title="数字频道",求索动物
-#EXTINF:-1 tvg-id="6243" tvg-name="求索生活" tvg-logo="" group-title="数字频道",求索生活
-#EXTINF:-1 tvg-id="6240" tvg-name="求索科学" tvg-logo="" group-title="数字频道",求索科学
-#EXTINF:-1 tvg-id="6244" tvg-name="求索纪录" tvg-logo="" group-title="数字频道",求索纪录
-#EXTINF:-1 tvg-name="1905" tvg-logo="http://live.cooltv.top/logo/1905.png" group-title="数字频道",1905电影网
+#EXTINF:-1 tvg-id="" tvg-name="CCTV5" tvg-logo="https://upload.112114.xyz/logo/CCTV5.png" group-title="体育频道",CCTV-5 体育
+#EXTINF:-1 tvg-id="" tvg-name="CCTV5+" tvg-logo="https://upload.112114.xyz/logo/CCTV5+.png" group-title="体育频道",CCTV-5+ 赛事
+#EXTINF:-1 tvg-id="" tvg-name="CCTV16-4K-25PHLG源" tvg-logo="https://upload.112114.xyz/logo/16.png" group-title="体育频道",CCTV-16 奥林匹克
+#EXTINF:-1 tvg-id="" tvg-name="CCTV4K-25P-HLG源" tvg-logo="https://upload.112114.xyz/logo/CCTV4K.png" group-title="体育频道",CCTV-4K
+#EXTINF:-1 tvg-id="" tvg-name="五星体育" tvg-logo="https://raw.githubusercontent.com/qw1363673600/PNG/main/wxty.png" group-title="体育频道",五星体育
+#EXTINF:-1,tvg-id="" tvg-name="纬来体育" tvg-logo="https://epg.112114.xyz/logo/纬来体育台.png" group-title="体育频道",纬来体育
+#EXTINF:-1,tvg-id="" tvg-name="广东体育" tvg-logo="https://epg.112114.xyz/logo/广东体育.png" group-title="体育频道",广东体育
+#EXTINF:-1 tvg-id="" tvg-name="央视台球" tvg-logo="https://upload.112114.xyz/logo/YSTQ.png" group-title="体育频道",央视台球
+#EXTINF:-1 tvg-id="" tvg-name="风云足球" tvg-logo="https://upload.112114.xyz/logo/FYZQ.png" group-title="体育频道",风云足球
+#EXTINF:-1 tvg-id="" tvg-name="高尔夫网球" tvg-logo="https://upload.112114.xyz/logo/GEF.png" group-title="体育频道",高尔夫网球
+#EXTINF:-1 tvg-id="" tvg-name="新视觉" tvg-logo="https://raw.githubusercontent.com/qw1363673600/PNG/main/xsj.png" group-title="体育频道",新视觉
+#EXTINF:-1 tvg-id="" tvg-name="魅力足球" tvg-logo="https://raw.githubusercontent.com/qw1363673600/PNG/main/mlzq.png" group-title="体育频道",魅力足球
+#EXTINF:-1 tvg-id="" tvg-name="游戏风云" tvg-logo="https://raw.githubusercontent.com/qw1363673600/PNG/main/yxfy.png" group-title="体育频道",游戏风云
+#EXTINF:-1 tvg-id="" tvg-name="哒啵电竞" tvg-logo="https://raw.githubusercontent.com/qw1363673600/PNG/main/dbss.png" group-title="体育频道",哒啵电竞
+#EXTINF:-1 tvg-id="" tvg-name="超级体育" tvg-logo="https://raw.githubusercontent.com/qw1363673600/PNG/main/newtvcjty.png" group-title="体育频道",超级体育
+#EXTINF:-1 tvg-id="" tvg-name="n精品体育" tvg-logo="https://raw.githubusercontent.com/qw1363673600/PNG/main/newtvcjty.png" group-title="体育频道",精品体育
+#EXTINF:-1 tvg-id="" tvg-name="咪咕" tvg-logo="https://www.hualigs.cn/image/6153f9c6aa2ae.jpg",group-title="体育频道",咪咕体育
