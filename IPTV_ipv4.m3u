@@ -226,9 +226,9 @@ http://117.136.156.66:80/000000001000/3000000010000005180/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="凤凰香港" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/4/4d/Phoenix_hongkong.png" group-title="港台频道",「HK」鳳凰衛視香港台
 http://198.16.64.10:8278/hkphoenix_twn/playlist.m3u8?tid=MACA2858291128582911&ct=19225&tsum=0f01288bbaa6c0403d07e96b0a5db4ed
 #EXTINF:-1 tvg-id="" tvg-name="无线新闻" tvg-logo="https://github.com/hououinkami/AppleTV/raw/main/ChannelLogo/Hongkong/TVB_News.png" group-title="港台频道",「HK」無綫新聞台
-http://2022.stream-link.org/live/1488149502
+http://192.168.50.12:5678/TVB.php?id=2&hq
 #EXTINF:-1 tvg-id="" tvg-name="无线财经" tvg-logo="https://github.com/hououinkami/AppleTV/raw/main/ChannelLogo/Hongkong/TVB_Finance.png" group-title="港台频道",「HK」無綫財經資訊台
-http://2022.stream-link.org/live/201000012
+http://192.168.50.12:5678/TVB.php?id=0&hq
 #EXTINF:-1 tvg-id="" tvg-name="翡翠台" tvg-logo="https://vignette.wikia.nocookie.net/evchk/images/8/88/Tvb_Jade_cap.png" group-title="港台频道",「HK」翡翠台
 https://cdn.hklive.tv/xxxx/81/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="明珠台" tvg-logo="https://vignette.wikia.nocookie.net/evchk/images/d/d2/TVB_Pearl.png" group-title="港台频道",「HK」明珠台
