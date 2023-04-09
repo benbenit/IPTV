@@ -299,7 +299,7 @@ jobs:
       if: env.GET == 'true'
       run: |
         wget https://raw.githubusercontent.com/youshandefeiyang/IPTV/main/main/IPTV.m3u -O feiyang.tmp
-        cat 2.tmp feiyang.tmp > tiyu2.tmp
+        cat 2.tmp 1.tmp feiyang.tmp > tiyu2.tmp
         awk '
         {
            if($0~/\#EXTM3U/) {print $0};
