@@ -299,9 +299,9 @@ jobs:
       if: env.GET == 'true'
       run: |
         wget https://raw.githubusercontent.com/youshandefeiyang/IPTV/main/main/IPTV.m3u -O feiyang.tmp
-        wget https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u -O source6.tmp
-        wget https://ghproxy.com/https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u -O yang.tmp
-        cat source6.tmp feiyang.tmp yang.tmp > tiyu.tmp
+        wget https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u -O yuechan.tmp
+        wget https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u -O yang.tmp
+        cat yuechan.tmp feiyang.tmp yang.tmp > tiyu.tmp
         awk '
         {
            if($0~/\#EXTM3U/) {print $0};
@@ -342,11 +342,10 @@ jobs:
         wget https://raw.githubusercontent.com/lptv800/lptv800.github.io/master/IPTV.m3u -O hk.tmp
         awk '
         {
-          if($0~/\"online\"|\"timeout\"/) {m=NR; n=NR+1};
-          if(m<=NR && NR<=n) {
-            gsub(/ \(.*p\)/,"");
-            gsub(/\",/,"\" group-title=\"'"$GROUP_NAME_HK"'\",");
-            print $0;
+           if($0~/\#EXTM3U/) {print $0};
+           if($0~/group-title=\"港台\"/ || $0~/group-title=\"港湾\"/ || $0~/group-title=\"港湾台\"/) {m=NR; n=NR+1};
+           if(m<=NR && NR<=n) {
+             print $0;
           };
         }
         ' hk.tmp>hk1.tmp
