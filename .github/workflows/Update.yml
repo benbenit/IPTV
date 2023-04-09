@@ -57,7 +57,7 @@ jobs:
       if: env.GET == 'true'
       run : | 
        wget https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u -O yang.tmp
-        # 生成APTV央视卫视
+        # 生成IPV4央视卫视
         awk '
         {
           if($0~/\#EXTM3U/) {print $0};
@@ -79,7 +79,8 @@ jobs:
       if: env.GET == 'true'
       run : | 
        wget https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u -O yuechan.tmp
-        # 生成V6临时文件
+       cat yuechan.tmp yang.tmp > yuechan1.tmp
+        # 生成IPV6央视卫视
         awk '
         {
           if($0~/\#EXTM3U/) {print $0};
@@ -92,7 +93,7 @@ jobs:
             print $0;
           };
         }
-        ' yuechan.tmp>2.tmp
+        ' yuechan1.tmp>2.tmp
         
         
         
