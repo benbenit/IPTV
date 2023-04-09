@@ -307,7 +307,7 @@ jobs:
         awk '
         {
            if($0~/\#EXTM3U/) {print $0};
-           if($0~/group-title="体育" || $0~/group-title="4K" || $0~/group-title="赛事") {m=NR; n=NR+1};
+           if($0~/group-title=\"体育\"/ || $0~/group-title=\"4K\"/ || $0~/group-title=\"赛事\"/) {m=NR; n=NR+1};
            if(m<=NR && NR<=n) {
              print $0;
           };
