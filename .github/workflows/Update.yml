@@ -295,13 +295,11 @@ jobs:
         
         
         
-    - name: 体育频道
+    - name: 体育频道v6
       if: env.GET == 'true'
       run: |
         wget https://raw.githubusercontent.com/youshandefeiyang/IPTV/main/main/IPTV.m3u -O feiyang.tmp
-        wget https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u -O yuechan.tmp
-        wget https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u -O yang.tmp
-        cat yuechan.tmp feiyang.tmp yang.tmp > tiyu.tmp
+        cat 2.tmp feiyang.tmp > tiyu2.tmp
         awk '
         {
            if($0~/\#EXTM3U/) {print $0};
@@ -310,7 +308,7 @@ jobs:
              print $0;
           };
         }
-        ' tiyu.tmp > tiyu1.tmp
+        ' tiyu2.tmp > tiyuv6.tmp
         awk -F'"' '
         {
             info=$0;
@@ -321,8 +319,8 @@ jobs:
             if($0~/\#EXTM3U/) {print $0};
             if(info~/EXTINF/ && info!~/URLARU/) {
               churl="null";
-              close("tiyu.tmp");
-              cmd="awk '\''/"name"/{getline;print}'\'' tiyu.tmp";
+              close("tiyu2.tmp");
+              cmd="awk '\''/"name"/{getline;print}'\'' tiyu2.tmp";
               cmd | getline churl;
               if(churl!="null") {
                 print info;
@@ -331,10 +329,44 @@ jobs:
              close(cmd);
            };
          }
-         ' ChannelList/Tiyu.list > IPTV/体育频道.m3u
+         ' ChannelList/Tiyu.list > IPTV/体育频道v6.m3u
 
 
-        
+    - name: 体育频道v4
+      if: env.GET == 'true'
+      run: |
+        wget https://raw.githubusercontent.com/youshandefeiyang/IPTV/main/main/IPTV.m3u -O feiyang.tmp
+        cat 1.tmp feiyang.tmp > tiyu1.tmp
+        awk '
+        {
+           if($0~/\#EXTM3U/) {print $0};
+           if($0~/group-title=\"体育\"/ || $0~/group-title=\"4K频道\"/ || $0~/group-title=\"赛事\"/) {m=NR; n=NR+1};
+           if(m<=NR && NR<=n) {
+             print $0;
+          };
+        }
+        ' tiyu1.tmp > tiyuv4.tmp
+        awk -F'"' '
+        {
+            info=$0;
+            name=$4;
+            gsub(/group-title="体育.*"/, "group-title=\"'"$GROUP_NAME_TIYU"'\"");
+            gsub(/group-title="赛事.*"/, "group-title=\"'"$GROUP_NAME_TIYU"'\"");
+            gsub(/group-title="4K.*"/, "group-title=\"'"$GROUP_NAME_TIYU"'\"");
+            if($0~/\#EXTM3U/) {print $0};
+            if(info~/EXTINF/ && info!~/URLARU/) {
+              churl="null";
+              close("tiyu1.tmp");
+              cmd="awk '\''/"name"/{getline;print}'\'' tiyu1.tmp";
+              cmd | getline churl;
+              if(churl!="null") {
+                print info;
+                print churl;
+             };
+             close(cmd);
+           };
+         }
+         ' ChannelList/Tiyu.list > IPTV/体育频道v4.m3u
         
     - name: 香港频道
       if: env.GET == 'true'
@@ -521,8 +553,8 @@ jobs:
         
     - name: 生成AppleTV总列表
       run : |
-        cat IPTV/央视卫视v4.m3u IPTV/本地频道.m3u IPTV/数字频道v4.m3u IPTV/体育频道.m3u IPTV/香港频道.m3u IPTV/台湾频道.m3u IPTV/日本频道.m3u IPTV/韩国频道.m3u IPTV/欧美频道.m3u IPTV/熊猫频道.m3u > IPTV_ipv4.m3u
-        cat IPTV/央视卫视v6.m3u IPTV/本地频道.m3u IPTV/数字频道v6.m3u IPTV/体育频道.m3u IPTV/香港频道.m3u IPTV/台湾频道.m3u IPTV/日本频道.m3u IPTV/韩国频道.m3u IPTV/欧美频道.m3u IPTV/熊猫频道.m3u > IPTV_ipv6.m3u
+        cat IPTV/央视卫视v4.m3u IPTV/本地频道.m3u IPTV/数字频道v4.m3u IPTV/体育频道v4.m3u IPTV/香港频道.m3u IPTV/台湾频道.m3u IPTV/日本频道.m3u IPTV/韩国频道.m3u IPTV/欧美频道.m3u IPTV/熊猫频道.m3u > IPTV_ipv4.m3u
+        cat IPTV/央视卫视v6.m3u IPTV/本地频道.m3u IPTV/数字频道v6.m3u IPTV/体育频道v6.m3u IPTV/香港频道.m3u IPTV/台湾频道.m3u IPTV/日本频道.m3u IPTV/韩国频道.m3u IPTV/欧美频道.m3u IPTV/熊猫频道.m3u > IPTV_ipv6.m3u
     
     - name: 删除临时文件
       run : |
