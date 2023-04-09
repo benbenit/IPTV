@@ -216,8 +216,6 @@ http://159.75.85.63:5679/cctv4k.php
 http://183.207.255.188/live/program/live/xsjhd/4000000/mnf.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="魅力足球" tvg-logo="https://raw.githubusercontent.com/qw1363673600/PNG/main/mlzq.png" group-title="体育频道",魅力足球
 http://219.151.31.38/liveplay-kk.rtxapp.com/live/program/live/mlyyhd/2300000/mnf.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="游戏风云" tvg-logo="https://raw.githubusercontent.com/qw1363673600/PNG/main/yxfy.png" group-title="体育频道",游戏风云
-http://219.151.31.38/liveplay-kk.rtxapp.com/live/program/live/yxfyhd/2300000/mnf.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="超级体育" tvg-logo="https://raw.githubusercontent.com/qw1363673600/PNG/main/newtvcjty.png" group-title="体育频道",超级体育
 http://39.134.65.164/PLTV/88888888/224/3221225635/1.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="精品体育" tvg-logo="https://raw.githubusercontent.com/qw1363673600/PNG/main/newtvcjty.png" group-title="体育频道",精品体育
