@@ -312,7 +312,7 @@ jobs:
              print $0;
           };
         }
-        ' tiyu.tmp > tiyu1.tmp
+        ' tiyu.tmp > tiyu1.m3u
         awk -F'"' '
         {
             info=$0;
