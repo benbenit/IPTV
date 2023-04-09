@@ -305,17 +305,19 @@ jobs:
         awk '
         {
            if($0~/\#EXTM3U/) {print $0};
-           if($0~/group-title=\"体育\"/ || $0~/group-title=\"4K\"/ || $0~/group-title=\"赛事\"/) {m=NR; n=NR+1};
+           if($0~/group-title=\"体育\"/ || $0~/group-title=\"4K频道\"/ || $0~/group-title=\"赛事\"/) {m=NR; n=NR+1};
            if(m<=NR && NR<=n) {
              print $0;
           };
         }
-        ' tiyu.tmp > tiyu1.m3u
+        ' tiyu.tmp > tiyu1.tmp
         awk -F'"' '
         {
             info=$0;
             name=$4;
-            gsub(/group-title="体育频道.*"/, "group-title=\"'"$GROUP_NAME_TIYU"'\"");
+            gsub(/group-title="体育.*"/, "group-title=\"'"$GROUP_NAME_TIYU"'\"");
+            gsub(/group-title="赛事.*"/, "group-title=\"'"$GROUP_NAME_TIYU"'\"");
+            gsub(/group-title="4K.*"/, "group-title=\"'"$GROUP_NAME_TIYU"'\"");
             if($0~/\#EXTM3U/) {print $0};
             if(info~/EXTINF/ && info!~/URLARU/) {
               churl="null";
