@@ -37,15 +37,13 @@ http://39.137.49.76:8080/PLTV/88888888/224/3221226230/index.m3u8?
 http://49.7.234.13:808/hls/176/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="CCTV4K" tvg-logo="https://upload.112114.xyz/logo/CCTV4K.png" group-title="央视频道",CCTV-4K 超高清
 http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221226998/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178&type=IPv6
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.112114.xyz/logo/CGTN.png" group-title="央视频道",CGTN 国际频道
+#EXTINF:-1 tvg-id="" tvg-name="CGTN" tvg-logo="https://upload.112114.xyz/logo/CGTN.png" group-title="央视频道",CGTN 国际频道
+http://dbiptv.sn.chinamobile.com/PLTV/88888893/224/3221225745/index.m3u8
+#EXTINF:-1 tvg-id="20" tvg-name="" tvg-logo="https://upload.112114.xyz/logo/CGTNALBY.png" group-title="央视频道",CGTN 阿语频道
 #EXTINF:-1 group-title="卫视频道",凤凰中文「IPV6」
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.112114.xyz/logo/CGTNALBY.png" group-title="央视频道",CGTN 阿语频道
+#EXTINF:-1 tvg-id="20" tvg-name="" tvg-logo="https://upload.112114.xyz/logo/CGTNEY.png" group-title="央视频道",CGTN 俄语频道
 #EXTINF:-1 group-title="卫视频道",凤凰中文「IPV6」
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.112114.xyz/logo/CGTNEY.png" group-title="央视频道",CGTN 俄语频道
+#EXTINF:-1 tvg-id="20" tvg-name="" tvg-logo="https://upload.112114.xyz/logo/CGTNXBYY.png" group-title="央视频道",CGTN 西语频道
 #EXTINF:-1 group-title="卫视频道",凤凰中文「IPV6」
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.112114.xyz/logo/CGTNXBYY.png" group-title="央视频道",CGTN 西语频道
-#EXTINF:-1 group-title="卫视频道",凤凰中文「IPV6」
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.112114.xyz/logo/CGTNFY.png" group-title="央视频道",CGTN 法语频道
-#EXTINF:-1 group-title="卫视频道",凤凰中文「IPV6」
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.112114.xyz/logo/CGTNJILU.png" group-title="央视频道",CGTN 纪录频道
+#EXTINF:-1 tvg-id="20" tvg-name="" tvg-logo="https://upload.112114.xyz/logo/CGTNFY.png" group-title="央视频道",CGTN 法语频道
 #EXTINF:-1 group-title="卫视频道",凤凰中文「IPV6」
