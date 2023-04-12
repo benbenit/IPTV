@@ -56,8 +56,11 @@ jobs:
     - name: 下载IPV4直播源
       if: env.GET == 'true'
       run : | 
+       wget https://raw.githubusercontent.com/fanmingming/0472/a683299d4c1bb7834ff19943dafdbc46f849abb4/cctv.m3u -O fancctv.tmp # 范明明央视
+       wget https://raw.githubusercontent.com/fanmingming/0472/a683299d4c1bb7834ff19943dafdbc46f849abb4/cntv.m3u -O fancntv.tmp # 范明明卫视
        # wget https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/global.m3u -O ipv4.tmp # 范明明直连
-       wget https://raw.githubusercontent.com/dsunn/dsunn.github.io/master/0624.m3u -O ipv4.tmp # dsunn
+       # wget https://raw.githubusercontent.com/dsunn/dsunn.github.io/master/0624.m3u -O ipv4.tmp # dsunn
+       cat fancctv.tmp fancntv.tmp > ipv4.tmp
         # 生成IPV4央视卫视
         awk '
         {
