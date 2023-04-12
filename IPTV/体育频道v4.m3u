@@ -1,8 +1,26 @@
 #EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5" tvg-logo="https://upload.112114.xyz/logo/CCTV5.png" group-title="体育频道",CCTV-5 体育
-http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226395/index.m3u8
+http://39.135.138.60:18890/TVOD/88888910/224/3221225633/index.m3u8
 #EXTINF:-1 tvg-id="CCTV5+" tvg-name="CCTV5+" tvg-logo="https://upload.112114.xyz/logo/CCTV5+.png" group-title="体育频道",CCTV-5+ 体育赛事
-http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226395/index.m3u8
+http://39.135.138.60:18890/TVOD/88888910/224/3221225633/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="CCTV16-4K-25PHLG源" tvg-logo="https://upload.112114.xyz/logo/16.png" group-title="体育频道",CCTV-16 奥林匹克
 http://113.62.253.22/live.aishang.ctlcdn.com/00000110240389_1/playlist.m3u8?CONTENTID=00000110240389_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR
+#EXTINF:-1 tvg-id="" tvg-name="五星体育" tvg-logo="https://raw.githubusercontent.com/qw1363673600/PNG/main/wxty.png" group-title="体育频道",五星体育
+http://223.109.53.49/liveplay-kk.rtxapp.com/live/program/live/ssty/4000000/mnf.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="央视台球" tvg-logo="https://upload.112114.xyz/logo/YSTQ.png" group-title="体育频道",央视台球
+http://[2409:8087:7001:20:2::3]:80/dbiptv.sn.chinamobile.com/PLTV/88888893/224/3221226956/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="风云足球" tvg-logo="https://upload.112114.xyz/logo/FYZQ.png" group-title="体育频道",风云足球
+http://[2409:8087:7001:20:2::3]:80/dbiptv.sn.chinamobile.com/PLTV/88888893/224/3221226984/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="高尔夫网球" tvg-logo="https://upload.112114.xyz/logo/GEF.png" group-title="体育频道",高尔夫网球
+http://[2409:8087:7001:20:2::3]:80/dbiptv.sn.chinamobile.com/PLTV/88888893/224/3221226978/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="新视觉" tvg-logo="https://raw.githubusercontent.com/qw1363673600/PNG/main/xsj.png" group-title="体育频道",新视觉
+http://223.109.53.49/liveplay-kk.rtxapp.com/live/program/live/xsjhd/4000000/mnf.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="魅力足球" tvg-logo="https://raw.githubusercontent.com/qw1363673600/PNG/main/mlzq.png" group-title="体育频道",魅力足球
+http://223.109.53.49/liveplay-kk.rtxapp.com/live/program/live/mlyyhd/4000000/mnf.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="超级体育" tvg-logo="https://raw.githubusercontent.com/qw1363673600/PNG/main/newtvcjty.png" group-title="体育频道",超级体育
+http://223.109.53.49/liveplay-kk.rtxapp.com/live/program/live/qcsj8m/8000000/mnf.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="精品体育" tvg-logo="https://raw.githubusercontent.com/qw1363673600/PNG/main/newtvcjty.png" group-title="体育频道",精品体育
+# http://39.134.66.66/PLTV/88888888/224/3221225526/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="咪咕" tvg-logo="https://www.hualigs.cn/image/6153f9c6aa2ae.jpg",group-title="体育频道",咪咕体育
-http://117.136.156.66:80/000000001000/3000000010000005180/index.m3u8
+http://223.109.53.49/liveplay-kk.rtxapp.com/live/program/live/zqpd8m/8000000/mnf.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="高尔夫" group-title="体育频道",ONE Golf
+http://[2409:8087:7001:20:2::3]:80/dbiptv.sn.chinamobile.com/PLTV/88888893/224/3221226978/index.m3u8
