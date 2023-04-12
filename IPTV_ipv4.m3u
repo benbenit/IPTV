@@ -37,17 +37,17 @@ http://39.137.49.76:8080/PLTV/88888888/224/3221226230/index.m3u8?
 http://49.7.234.13:808/hls/176/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="CCTV4K" tvg-logo="https://upload.112114.xyz/logo/CCTV4K.png" group-title="央视频道",CCTV-4K 超高清
 http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221226998/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178&type=IPv6
-#EXTINF:-1 tvg-id="" tvg-name="CGTN" tvg-logo="https://raw.githubusercontent.com/qw1363673600/PNG/main/CGTN.png" group-title="央视频道",CGTN 国际频道
+#EXTINF:-1 tvg-id="20" tvg-name="CGTN" tvg-logo="https://upload.112114.xyz/logo/CGTN.png" group-title="央视频道",CGTN 国际频道
 http://dbiptv.sn.chinamobile.com/PLTV/88888893/224/3221225745/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CGTN" tvg-logo="https://raw.githubusercontent.com/qw1363673600/PNG/main/CGTN_arabic.png" group-title="央视频道",CGTN 阿语频道
+#EXTINF:-1 tvg-id="20" tvg-name="CGTN" tvg-logo="https://upload.112114.xyz/logo/CGTNALBY.png" group-title="央视频道",CGTN 阿语频道
 http://dbiptv.sn.chinamobile.com/PLTV/88888893/224/3221225745/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CGTN" tvg-logo="https://raw.githubusercontent.com/qw1363673600/PNG/main/CGTN_Russian.png" group-title="央视频道",CGTN 俄语频道
+#EXTINF:-1 tvg-id="20" tvg-name="CGTN" tvg-logo="https://raw.githubusercontent.com/qw1363673600/PNG/main/CGTN_Russian.png" group-title="央视频道",CGTN 俄语频道
 http://dbiptv.sn.chinamobile.com/PLTV/88888893/224/3221225745/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CGTN" tvg-logo="https://raw.githubusercontent.com/qw1363673600/PNG/main/CGTN_Espanol.png" group-title="央视频道",CGTN 西语频道
+#EXTINF:-1 tvg-id="20" tvg-name="CGTN" tvg-logo="https://upload.112114.xyz/logo/CGTNXBYY.png" group-title="央视频道",CGTN 西语频道
 http://dbiptv.sn.chinamobile.com/PLTV/88888893/224/3221225745/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CGTN" tvg-logo="https://raw.githubusercontent.com/qw1363673600/PNG/main/CGTN_france.png" group-title="央视频道",CGTN 法语频道
+#EXTINF:-1 tvg-id="20" tvg-name="CGTN" tvg-logo="https://upload.112114.xyz/logo/CGTNFY.png" group-title="央视频道",CGTN 法语频道
 http://dbiptv.sn.chinamobile.com/PLTV/88888893/224/3221225745/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CGTN" tvg-logo="https://raw.githubusercontent.com/qw1363673600/PNG/main/CGTN_Documentary.png" group-title="央视频道",CGTN 纪录频道
+#EXTINF:-1 tvg-id="20" tvg-name="CGTN" tvg-logo="https://upload.112114.xyz/logo/CGTNJILU.png" group-title="央视频道",CGTN 纪录频道
 http://dbiptv.sn.chinamobile.com/PLTV/88888893/224/3221225745/index.m3u8
 #EXTINF:-1 tvg-id="1778" tvg-name="湖北综合频道" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/HUBEI2.png" group-title="本地频道",湖北综合
 http://wh.re168.com:8089/udp/239.69.1.42:9892
