@@ -1,6 +1,6 @@
 
-#EXTINF:-1 tvg-id="" tvg-name="CCTV5" tvg-logo="https://upload.112114.xyz/logo/CCTV5.png" group-title="体育频道",CCTV-5 体育
-#EXTINF:-1 tvg-id="" tvg-name="CCTV5+" tvg-logo="https://upload.112114.xyz/logo/CCTV5+.png" group-title="体育频道",CCTV-5+ 体育赛事
+#EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5" tvg-logo="https://upload.112114.xyz/logo/CCTV5.png" group-title="体育频道",CCTV-5 体育
+#EXTINF:-1 tvg-id="CCTV5+" tvg-name="CCTV5+" tvg-logo="https://upload.112114.xyz/logo/CCTV5+.png" group-title="体育频道",CCTV-5+ 体育赛事
 #EXTINF:-1 tvg-id="" tvg-name="CCTV16-4K-25PHLG源" tvg-logo="https://upload.112114.xyz/logo/16.png" group-title="体育频道",CCTV-16 奥林匹克
 #EXTINF:-1 tvg-id="" tvg-name="五星体育" tvg-logo="https://raw.githubusercontent.com/qw1363673600/PNG/main/wxty.png" group-title="体育频道",五星体育
 #EXTINF:-1,tvg-id="" tvg-name="纬来体育" tvg-logo="https://epg.112114.xyz/logo/纬来体育台.png" group-title="体育频道",纬来体育
