@@ -113,6 +113,7 @@ jobs:
           };
         }
         ' 2.tmp > cctvv6.tmp
+        
         # 生成v6地方电视台
         awk '
         {
@@ -123,6 +124,7 @@ jobs:
           };
         }
         ' 2.tmp > localv6.tmp
+        
         # 生成v6数字频道
         awk '
         {
@@ -134,6 +136,7 @@ jobs:
           };
         }
         ' 2.tmp > digv6.tmp
+        # 整理频道
         awk -F'"' '
         {
           info=$0;
@@ -146,7 +149,7 @@ jobs:
           if(info~/综合/) {
             name="CCTV1\"";
             close("Source/CCTV.m3u");
-            cmd="awk '\''/"name"/{getline;print}'\'' Source/CCTV.m3u";
+            cmd="awk '\''/"name"/{getline;print}'\'' cctvv6.tmp";
             cmd | getline churl;
             print info;
             print churl;
