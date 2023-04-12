@@ -3,8 +3,8 @@
 #EXTINF:-1 tvg-id="" tvg-name="CCTV2" tvg-logo="https://upload.112114.xyz/logo/CCTV2.png" group-title="央视频道",CCTV-2 财经
 #EXTINF:-1 tvg-id="" tvg-name="CCTV3" tvg-logo="https://upload.112114.xyz/logo/CCTV3.png" group-title="央视频道",CCTV-3 综艺
 #EXTINF:-1 tvg-id="" tvg-name="CCTV4" tvg-logo="https://upload.112114.xyz/logo/CCTV4.png" group-title="央视频道",CCTV-4 中文国际
-#EXTINF:-1 tvg-id="" tvg-name="CCTV5" tvg-logo="https://upload.112114.xyz/logo/CCTV5.png" group-title="央视频道",CCTV-5 体育
-#EXTINF:-1 tvg-id="" tvg-name="CCTV5+" tvg-logo="https://upload.112114.xyz/logo/CCTV5+.png" group-title="央视频道",CCTV-5+ 体育赛事
+#EXTINF:-1 tvg-id="5" tvg-name="CCTV5" tvg-logo="https://upload.112114.xyz/logo/CCTV5.png" group-title="央视频道",CCTV-5 体育
+#EXTINF:-1 tvg-id="5+" tvg-name="CCTV5+" tvg-logo="https://upload.112114.xyz/logo/CCTV5+.png" group-title="央视频道",CCTV-5+ 体育赛事
 #EXTINF:-1 tvg-id="" tvg-name="CCTV6" tvg-logo="https://upload.112114.xyz/logo/CCTV6.png" group-title="央视频道",CCTV-6 电影
 #EXTINF:-1 tvg-id="" tvg-name="CCTV7" tvg-logo="https://upload.112114.xyz/logo/CCTV7.png" group-title="央视频道",CCTV-7 国防军事
 #EXTINF:-1 tvg-id="" tvg-name="CCTV8" tvg-logo="https://upload.112114.xyz/logo/CCTV8.png" group-title="央视频道",CCTV-8 电视剧
