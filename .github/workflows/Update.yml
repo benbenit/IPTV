@@ -79,7 +79,6 @@ jobs:
       if: env.GET == 'true'
       run : | 
        wget https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u -O yuechan.tmp
-       cat yuechan.tmp yang.tmp > yuechan1.tmp
         # 生成IPV6央视卫视
         awk '
         {
@@ -93,7 +92,7 @@ jobs:
             print $0;
           };
         }
-        ' yuechan1.tmp>2.tmp
+        ' yuechan.tmp>2.tmp
         
         
         
