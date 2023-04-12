@@ -53,10 +53,10 @@ jobs:
       
       
     
-    - name: 下载直播源1
+    - name: 下载IPV4直播源
       if: env.GET == 'true'
       run : | 
-       wget https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u -O yang.tmp
+       wget https://raw.githubusercontent.com/dsunn/dsunn.github.io/master/0624.m3u -O ipv4.tmp
         # 生成IPV4央视卫视
         awk '
         {
@@ -72,15 +72,15 @@ jobs:
           if($0!~/group-title=\"('"$GROUP_NAME_CCTV"'|'"$GROUP_NAME_SATT"'|'"$GROUP_NAME_LOCAL"')\"/) {gsub(/group-title=\".*\"/, "group-title=\"'"$GROUP_NAME_DIG"'\"")};
           print $0;
         }
-        ' yang.tmp > 1.tmp
+        ' ipv4.tmp > 1.tmp
     
      
 
     
-    - name: 下载直播源2
+    - name: 下载IPV6直播源
       if: env.GET == 'true'
       run : | 
-       wget https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u -O yuechan.tmp
+       wget https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u -O ipv6.tmp
         # 生成IPV6央视卫视
         awk '
         {
@@ -96,7 +96,7 @@ jobs:
           if($0!~/group-title=\"('"$GROUP_NAME_CCTV"'|'"$GROUP_NAME_SATT"'|'"$GROUP_NAME_LOCAL"')\"/) {gsub(/group-title=\".*\"/, "group-title=\"'"$GROUP_NAME_DIG"'\"")};
           print $0;
         }
-        ' yuechan.tmp>2.tmp
+        ' ipv6.tmp>2.tmp
         
         
         
