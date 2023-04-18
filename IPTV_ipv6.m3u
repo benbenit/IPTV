@@ -104,7 +104,7 @@ http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221225730/2/index.
 #EXTINF:-1,tvg-id="" tvg-name="宁夏卫视" tvg-logo="https://upload.112114.xyz/logo/NXTV.png" group-title="卫视频道",宁夏卫视
 http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225726/index.m3u8
 #EXTINF:-1,tvg-id="" tvg-name="内蒙古卫视" tvg-logo="https://upload.112114.xyz/logo/NMGTV.png" group-title="卫视频道",内蒙古卫视
-http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225667/index.m3u8
+http://[2409:8087:1004:301:2026::17]:80/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225676/01.m3u8?fmt=ts2hls
 #EXTINF:-1,tvg-id="" tvg-name="陕西卫视" tvg-logo="https://upload.112114.xyz/logo/SXTV.png" group-title="卫视频道",陕西卫视
 http://[2409:8087:5011:1020::2b]:80/180000001002/00000001000000000090000000215607/main.m3u8?IASHttpSessionId=OTT
 #EXTINF:-1,tvg-id="" tvg-name="西藏卫视" tvg-logo="https://upload.112114.xyz/logo/XZTV.png" group-title="卫视频道",西藏卫视
@@ -387,8 +387,6 @@ http://redlabmcdn.s.llnwi.net/nv02/bs08hd/index.m3u8
 https://movie.mcas.jp/switcher/smil:mcas8.smil/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Animax" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Animax_logo.svg/2880px-Animax_logo.svg.png" group-title="日韩频道",「JP」ANIMAX
 http://redlabmcdn.s.llnwi.net/nv02/bs14hd/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="AT-X" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/AT-X_logo.svg/2880px-AT-X_logo.svg.png" group-title="日韩频道",「JP」AT-X
-https://sub.neetball.net/live/neet.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Disney Channel Japan" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/78/Disney_Channel_Germany_Logo_2014.png" group-title="日韩频道",「JP」Disney Channel
 http://redlabmcdn.s.llnwi.net/nv02/bs13hd/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="J Sports 1" tvg-logo="" group-title="日韩频道",「JP」J Sports 1
