@@ -13,9 +13,9 @@ http://[2409:8087:7001:20:2::3]:80/dbiptv.sn.chinamobile.com/PLTV/88888893/224/3
 #EXTINF:-1 tvg-id="" tvg-name="高尔夫网球" tvg-logo="https://upload.112114.xyz/logo/GEF.png" group-title="体育频道",高尔夫网球
 http://[2409:8087:7001:20:2::3]:80/dbiptv.sn.chinamobile.com/PLTV/88888893/224/3221226978/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="新视觉" tvg-logo="https://raw.githubusercontent.com/qw1363673600/PNG/main/xsj.png" group-title="体育频道",新视觉
-https://tv.fanmingming.com/api/v6.php?id=ycxsjH265
+https://tv.fanmingming.com/api/v6?id=ycxsjH265
 #EXTINF:-1 tvg-id="" tvg-name="魅力足球" tvg-logo="https://raw.githubusercontent.com/qw1363673600/PNG/main/mlzq.png" group-title="体育频道",魅力足球
-https://tv.fanmingming.com/api/v6.php?id=mlyy
+https://tv.fanmingming.com/api/v6?id=mlyy
 #EXTINF:-1 tvg-id="" tvg-name="超级体育" tvg-logo="https://raw.githubusercontent.com/qw1363673600/PNG/main/newtvcjty.png" group-title="体育频道",超级体育
 http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221225622/2/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="精品体育" tvg-logo="https://raw.githubusercontent.com/qw1363673600/PNG/main/newtvcjty.png" group-title="体育频道",精品体育
