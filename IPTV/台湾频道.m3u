@@ -75,6 +75,6 @@ http://50.7.220.74:8278/badazhonghe/playlist.m3u8?ct=19225&tid=MC7C4692263546922
 #EXTINF:-1 tvg-id="" tvg-name="Videoland Sports " tvg-logo="https://i.imgur.com/9FCjq5E.png" group-title="港台频道",「TW」緯來體育台
 http://50.7.220.74:8278/videolandsport/playlist.m3u8?ct=19226&tid=MA6A1192684511926845&tsum=0b7ca9a61e7371df68108a27dc358c68
 #EXTINF:-1 tvg-id="" tvg-name="唯心電視" tvg-logo="https://i.imgur.com/s8tiTeb.png" group-title="港台频道",「TW」唯心電視 
-http://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/chunklist_w1177047531.m3u8
+https://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/chunklist_w1177047531.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Taiwan Plus " tvg-logo="https://i.imgur.com/SfcZyqm.png" group-title="港台频道",「TW」Taiwan Plus 
 https://ythls.onrender.com/channel/UC7c6rvyAZLpKGk8ttVnpnLA.m3u8
