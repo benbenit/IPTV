@@ -1,5 +1,3 @@
-#EXTINF:-1 tvg-id="" tvg-name="东方财经" tvg-logo="http://live.cooltv.top/logo/dfcj.png" group-title="数字频道",东方财经
-http://live.aptvapp.com/ghyx.php?id=DongFangCaiJingHD_6000
 #EXTINF:-1 tvg-id="" tvg-name="都市剧场" tvg-logo="http://live.cooltv.top/logo/sitvdsjc.png" group-title="数字频道",都市剧场
 http://live.aptvapp.com/sxg.php?id=yxfydsjcHDH265_4000
 #EXTINF:-1 tvg-id="" tvg-name="欢笑剧场" tvg-logo="http://live.cooltv.top/logo/hxjc.png" group-title="数字频道",欢笑剧场
@@ -20,8 +18,6 @@ http://live.aptvapp.com/sxg.php?id=shssH265_4000
 http://live.aptvapp.com/sxg.php?id=lqhxjcHDH265_4000
 #EXTINF:-1 tvg-id="" tvg-name="魅力足球" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/meilizuqiu.png" group-title="数字频道",魅力足球
 http://live.aptvapp.com/sxg.php?id=mlyy_4000
-#EXTINF:-1 tvg-id="" tvg-name="游戏风云"tvg-logo="http://live.cooltv.top/logo/yxfy.png" group-title="数字频道",游戏风云
-http://live.aptvapp.com/ghyx.php?id=YouXiFengYunHD_6000
 #EXTINF:-1 tvg-id="" tvg-name="七彩戏剧"tvg-logo="http://live.cooltv.top/logo/qcxj.png" group-title="数字频道",七彩戏剧
 http://live.aptvapp.com/sxg.php?id=qcxj_2000
 #EXTINF:-1 tvg-id="" tvg-name="CHC动作电影" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CHC1.jpg" group-title="数字频道",动作电影

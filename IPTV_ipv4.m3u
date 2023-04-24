@@ -99,8 +99,6 @@ http://live.aptvapp.com/sxg.php?id=nmgws_4000
 http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221225729/2/index.m3u8
 #EXTINF:-1,tvg-id="" tvg-name="西藏卫视" tvg-logo="https://upload.112114.xyz/logo/XZTV.png" group-title="卫视频道",西藏卫视
 http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221225723/2/index.m3u8
-#EXTINF:-1,tvg-id="" tvg-name="厦门卫视" tvg-logo="https://upload.112114.xyz/logo/XMTV.png" group-title="卫视频道",厦门卫视
-http://live.aptvapp.com/ghyx.php?id=XiaMenHD_2000
 #EXTINF:-1,tvg-id="" tvg-name="兵团卫视" tvg-logo="https://upload.112114.xyz/logo/BTTV.png" group-title="卫视频道",兵团卫视
 http://live.aptvapp.com/sxg.php?id=btws_4000
 #EXTINF:-1 tvg-id="1778" tvg-name="湖北综合频道" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/HUBEI2.png" group-title="本地频道",湖北综合
@@ -133,8 +131,6 @@ http://wh.re168.com:8089/udp/239.69.1.36:9856
 http://wh.re168.com:8089/udp/239.69.1.6:9676
 #EXTINF:-1 tvg-id="1795" tvg-name="武汉教育电视台" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/WETV.png" group-title="本地频道",武汉教育
 http://wh.re168.com:8089/udp/239.69.1.60:9994
-#EXTINF:-1 tvg-id="" tvg-name="东方财经" tvg-logo="http://live.cooltv.top/logo/dfcj.png" group-title="数字频道",东方财经
-http://live.aptvapp.com/ghyx.php?id=DongFangCaiJingHD_6000
 #EXTINF:-1 tvg-id="" tvg-name="都市剧场" tvg-logo="http://live.cooltv.top/logo/sitvdsjc.png" group-title="数字频道",都市剧场
 http://live.aptvapp.com/sxg.php?id=yxfydsjcHDH265_4000
 #EXTINF:-1 tvg-id="" tvg-name="欢笑剧场" tvg-logo="http://live.cooltv.top/logo/hxjc.png" group-title="数字频道",欢笑剧场
@@ -155,8 +151,6 @@ http://live.aptvapp.com/sxg.php?id=shssH265_4000
 http://live.aptvapp.com/sxg.php?id=lqhxjcHDH265_4000
 #EXTINF:-1 tvg-id="" tvg-name="魅力足球" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/meilizuqiu.png" group-title="数字频道",魅力足球
 http://live.aptvapp.com/sxg.php?id=mlyy_4000
-#EXTINF:-1 tvg-id="" tvg-name="游戏风云"tvg-logo="http://live.cooltv.top/logo/yxfy.png" group-title="数字频道",游戏风云
-http://live.aptvapp.com/ghyx.php?id=YouXiFengYunHD_6000
 #EXTINF:-1 tvg-id="" tvg-name="七彩戏剧"tvg-logo="http://live.cooltv.top/logo/qcxj.png" group-title="数字频道",七彩戏剧
 http://live.aptvapp.com/sxg.php?id=qcxj_2000
 #EXTINF:-1 tvg-id="" tvg-name="CHC动作电影" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CHC1.jpg" group-title="数字频道",动作电影
@@ -198,7 +192,7 @@ http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221225622/2/index.
 #EXTINF:-1 tvg-id="" tvg-name="精品体育" tvg-logo="https://raw.githubusercontent.com/qw1363673600/PNG/main/newtvcjty.png" group-title="体育频道",精品体育
 http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221225709/2/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="咪咕" tvg-logo="https://www.hualigs.cn/image/6153f9c6aa2ae.jpg",group-title="体育频道",咪咕体育
-http://live.aptvapp.com/ghyx.php?id=ZuQiuHD_6000
+http://117.136.156.66:80/000000001000/3000000010000005180/index.m3u8
 #EXTM3U
 #EXTINF:-1 tvg-id="" tvg-name="凤凰中文" tvg-logo="https://github.com/hououinkami/AppleTV/raw/main/ChannelLogo/Hongkong/Phoenix_Chinese.png" group-title="港台频道",「HK」鳳凰衛視中文台
 http://lxajh.top/iptv/hk.php?id=fhws

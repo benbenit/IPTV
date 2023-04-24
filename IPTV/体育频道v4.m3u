@@ -15,4 +15,4 @@ http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221225622/2/index.
 #EXTINF:-1 tvg-id="" tvg-name="精品体育" tvg-logo="https://raw.githubusercontent.com/qw1363673600/PNG/main/newtvcjty.png" group-title="体育频道",精品体育
 http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221225709/2/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="咪咕" tvg-logo="https://www.hualigs.cn/image/6153f9c6aa2ae.jpg",group-title="体育频道",咪咕体育
-http://live.aptvapp.com/ghyx.php?id=ZuQiuHD_6000
+http://117.136.156.66:80/000000001000/3000000010000005180/index.m3u8
