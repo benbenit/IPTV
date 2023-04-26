@@ -331,8 +331,12 @@ https://redlabmcdn.s.llnwi.net/nv02/bs08hd/index.m3u8
 https://movie.mcas.jp/switcher/smil:mcas8.smil/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Animax" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Animax_logo.svg/2880px-Animax_logo.svg.png" group-title="日韩频道",「JP」ANIMAX
 https://redlabmcdn.s.llnwi.net/nv02/bs14hd/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="AT-X" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/AT-X_logo.svg/2880px-AT-X_logo.svg.png" group-title="日韩频道",「JP」AT-X
+https://code.vthanhtivi.pw/getlink/jptv/Nxk7xMmj7dV7iq_k08p2fQ==/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Disney Channel Japan" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/78/Disney_Channel_Germany_Logo_2014.png" group-title="日韩频道",「JP」Disney Channel
 https://redlabmcdn.s.llnwi.net/nv02/bs13hd/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Kids Station" tvg-logo="" group-title="日韩频道",「JP」Kids Station
+https://code.vthanhtivi.pw/getlink/jptv/xuRJ2NXuC2ezP38iwgYdXQ==/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="J Sports 1" tvg-logo="" group-title="日韩频道",「JP」J Sports 1
 https://redlabmcdn.s.llnwi.net/nv02/bs15hd/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="J Sports 2" tvg-logo="" group-title="日韩频道",「JP」J Sports 2
