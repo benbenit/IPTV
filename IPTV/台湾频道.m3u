@@ -21,7 +21,7 @@ http://www.dalitv.com.tw:4568/live/dali/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="東森戏剧台" tvg-logo="https://i.imgur.com/5sQ6ZIe.png" group-title="港台频道",「TW」東森戏剧台
 http://198.16.64.10:8278/ettvdrama/playlist.m3u8?ct=19225&tid=ME1E3883142638831426&tsum=12c87a5fab65a0ba071cebce86313f45
 #EXTINF:-1 tvg-id="" tvg-name="東森財經新聞台" tvg-logo="https://i.imgur.com/uFDkOhV.png" group-title="港台频道",「TW」東森財經新聞台
-http://seb.sason.top/sc/dscjxw_fhd.m3u8
+http://50.7.220.74:8278/ettvcaijing_twn/playlist.m3u8?ct=17874&tid=m999b5a0f7fca17599138&tsum=345085d2d6d4401fdb3da968dfee5a54
 #EXTINF:-1 tvg-id="" tvg-name="東森洋片台" tvg-logo="https://i.imgur.com/ItNGE1z.png" group-title="港台频道",「TW」東森洋片台
 http://50.7.220.74:8278/ettvwestern/playlist.m3u8?ct=17874&tid=mfdfc048e6c2416337202&tsum=cad39b26202d525ea820bee1d69e545f
 #EXTINF:-1 tvg-id="" tvg-name="東森電影台" tvg-logo="https://i.imgur.com/dMAS4Qa.png" group-title="港台频道",「TW」東森電影台
@@ -37,7 +37,7 @@ http://50.7.220.74:8278/niandainews_twn/playlist.m3u8?ct=19226&tid=MA6A464772094
 #EXTINF:-1 tvg-id="" tvg-name="民視" tvg-logo="https://i.imgur.com/q8ahtbT.png" group-title="港台频道",「TW」民視
 http://50.7.220.74:8278/ftvhd_taiwan/playlist.m3u8?ct=18335&tid=m15b424641a89&tsum=ba82cdbfb8253c45a13df5354e6d0dbc
 #EXTINF:-1 tvg-id="" tvg-name="民視新聞台" tvg-logo="https://i.imgur.com/j9Gebr5.png" group-title="港台频道",「TW」民視新聞台
-https://ythls.onrender.com/channel/UC2VmWn8dAqkzlQqvy02E1PA.m3u8
+http://198.16.64.10:8278/ftvnew_taiwan/playlist.m3u8?ct=19226&tid=ME4E4172771041727710&tsum=7b91c7af6212419479b392ff575e0689
 #EXTINF:-1 tvg-id="" tvg-name="民視第一台" tvg-logo="https://i.imgur.com/HBT2o0I.png" group-title="港台频道",「TW」民視第一台
 http://seb.sason.top/ptv/ftv.php?id=dy
 #EXTINF:-1 tvg-id="" tvg-name="GOOD TV CH1 綜合台 " tvg-logo="https://i.imgur.com/k28Kc3o.png" group-title="港台频道",「TW」Good1
@@ -49,7 +49,7 @@ http://50.7.220.74:8278/tvbs/playlist.m3u8?ct=19226&tid=MDED5111960351119603&tsu
 #EXTINF:-1 tvg-id="" tvg-name="TVBS Asia" tvg-logo="https://i.imgur.com/4S1rkhm.png" group-title="港台频道",「TW」TVBS亚洲台
 http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="TVBS News" tvg-logo="https://i.imgur.com/171lwfg.png" group-title="港台频道",「TW」TVBS新聞台
-https://ythls.onrender.com/channel/UC5nwNW4KdC0SzrhF9BXEYOQ.m3u8
+http://50.7.220.74:8278/tvbs_n/playlist.m3u8?ct=19226&tid=MEFE5283322452833224&tsum=5f4e9bb0782ab3aae36328763cba2ffd
 #EXTINF:-1 tvg-id="" tvg-name="TVBS Entertainment Channel " tvg-logo="https://i.imgur.com/vRSyKo6.png" group-title="港台频道",「TW」TVBS欢乐台
 http://50.7.220.74:8278/tvbshuanle_twn/playlist.m3u8?ct=19193&tid=MC8C2318787923187879&tsum=394d2b9af3df7846e2cdc60d69dd4219
 #EXTINF:-1 tvg-id="" tvg-name="龙华戏剧" tvg-logo="https://i.imgur.com/kDG8PN3.png" group-title="港台频道",「TW」龙华戏剧
@@ -57,7 +57,7 @@ http://198.16.64.10:8278/lunghuaxiju_twn/playlist.m3u8?ct=19226&tid=MBAB47093843
 #EXTINF:-1 tvg-id="" tvg-name="公视" tvg-logo="https://i.imgur.com/R9hwOZx.png" group-title="港台频道",「TW」公视
 http://50.7.220.74:8278/ctv_taiwan/playlist.m3u8?ct=17990&tid=13765524&tsum=03eb77c1c186944b97737f14e95076c0
 #EXTINF:-1 tvg-id="" tvg-name="三立新聞" tvg-logo="https://i.imgur.com/EGVbAvJ.png" group-title="港台频道",「TW」三立新聞
-http://seb.sason.top/sc/sllive_fhd.m3u8
+http://50.7.220.74:8278/sanlixiju_twn/playlist.m3u8?ct=19226&tid=MBDB8405357084053570&tsum=78944c0951d21a699e46fff4318a3799
 #EXTINF:-1 tvg-id="" tvg-name="三立臺灣台" tvg-logo="https://i.imgur.com/zfB9Zvm.png" group-title="港台频道",「TW」三立臺灣台
 http://50.7.220.74:8278/sanlitaiwan/playlist.m3u8?ct=17874&tid=m92ccadc4dc3718157816&tsum=3570a8198ca0fb7ebb803807e38b33fb
 #EXTINF:-1 tvg-id="" tvg-name="原住民電視" tvg-logo="https://i.imgur.com/QqIdVqz.png" group-title="港台频道",「TW」原住民電視
