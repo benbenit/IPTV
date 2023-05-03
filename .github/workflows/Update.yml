@@ -305,9 +305,9 @@ jobs:
         
         
         
-    - name: 体育频道v6
-      if: env.GET == 'true'
-      run: |
+ #   - name: 体育频道v6
+  #    if: env.GET == 'true'
+   #   run: |
         wget https://raw.githubusercontent.com/youshandefeiyang/IPTV/main/main/IPTV.m3u -O feiyang.tmp
         cat 2.tmp 1.tmp  > tiyu2.tmp
         awk '
@@ -342,9 +342,9 @@ jobs:
          ' ChannelList/Tiyu.list > IPTV/体育频道v6.m3u
 
 
-    - name: 体育频道v4
-      if: env.GET == 'true'
-      run: |
+ #   - name: 体育频道v4
+ #     if: env.GET == 'true'
+ #     run: |
         wget https://raw.githubusercontent.com/youshandefeiyang/IPTV/main/main/IPTV.m3u -O feiyang.tmp
         cat 1.tmp  > tiyu1.tmp
         awk '
