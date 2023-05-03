@@ -300,7 +300,40 @@ jobs:
         
         
         
-        
+    - name: 体育频道
+      if: env.GET == 'true'
+      run: |
+        cat 2.tmp 1.tmp  > tiyu.tmp
+        awk '
+        {
+           if($0~/\#EXTM3U/) {print $0};
+           if($0~/group-title=\"体育\"/ || $0~/group-title=\"4K频道\"/ || $0~/group-title=\"赛事\"/) {m=NR; n=NR+1};
+           if(m<=NR && NR<=n) {
+             print $0;
+          };
+        }
+        ' tiyu.tmp > tiyu.tmp
+        awk -F'"' '
+        {
+            info=$0;
+            name=$4;
+            gsub(/group-title="体育.*"/, "group-title=\"'"$GROUP_NAME_TIYU"'\"");
+            gsub(/group-title="赛事.*"/, "group-title=\"'"$GROUP_NAME_TIYU"'\"");
+            gsub(/group-title="4K.*"/, "group-title=\"'"$GROUP_NAME_TIYU"'\"");
+            if($0~/\#EXTM3U/) {print $0};
+            if(info~/EXTINF/ && info!~/URLARU/) {
+              churl="null";
+              close("tiyu.tmp");
+              cmd="awk '\''/"name"/{getline;print}'\'' tiyu.tmp";
+              cmd | getline churl;
+              if(churl!="null") {
+                print info;
+                print churl;
+             };
+             close(cmd);
+           };
+         }
+         ' ChannelList/Tiyu.list > IPTV/体育频道v4.m3u
         
         
 
