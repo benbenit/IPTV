@@ -395,20 +395,10 @@ http://183.110.27.87/mtnlive/720/playlist.m3u8
 http://183.110.27.87/mtnlive/720/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="TBS Seoul" tvg-logo="" group-title="日韩频道",「KR」TBS Seoul
 https://cdntv.tbs.seoul.kr/tbs/tbs_tv_web.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="A&amp;E" tvg-logo="" group-title="欧美频道",「US」A&amp;E
-https://bk7l2w4nlx53-hls-live.5centscdn.com/AETV/514c04b31b5f01cf00dd4965e197fdda.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="ABC新闻" tvg-logo="" group-title="欧美频道",「US」ABC新闻
 http://cms-wowza.lunabyte.io/wbrz-live-1/_definst_/smil:wbrz-live.smil/chunklist_b1300000.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="AKC TV" tvg-logo="" group-title="欧美频道",「US」AKC TV
-http://video.blivenyc.com/broadcast/prod/2061/22/file-3192k.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BostonUniversity" tvg-logo="" group-title="欧美频道",「US」BostonUniversity
-http://butv10-livestream.bu.edu/live/WIFI-2096k-1080p/WIFI-2096k-1080p.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="MovieKingdom" tvg-logo="" group-title="欧美频道",「US」MovieKingdom
 https://a.jsrdn.com/broadcast/e9b4093a41/%2B0000/high/c.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="moviesphere" tvg-logo="" group-title="欧美频道",「US」moviesphere
-https://moviesphere-samsung-samsungus.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="NASA TV Public" tvg-logo="" group-title="欧美频道",「US」NASA TV Public
-https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master_2000.m3u8?zshijd
 #EXTINF:-1 tvg-id="" tvg-name="Newsma xTV" tvg-logo="" group-title="欧美频道",「US」Newsma xTV
 http://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="NRBNETWORK" tvg-logo="" group-title="欧美频道",「US」NRBNETWORK
@@ -417,54 +407,32 @@ http://uni6rtmp.tulix.tv/nrbnetwork/myStream.sdp/playlist.m3u8
 https://pbs-samsunguk.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Retro TV" tvg-logo="" group-title="欧美频道",「US」Retro TV
 http://592f16fa90d9b.streamlock.net/retrotv/smil:retrotv2.smil/chunklist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="VoAPersian" tvg-logo="" group-title="欧美频道",「US」VoAPersian
-https://voa-lh.akamaihd.net/i/voapnn_7@72817/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="WOW TV" tvg-logo="" group-title="欧美频道",「US」WOW TV
 http://cdn.elsalvadordigital.com:1935/wowtv/wowtv/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="5AABTV" tvg-logo="" group-title="欧美频道",「CA」5AABTV
-http://158.69.124.9:1935/5aabtv/5aabtv/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="CA" tvg-logo="" group-title="欧美频道",「CA」CA
-http://tribaliptv.com:8080/Gustavo/123456/12401
+https://rcavlive.akamaized.net/hls/live/704025/xcanrdi/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="CanadaOne" tvg-logo="" group-title="欧美频道",「CA」CanadaOne
 http://cdn8.live247stream.com/canadaone/tv/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="InsightTV" tvg-logo="" group-title="欧美频道",「CA」InsightTV
-https://insighttv-samsung-canada.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Inwonder" tvg-logo="" group-title="欧美频道",「CA」Inwonder
 https://inwonder-samsung-canada.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="TheShoppingChannel" tvg-logo="" group-title="欧美频道",「CA」TheShoppingChannel
 http://tscstreaming-lh.akamaihd.net/i/TSCLiveStreaming_1@91031/master.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="AmazingDiscoveriesTV" tvg-logo="" group-title="欧美频道",「CA」AmazingDiscoveriesTV
-https://uni01rtmp.tulix.tv/amazingdtv/amazingdtv/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Baden TV" tvg-logo="" group-title="欧美频道",「DE」Baden TV
 http://badentv-stream2.siebnich.info/rtplive/btv.stream/live.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="MDF.1" tvg-logo="" group-title="欧美频道",「DE」MDF.1
-http://62.113.210.250/medienasa-live/mdf1_high/agustiny.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Offener Kanal Magdeburg" tvg-logo="" group-title="欧美频道",「DE」Offener Kanal Magdeburg
-http://iptvcodes.blogspot.com@62.113.210.250/medienasa-live/ok-magdeburg_high/hasbahca.m3u8?bitrate=800
-#EXTINF:-1 tvg-id="" tvg-name="pop10" tvg-logo="" group-title="欧美频道",「DE」pop10
-http://iptvcodes.blogspot.com@62.113.210.250/medienasa-live/ok-dessau_high/hasbahca.m3u8?bitrate=800
 #EXTINF:-1 tvg-id="" tvg-name="9Волна" tvg-logo="" group-title="欧美频道",「RU」9Волна
 http://acbtv.vintera.tv:8081/acbtv/acbtv_stream/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="ALKORQAPLUS" tvg-logo="" group-title="欧美频道",「RU」ALKORQAPLUS
 http://32.shqiptv.org/korca/albplus/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="GITV" tvg-logo="" group-title="欧美频道",「RU」GITV
 http://hls-igi.cdnvideo.ru/igi/igi_hq/playlist.m3u8?zshijd
-#EXTINF:-1 tvg-id="" tvg-name="Most Video TV1" tvg-logo="" group-title="欧美频道",「RU」Most Video TV1
-http://w4.mostvideo.tv/tv/ch1.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Muz Sojuz" tvg-logo="" group-title="欧美频道",「RU」Muz Sojuz
-http://hls.tvsoyuz.cdnvideo.ru/tvsoyuz2/muzsoyuz.6fw0-58xp-acts-esy0/chunklist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="RBC" tvg-logo="" group-title="欧美频道",「RU」RBC
 http://e6.online.video.rbc.ru/online2/rbctv_480p/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="RUTV" tvg-logo="" group-title="欧美频道",「RU」RUTV
 http://92.50.128.180/utv/1358/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="TivikomUlan-Udje" tvg-logo="" group-title="欧美频道",「RU」TivikomUlan-Udje
 http://tvcom.stream.intelema.ru/tvcom/studio/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Tjumenskoe Vremja" tvg-logo="" group-title="欧美频道",「RU」Tjumenskoe Vremja
-http://streams.sibinformburo.cdnvideo.ru/sibinformburo/sibinformburo.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="TROSoyuz" tvg-logo="" group-title="欧美频道",「RU」TROSoyuz
 http://live2.mediacdn.ru/sr1/tro/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UgraTV" tvg-logo="" group-title="欧美频道",「RU」UgraTV
-http://live.ugratv.cdnvideo.ru/ugratv/smil:ugrastream1.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="UniverTV" tvg-logo="" group-title="欧美频道",「RU」UniverTV
 http://cdn.universmotri.ru/live/hq.sdp/chunklist_w1792531.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="НТМ" tvg-logo="" group-title="欧美频道",「RU」НТМ
