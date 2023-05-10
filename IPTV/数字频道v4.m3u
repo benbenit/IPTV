@@ -1,21 +1,29 @@
 #EXTINF:-1 tvg-id="" tvg-name="风云剧场" tvg-logo="https://epg.112114.xyz/logo/风云剧场.png" group-title="数字频道",风云剧场
-http://113.207.84.197:8090/__cl/cg:live/__c/shandongHD/__op/default/__f/index.m3u8
+http://121.51.249.103/tlivecloud-ipv6.ysp.cctv.cn/ysp/2012513603.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="风云音乐" tvg-logo="https://epg.112114.xyz/logo/风云音乐.png" group-title="数字频道",风云音乐
-http://113.207.84.197:8090/__cl/cg:live/__c/fyyyHD/__op/default/__f/index.m3u8
+http://121.51.249.103/tlivecloud-ipv6.ysp.cctv.cn/ysp/2012514103.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="第一剧场" tvg-logo="https://epg.112114.xyz/logo/第一剧场.png" group-title="数字频道",第一剧场
-http://113.207.84.197:8090/__cl/cg:live/__c/diyijuchangHD/__op/default/__f/index.m3u8
+http://121.51.249.103/tlivecloud-ipv6.ysp.cctv.cn/ysp/2012514403.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="女性时尚" tvg-logo="https://epg.112114.xyz/logo/女性时尚.png" group-title="数字频道",女性时尚
+http://121.51.249.103/tlivecloud-ipv6.ysp.cctv.cn/ysp/2012513903.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="风云足球" tvg-logo="https://epg.112114.xyz/logo/风云足球.png" group-title="数字频道",风云足球
-http://113.207.84.197:8090/__cl/cg:live/__c/fyzqHD/__op/default/__f/index.m3u8
+http://121.51.249.103/tlivecloud-ipv6.ysp.cctv.cn/ysp/2012514203.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="兵器科技" tvg-logo="https://epg.112114.xyz/logo/BQKJ.png" group-title="数字频道",兵器科技
-http://113.207.84.197:8090/__cl/cg:live/__c/bqkjHD/__op/default/__f/index.m3u8
+http://121.51.249.103/tlivecloud-ipv6.ysp.cctv.cn/ysp/2012513403.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="怀旧剧场" tvg-logo="https://epg.112114.xyz/logo/HJJC.png" group-title="数字频道",怀旧剧场
-http://113.207.84.197:8090/__cl/cg:live/__c/hjjcHD/__op/default/__f/index.m3u8
+http://121.51.249.103/tlivecloud-ipv6.ysp.cctv.cn/ysp/2012511203.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="世界地理" tvg-logo="https://epg.112114.xyz/logo/SJDL.png" group-title="数字频道",世界地理
+http://121.51.249.103/tlivecloud-ipv6.ysp.cctv.cn/ysp/2012513303.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="央视台球" tvg-logo="https://epg.112114.xyz/logo/YSTQ.png" group-title="数字频道",央视台球
+http://121.51.249.103/tlivecloud-ipv6.ysp.cctv.cn/ysp/2012513703.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="电视指南" tvg-logo="https://live.fanmingming.com/tv/电视指南.png" group-title="数字频道",电视指南
+http://121.51.249.103/tlivecloud-ipv6.ysp.cctv.cn/ysp/2012514003.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="都市剧场" tvg-logo="http://live.cooltv.top/logo/sitvdsjc.png" group-title="数字频道",都市剧场
-http://113.207.84.197:8090/__cl/cg:live/__c/dsjcHD/__op/default/__f/index.m3u8
+http://live.aptvapp.com/sxg.php?id=yxfydsjcHDH265_4000
 #EXTINF:-1 tvg-id="" tvg-name="欢笑剧场" tvg-logo="http://live.cooltv.top/logo/hxjc.png" group-title="数字频道",欢笑剧场
 http://live.aptvapp.com/sxg.php?id=hxjc-4k_8000
 #EXTINF:-1 tvg-id="" tvg-name="动漫秀场" tvg-logo="http://live.cooltv.top/logo/dmxc.png" group-title="数字频道",动漫秀场
-http://113.207.84.197:8090/__cl/cg:live/__c/dmxcHD/__op/default/__f/index.m3u8
+http://live.aptvapp.com/sxg.php?id=yybb-dmxc-H265_4000
 #EXTINF:-1 tvg-id="" tvg-name="乐游"  tvg-logo="https://live.fanmingming.com/tv/乐游.png" group-title="数字频道",乐游频道
 http://live.aptvapp.com/sxg.php?id=qjs-HDH265_4000
 #EXTINF:-1 tvg-id="" tvg-name="极速汽车" tvg-logo="" group-title="数字频道",极速汽车
@@ -29,19 +37,15 @@ http://live.aptvapp.com/sxg.php?id=shssH265_4000
 #EXTINF:-1 tvg-id="" tvg-name="劲爆体育" tvg-logo="http://live.cooltv.top/logo/jbty.png" group-title="数字频道",劲爆体育
 http://live.aptvapp.com/sxg.php?id=lqhxjcHDH265_4000
 #EXTINF:-1 tvg-id="" tvg-name="魅力足球" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/meilizuqiu.png" group-title="数字频道",魅力足球
-http://113.207.84.197:8090/__cl/cg:live/__c/mlzqHD/__op/default/__f/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="游戏风云"tvg-logo="http://live.cooltv.top/logo/yxfy.png" group-title="数字频道",游戏风云
-http://113.207.84.197:8090/__cl/cg:live/__c/yxfyHD/__op/default/__f/index.m3u8
+http://live.aptvapp.com/sxg.php?id=mlyy_4000
 #EXTINF:-1 tvg-id="" tvg-name="七彩戏剧"tvg-logo="http://live.cooltv.top/logo/qcxj.png" group-title="数字频道",七彩戏剧
 http://live.aptvapp.com/sxg.php?id=qcxj_2000
 #EXTINF:-1 tvg-id="" tvg-name="CHC动作电影" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CHC1.jpg" group-title="数字频道",动作电影
-http://113.207.84.197:8090/__cl/cg:live/__c/chcdzdyHD/__op/default/__f/index.m3u8
+http://live.aptvapp.com/sxg.php?id=wqCHCdzdyH265_4000
 #EXTINF:-1 tvg-id="" tvg-name="CHC高清电影" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CHC3.jpg" group-title="数字频道",高清电影
 http://live.aptvapp.com/sxg.php?id=lnwsCHC-HDH265_4000
 #EXTINF:-1 tvg-id="" tvg-name="纪实人文" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shanghaijishi.png" group-title="数字频道",纪实人文
 http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221225609/2/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="求索纪录" tvg-logo="" group-title="数字频道",求索纪录
-http://113.207.84.197:8090/__cl/cg:live/__c/qsjlHD/__op/default/__f/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="金鹰纪实" tvg-logo="" group-title="数字频道",金鹰纪实
 http://live.aptvapp.com/sxg.php?id=jyjsHDH265_4000
 #EXTINF:-1 tvg-id="" tvg-name="金鹰卡通" tvg-logo="" group-title="数字频道",金鹰卡通
