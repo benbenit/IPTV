@@ -70,7 +70,7 @@ http://cntv.sbs/ipv6?id=sdwsH265
 #EXTINF:-1,tvg-id="" tvg-name="湖北卫视" tvg-logo="https://upload.112114.xyz/logo/HBTV.png" group-title="卫视频道",湖北卫视
 http://cntv.sbs/ipv6?id=hbwsH265
 #EXTINF:-1,tvg-id="" tvg-name="辽宁卫视" tvg-logo="https://upload.112114.xyz/logo/LNTV.png" group-title="卫视频道",辽宁卫视
-http://cntv.sbs/ipv6?id=lnwsHDH264
+http://cntv.sbs/live?id=lnws
 #EXTINF:-1,tvg-id="" tvg-name="黑龙江卫视" tvg-logo="https://upload.112114.xyz/logo/HLJTV.png" group-title="卫视频道",黑龙江卫视
 http://cntv.sbs/ipv6?id=hljwsH265
 #EXTINF:-1,tvg-id="" tvg-name="青海卫视" tvg-logo="https://upload.112114.xyz/logo/QHTV.png" group-title="卫视频道",青海卫视
