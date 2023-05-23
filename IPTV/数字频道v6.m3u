@@ -33,9 +33,9 @@ http://[2409:8087:4400:20:1:a0f:11:9]:80/iptv.cdn.ha.chinamobile.com/PLTV/888888
 #EXTINF:-1 tvg-id="" tvg-name="生活时尚" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/shenghuoshishang.png" group-title="数字频道",生活时尚
 http://[2409:8087:4400:20:1:a0f:11:9]:80/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226570/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="劲爆体育" tvg-logo="http://live.cooltv.top/logo/jbty.png" group-title="数字频道",劲爆体育
-http://cntv.sbs/ipv6?id=lqhxjcHDH265
+https://cntv.sbs/v605?id=lqhxjcHDH265
 #EXTINF:-1 tvg-id="" tvg-name="魅力足球" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/meilizuqiu.png" group-title="数字频道",魅力足球
-http://cntv.sbs/ipv6?id=mlyy
+https://cntv.sbs/v605?id=mlyy
 #EXTINF:-1 tvg-id="" tvg-name="游戏风云"tvg-logo="http://live.cooltv.top/logo/yxfy.png" group-title="数字频道",游戏风云
 http://[2409:8087:7001:20:2::3]:80/dbiptv.sn.chinamobile.com/PLTV/88888893/224/3221226579/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="CHC动作电影" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CHC1.jpg" group-title="数字频道",动作电影
@@ -53,9 +53,9 @@ http://[2409:8087:4402:20:1:1216:401:46]:80/iptv.cdn.ha.chinamobile.com/PLTV/888
 #EXTINF:-1 tvg-id="" tvg-name="求索纪录" tvg-logo="" group-title="数字频道",求索纪录
 http://[2409:8087:4402:20:1:1216:401:38]:80/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226114/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="金鹰纪实" tvg-logo="" group-title="数字频道",金鹰纪实
-http://cntv.sbs/ipv6?id=jyjsHDH265
+https://cntv.sbs/v605?id=jyjsHDH265
 #EXTINF:-1 tvg-id="" tvg-name="金鹰卡通" tvg-logo="" group-title="数字频道",金鹰卡通
-http://cntv.sbs/ipv6?id=jykt_2000
+https://cntv.sbs/v605?id=jykt_2000
 #EXTINF:-1 tvg-id="" tvg-name="卡酷少儿" tvg-logo="" group-title="数字频道",卡酷少儿
 http://cntv.sbs/bj?id=kk
 #EXTINF:-1 tvg-id="" tvg-name="快乐垂钓" tvg-logo="" group-title="数字频道",快乐垂钓
@@ -65,9 +65,9 @@ http://[2409:8087:7001:20:2::3]:80/dbiptv.sn.chinamobile.com/PLTV/88888893/224/3
 #EXTINF:-1 tvg-id="" tvg-name="茶友频道" tvg-logo="" group-title="数字频道",茶友频道
 
 #EXTINF:-1 tvg-id="" tvg-name="梨园频道" tvg-logo="" group-title="数字频道",梨园频道
-http://cntv.sbs/ipv6?id=ly
+https://cntv.sbs/v605?id=ly
 #EXTINF:-1 tvg-id="" tvg-name="武术世界" tvg-logo="" group-title="数字频道",武术世界
-http://cntv.sbs/ipv6?id=wssj
+https://cntv.sbs/v605?id=wssj
 #EXTINF:-1 tvg-id="" tvg-name="国学频道" tvg-logo="" group-title="数字频道",国学频道
 http://[2409:8087:4400:20:1:a0f:11:9]:80/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226629/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="古装剧场" tvg-logo="" group-title="数字频道",古装剧场
