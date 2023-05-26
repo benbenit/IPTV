@@ -70,7 +70,7 @@ https://cntv.sbs/v605?id=sdwsH265
 #EXTINF:-1,tvg-id="" tvg-name="湖北卫视" tvg-logo="https://upload.112114.xyz/logo/HBTV.png" group-title="卫视频道",湖北卫视
 https://cntv.sbs/v605?id=hbwsH265
 #EXTINF:-1,tvg-id="" tvg-name="辽宁卫视" tvg-logo="https://upload.112114.xyz/logo/LNTV.png" group-title="卫视频道",辽宁卫视
-https://cntv.sbs/live05?id=lnws
+http://[2409:8087:2001:20:2800:0:df6e:eb16]/wh7f454c46tw3102310989_-1844874138/ott.mobaibox.com/PLTV/3/224/3221227485/index.m3u8?icpid=3&RTS=1668597896&from=40&popid=40&hms_devid=2114&prioritypopid=40&vqe=3
 #EXTINF:-1,tvg-id="" tvg-name="黑龙江卫视" tvg-logo="https://upload.112114.xyz/logo/HLJTV.png" group-title="卫视频道",黑龙江卫视
 https://cntv.sbs/v605?id=hljwsH265
 #EXTINF:-1,tvg-id="" tvg-name="青海卫视" tvg-logo="https://upload.112114.xyz/logo/QHTV.png" group-title="卫视频道",青海卫视
