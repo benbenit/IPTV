@@ -62,10 +62,6 @@ http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226805/1.m3u8
 http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226966/1.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="茶友频道" tvg-logo="" group-title="数字频道",茶友频道
 http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226808/1.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="梨园频道" tvg-logo="" group-title="数字频道",梨园频道
-https://cntv.sbs/ipv6?auth=230601&id=ly
-#EXTINF:-1 tvg-id="" tvg-name="武术世界" tvg-logo="" group-title="数字频道",武术世界
-https://cntv.sbs/ipv6?auth=230601&id=wssj
 #EXTINF:-1 tvg-id="" tvg-name="国学频道" tvg-logo="" group-title="数字频道",国学频道
 http://[2409:8087:441a:20:101:211:601:6]:6610/PLTV/88888888/224/3221226629/index.m3u8?servicetype=1
 #EXTINF:-1 tvg-id="" tvg-name="家庭剧场" tvg-logo="" group-title="数字频道",家庭剧场
