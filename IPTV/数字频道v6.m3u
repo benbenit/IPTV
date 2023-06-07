@@ -44,14 +44,6 @@ http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226465/1.m3u8
 http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226463/1.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="纪实人文" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shanghaijishi.png" group-title="数字频道",纪实人文
 http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226230/1.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="求索动物" tvg-logo="" group-title="数字频道",求索动物
-http://[2409:8087:441a:20:101:211:601:6]:6610/PLTV/88888888/224/3221226118/index.m3u8?servicetype=1
-#EXTINF:-1 tvg-id="" tvg-name="求索生活" tvg-logo="" group-title="数字频道",求索生活
-http://[2409:8087:441a:20:101:211:601:6]:6610/PLTV/88888888/224/3221226116/index.m3u8?servicetype=1
-#EXTINF:-1 tvg-id="" tvg-name="求索科学" tvg-logo="" group-title="数字频道",求索科学
-http://[2409:8087:441a:20:101:211:601:6]:6610/PLTV/88888888/224/3221226115/index.m3u8?servicetype=1
-#EXTINF:-1 tvg-id="" tvg-name="求索纪录" tvg-logo="" group-title="数字频道",求索纪录
-http://[2409:8087:441a:20:101:211:601:6]:6610/PLTV/88888888/224/3221226114/index.m3u8?servicetype=1
 #EXTINF:-1 tvg-id="" tvg-name="金鹰纪实" tvg-logo="" group-title="数字频道",金鹰纪实
 http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226351/1.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="金鹰卡通" tvg-logo="" group-title="数字频道",金鹰卡通
@@ -62,7 +54,5 @@ http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226805/1.m3u8
 http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226966/1.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="茶友频道" tvg-logo="" group-title="数字频道",茶友频道
 http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226808/1.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="国学频道" tvg-logo="" group-title="数字频道",国学频道
-http://[2409:8087:441a:20:101:211:601:6]:6610/PLTV/88888888/224/3221226629/index.m3u8?servicetype=1
 #EXTINF:-1 tvg-id="" tvg-name="家庭剧场" tvg-logo="" group-title="数字频道",家庭剧场
 http://[2409:8087:2001:20:2800:0:df6e:eb06]:80/wh7f454c46tw3441504651_1879058580/ott.mobaibox.com/PLTV/3/224/3221227600/index.m3u8
