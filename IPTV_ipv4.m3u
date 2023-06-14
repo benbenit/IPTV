@@ -194,8 +194,6 @@ https://cdn.hklive.tv/xxxx/84/index.m3u8
 http://2022.stream-link.org/live/970235901
 #EXTINF:-1 tvg-id="" tvg-name="有线财经资讯" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/7/7a/I-CABLE_Finance.png" group-title="港台频道",「HK」有綫財經資訊台
 https://cdn.hklive.tv/xxxx/108/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="RTHK31" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/RTHK_TV_31.svg/320px-RTHK_TV_31.svg.png" group-title="港台频道",「HK」RTHK31
-https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=1&id=13
 #EXTINF:-1 tvg-id="" tvg-name="RTHK32" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/RTHK_TV_32.svg/440px-RTHK_TV_32.svg.png" group-title="港台频道",「HK」RTHK32
 https://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="开电视" tvg-logo="https://github.com/hououinkami/AppleTV/raw/main/ChannelLogo/Hongkong/HK_Open_TV.png" group-title="港台频道",「HK」香港開電視
