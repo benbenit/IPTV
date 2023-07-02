@@ -379,8 +379,6 @@ http://cms-wowza.lunabyte.io/wbrz-live-1/_definst_/smil:wbrz-live.smil/chunklist
 https://a.jsrdn.com/broadcast/e9b4093a41/%2B0000/high/c.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Newsma xTV" tvg-logo="" group-title="欧美频道",「US」Newsma xTV
 http://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="NRBNETWORK" tvg-logo="" group-title="欧美频道",「US」NRBNETWORK
-http://uni6rtmp.tulix.tv/nrbnetwork/myStream.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="PBSAmerica" tvg-logo="" group-title="欧美频道",「US」PBSAmerica
 https://pbs-samsunguk.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Retro TV" tvg-logo="" group-title="欧美频道",「US」Retro TV
@@ -388,7 +386,7 @@ http://592f16fa90d9b.streamlock.net/retrotv/smil:retrotv2.smil/chunklist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="WOW TV" tvg-logo="" group-title="欧美频道",「US」WOW TV
 http://cdn.elsalvadordigital.com:1935/wowtv/wowtv/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="CA" tvg-logo="" group-title="欧美频道",「CA」CA
-#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/阿里郎ARIRANG.png" group-title="港澳台「P」",阿里郎 Arirang
+#EXTINF:-1 group-title="地区",「广东」深圳电视剧
 #EXTINF:-1 tvg-id="" tvg-name="CanadaOne" tvg-logo="" group-title="欧美频道",「CA」CanadaOne
 http://cdn8.live247stream.com/canadaone/tv/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Inwonder" tvg-logo="" group-title="欧美频道",「CA」Inwonder
@@ -397,24 +395,14 @@ https://inwonder-samsung-canada.amagi.tv/playlist.m3u8
 http://tscstreaming-lh.akamaihd.net/i/TSCLiveStreaming_1@91031/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Baden TV" tvg-logo="" group-title="欧美频道",「DE」Baden TV
 http://badentv-stream2.siebnich.info/rtplive/btv.stream/live.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="9Волна" tvg-logo="" group-title="欧美频道",「RU」9Волна
-http://acbtv.vintera.tv:8081/acbtv/acbtv_stream/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="ALKORQAPLUS" tvg-logo="" group-title="欧美频道",「RU」ALKORQAPLUS
 http://32.shqiptv.org/korca/albplus/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="GITV" tvg-logo="" group-title="欧美频道",「RU」GITV
 http://hls-igi.cdnvideo.ru/igi/igi_hq/playlist.m3u8?zshijd
-#EXTINF:-1 tvg-id="" tvg-name="RBC" tvg-logo="" group-title="欧美频道",「RU」RBC
-http://e6.online.video.rbc.ru/online2/rbctv_480p/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="RUTV" tvg-logo="" group-title="欧美频道",「RU」RUTV
-http://92.50.128.180/utv/1358/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="TivikomUlan-Udje" tvg-logo="" group-title="欧美频道",「RU」TivikomUlan-Udje
 http://tvcom.stream.intelema.ru/tvcom/studio/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="TROSoyuz" tvg-logo="" group-title="欧美频道",「RU」TROSoyuz
-http://live2.mediacdn.ru/sr1/tro/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="UniverTV" tvg-logo="" group-title="欧美频道",「RU」UniverTV
 http://cdn.universmotri.ru/live/hq.sdp/chunklist_w1792531.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="НТМ" tvg-logo="" group-title="欧美频道",「RU」НТМ
-https://live-ntm13.cdnvideo.ru/ntm13/smil:ntm13.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Орск" tvg-logo="" group-title="欧美频道",「RU」Орск
 http://infochhdcdn.trkeurasia.ru/orsk-infochhd/infochhd/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Самара" tvg-logo="" group-title="欧美频道",「RU」Самара
