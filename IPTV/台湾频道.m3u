@@ -29,7 +29,7 @@ https://live.streamingfast.net/osmflivech2.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="TVBS Asia" tvg-logo="https://i.imgur.com/4S1rkhm.png" group-title="港台频道",「TW」TVBS亚洲台
 http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="TVBS News" tvg-logo="https://i.imgur.com/171lwfg.png" group-title="港台频道",「TW」TVBS新聞台
-http://seb.sason.top/sc/tvbsxw_fhd.m3u8
+https://ythls.onrender.com/channel/UC5nwNW4KdC0SzrhF9BXEYOQ.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="三立新聞" tvg-logo="https://i.imgur.com/EGVbAvJ.png" group-title="港台频道",「TW」三立新聞
 http://seb.sason.top/sc/sllive_fhd.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="原住民電視" tvg-logo="https://i.imgur.com/QqIdVqz.png" group-title="港台频道",「TW」原住民電視
