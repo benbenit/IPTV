@@ -297,12 +297,44 @@ https://ythls.onrender.com/channel/UC7c6rvyAZLpKGk8ttVnpnLA.m3u8
 #EXTM3U
 #EXTINF:-1 tvg-id="" tvg-name="NHK G" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/NHK_General_TV_logo.svg/800px-NHK_General_TV_logo.svg.png" group-title="日韩频道",「JP」NHK総合
 https://nhk4.mov3.co/hls/nhk.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="NHK BS1" tvg-logo="https://www.hikaritv.net/resources/hikari/pc/images/ch_logo/ch220/bs101.png" group-title="日韩频道",「JP」NHK BS1
+https://code.vthanhtivi.pw/getlink/jptvvn/215/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="NHK BSP" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/21/NHK_BSプレミアム_新ロゴ.png" group-title="日韩频道",「JP」NHK BSプレミアム
+https://code.vthanhtivi.pw/getlink/jptvvn/216/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="NHK E" tvg-logo="https://img.discogs.com/A63jK_qkTXN-WDU6b4TumBpogDI=/fit-in/500x500/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/L-1390841-1513989715-5028.png.jpg" group-title="日韩频道",「JP」NHK Eテレ
+http://code.vthanhtivi.pw/getlink/jptvvn/214/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Fuji TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/Fuji_TV_logo.svg/1200px-Fuji_TV_logo.svg.png" group-title="日韩频道",「JP」フジテレビ
 https://fujitv4.mov3.co/hls/fujitv.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Nippon TV" tvg-logo="https://static.epg.best/jp/NipponTV.jp.png" group-title="日韩频道",「JP」日本テレビ
-https://ntv4.mov3.co/hls/ntv.m3u8
+https://code.vthanhtivi.pw/getlink/jptvvn/217/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TV Asahi" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/TV_Asahi_Logo.svg/300px-TV_Asahi_Logo.svg.png" group-title="日韩频道",「JP」テレビ朝日
+http://code.vthanhtivi.pw/getlink/jptvvn/205/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Kansai TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Ktv_logo.svg/1200px-Ktv_logo.svg.png" group-title="日韩频道",「JP」関西テレビ
+https://code.vthanhtivi.pw/getlink/jptvvn/210/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="BS Asahi" tvg-logo="https://yt3.ggpht.com/-FkWAXqmEgwA/AAAAAAAAAAI/AAAAAAAAAAA/JiEyTIJj6qg/s900-c-k-no/photo.jpg" group-title="日韩频道",「JP」BS朝日
+https://code.vthanhtivi.pw/getlink/jptvvn/218/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="BS Fuji" tvg-logo="https://www.zne-iptv.com/wp-content/uploads/2017/10/22-BS-FUJI-770x480.jpg" group-title="日韩频道",「JP」BSフジ
+https://code.vthanhtivi.pw/getlink/jptvvn/221/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="BS Nippon" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/BS4_logo.svg/400px-BS4_logo.svg.png" group-title="日韩频道",「JP」BS日テレ
+https://code.vthanhtivi.pw/getlink/jptvvn/217/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="BS TV Tokyo" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d8/BS_TV_Tokyo_logo.png" group-title="日韩频道",「JP」BSテレビ東京
+https://code.vthanhtivi.pw/getlink/jptvvn/220/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="BS TBS" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-0004-161-400x400.png" group-title="日韩频道",「JP」BS TBS
+https://code.vthanhtivi.pw/getlink/jptvvn/219/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Gunma TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Gtv_logo_ja_01.svg/500px-Gtv_logo_ja_01.svg.png" group-title="日韩频道",「JP」群馬テレビ
 https://movie.mcas.jp/switcher/smil:mcas8.smil/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Animax" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Animax_logo.svg/2880px-Animax_logo.svg.png" group-title="日韩频道",「JP」ANIMAX
+https://code.vthanhtivi.pw/getlink/jptvvn/229/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Disney Channel Japan" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/78/Disney_Channel_Germany_Logo_2014.png" group-title="日韩频道",「JP」Disney Channel
+https://code.vthanhtivi.pw/getlink/jptvvn/39/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Disney Junior Japan" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/7f/Disney_Junior_Logo_2020.png" group-title="日韩频道",「JP」Disney Junior
+https://code.vthanhtivi.pw/getlink/jptvvn/71/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="MTV Japan" tvg-logo="" group-title="日韩频道",「JP」MTV Japan
+https://code.vthanhtivi.pw/getlink/jptvvn/50/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Neco" tvg-logo="https://www.necoweb.com/neco/assets/images/header_neco@2x.png" group-title="日韩频道",「JP」映画・チャンネルNECO
+https://code.vthanhtivi.pw/getlink/jptvvn/56/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Eisei Gekijo" tvg-logo="https://korean-dorama.com/wp-content/uploads/2018/06/eiseigekijyo.jpg" group-title="日韩频道",「JP」衛星劇場
+https://code.vthanhtivi.pw/getlink/jptvvn/57/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Tokyo MX1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Tokyo_metropolitan_television_logo_%28rainbow%29.svg/600px-Tokyo_metropolitan_television_logo_%28rainbow%29.svg.png" group-title="日韩频道",「JP」Tokyo MX 1
 https://movie.mcas.jp/mcas/smil:mx1_prod.smil/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Tokyo MX2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Tokyo_metropolitan_television_logo_%28rainbow%29.svg/600px-Tokyo_metropolitan_television_logo_%28rainbow%29.svg.png" group-title="日韩频道",「JP」Tokyo MX 2
