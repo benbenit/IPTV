@@ -245,18 +245,26 @@ https://ythls.onrender.com/channel/UC7c6rvyAZLpKGk8ttVnpnLA.m3u8
 #EXTM3U
 #EXTINF:-1 tvg-id="" tvg-name="NHK G" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/NHK_General_TV_logo.svg/800px-NHK_General_TV_logo.svg.png" group-title="日韩频道",「JP」NHK総合
 https://nhk4.mov3.co/hls/nhk.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="NHK E" tvg-logo="https://img.discogs.com/A63jK_qkTXN-WDU6b4TumBpogDI=/fit-in/500x500/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/L-1390841-1513989715-5028.png.jpg" group-title="日韩频道",「JP」NHK Eテレ
+http://202.60.106.14:8080/1302/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Fuji TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/Fuji_TV_logo.svg/1200px-Fuji_TV_logo.svg.png" group-title="日韩频道",「JP」フジテレビ
 https://fujitv4.mov3.co/hls/fujitv.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Nippon TV" tvg-logo="https://static.epg.best/jp/NipponTV.jp.png" group-title="日韩频道",「JP」日本テレビ
 https://ntv4.mov3.co/hls/ntv.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Gunma TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Gtv_logo_ja_01.svg/500px-Gtv_logo_ja_01.svg.png" group-title="日韩频道",「JP」群馬テレビ
 https://movie.mcas.jp/switcher/smil:mcas8.smil/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Disney Channel Japan" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/78/Disney_Channel_Germany_Logo_2014.png" group-title="日韩频道",「JP」Disney Channel
+http://202.60.106.14:8080/1344/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Disney Junior Japan" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/7f/Disney_Junior_Logo_2020.png" group-title="日韩频道",「JP」Disney Junior
+http://202.60.106.14:8080/1338/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Tokyo MX1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Tokyo_metropolitan_television_logo_%28rainbow%29.svg/600px-Tokyo_metropolitan_television_logo_%28rainbow%29.svg.png" group-title="日韩频道",「JP」Tokyo MX 1
 https://movie.mcas.jp/mcas/mx1_2/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Tokyo MX2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Tokyo_metropolitan_television_logo_%28rainbow%29.svg/600px-Tokyo_metropolitan_television_logo_%28rainbow%29.svg.png" group-title="日韩频道",「JP」Tokyo MX 2
 https://movie.mcas.jp/mcas/mx2_2/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Weathernews" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Weathernews_logo.svg/1200px-Weathernews_logo.svg.png" group-title="日韩频道",「JP」ウェザーニュース
 https://ythls.onrender.com/channel/UCNsidkYpIAQ4QaufptQBPHQ.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="KBS 1" tvg-logo="" group-title="日韩频道",「KR」KBS 1
+http://202.60.106.14:8080/200/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="KBS Drama" tvg-logo="" group-title="日韩频道",「KR」KBS Drama
 http://mytv.dothome.co.kr/ch/catv/2.php
 #EXTINF:-1 tvg-id="" tvg-name="KBS Joy" tvg-logo="" group-title="日韩频道",「KR」KBS Joy
