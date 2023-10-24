@@ -347,8 +347,6 @@ http://32.shqiptv.org/korca/albplus/index.m3u8
 http://hls-igi.cdnvideo.ru/igi/igi_hq/playlist.m3u8?zshijd
 #EXTINF:-1 tvg-id="" tvg-name="TivikomUlan-Udje" tvg-logo="" group-title="欧美频道",「RU」TivikomUlan-Udje
 http://tvcom.stream.intelema.ru/tvcom/studio/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UniverTV" tvg-logo="" group-title="欧美频道",「RU」UniverTV
-http://cdn.universmotri.ru/live/hq.sdp/chunklist_w1792531.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Орск" tvg-logo="" group-title="欧美频道",「RU」Орск
 http://infochhdcdn.trkeurasia.ru/orsk-infochhd/infochhd/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Самара" tvg-logo="" group-title="欧美频道",「RU」Самара
