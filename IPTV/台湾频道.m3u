@@ -1,5 +1,3 @@
-#EXTINF:-1 tvg-id="" tvg-name="中天新聞台" tvg-logo="https://i.imgur.com/u81tZtA.png" group-title="港台频道",「TW」中天新聞台
-https://ythlsgo.onrender.com/channel/UC5l1Yto5oOIgRXlI4p4VKbw.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="中天綜合台" tvg-logo="https://i.imgur.com/tqsKObw.png" group-title="港台频道",「TW」中天綜合台
 http://23.237.10.66:16372
 #EXTINF:-1 tvg-id="" tvg-name="華視" tvg-logo="https://i.imgur.com/ISl9WsI.png" group-title="港台频道",「TW」華視
@@ -18,8 +16,6 @@ http://seb.sason.top/sc/dscjxw_fhd.m3u8
 http://seb.sason.top/sc/dsxw_fhd.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="民視" tvg-logo="https://i.imgur.com/q8ahtbT.png" group-title="港台频道",「TW」民視
 http://seb.sason.top/ptv/ftv.php?id=ms
-#EXTINF:-1 tvg-id="" tvg-name="民視新聞台" tvg-logo="https://i.imgur.com/j9Gebr5.png" group-title="港台频道",「TW」民視新聞台
-https://ythlsgo.onrender.com/channel/UC2VmWn8dAqkzlQqvy02E1PA.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="民視第一台" tvg-logo="https://i.imgur.com/HBT2o0I.png" group-title="港台频道",「TW」民視第一台
 http://seb.sason.top/ptv/ftv.php?id=dy
 #EXTINF:-1 tvg-id="" tvg-name="GOOD TV CH1 綜合台 " tvg-logo="https://i.imgur.com/k28Kc3o.png" group-title="港台频道",「TW」Good1
@@ -29,7 +25,7 @@ https://live.streamingfast.net/osmflivech2.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="TVBS Asia" tvg-logo="https://i.imgur.com/4S1rkhm.png" group-title="港台频道",「TW」TVBS亚洲台
 http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="TVBS News" tvg-logo="https://i.imgur.com/171lwfg.png" group-title="港台频道",「TW」TVBS新聞台
-https://ythlsgo.onrender.com/channel/UC5nwNW4KdC0SzrhF9BXEYOQ.m3u8
+http://seb.sason.top/sc/tvbsxw_fhd.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="三立新聞" tvg-logo="https://i.imgur.com/EGVbAvJ.png" group-title="港台频道",「TW」三立新聞
 http://seb.sason.top/sc/sllive_fhd.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="原住民電視" tvg-logo="https://i.imgur.com/QqIdVqz.png" group-title="港台频道",「TW」原住民電視
@@ -40,5 +36,3 @@ https://ythlsgo.onrender.com/channel/UC8ROUUjHzEQm-ndb69CX8Ww.m3u8
 https://ythlsgo.onrender.com/channel/UC8ROUUjHzEQm-ndb69CX8Ww.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="唯心電視" tvg-logo="https://i.imgur.com/s8tiTeb.png" group-title="港台频道",「TW」唯心電視 
 https://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/chunklist_w1177047531.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Taiwan Plus " tvg-logo="https://i.imgur.com/SfcZyqm.png" group-title="港台频道",「TW」Taiwan Plus 
-https://ythlsgo.onrender.com/channel/UC7c6rvyAZLpKGk8ttVnpnLA.m3u8
