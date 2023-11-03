@@ -1,3 +1,5 @@
+#EXTINF:-1 tvg-id="" tvg-name="中天新聞台" tvg-logo="https://i.imgur.com/u81tZtA.png" group-title="港台频道",「TW」中天新聞台
+https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV28.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="中天綜合台" tvg-logo="https://i.imgur.com/tqsKObw.png" group-title="港台频道",「TW」中天綜合台
 http://23.237.10.66:16372
 #EXTINF:-1 tvg-id="" tvg-name="華視" tvg-logo="https://i.imgur.com/ISl9WsI.png" group-title="港台频道",「TW」華視
@@ -36,3 +38,5 @@ https://ythlsgo.onrender.com/channel/UC8ROUUjHzEQm-ndb69CX8Ww.m3u8
 https://ythlsgo.onrender.com/channel/UC8ROUUjHzEQm-ndb69CX8Ww.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="唯心電視" tvg-logo="https://i.imgur.com/s8tiTeb.png" group-title="港台频道",「TW」唯心電視 
 https://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/chunklist_w1177047531.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Taiwan Plus " tvg-logo="https://i.imgur.com/SfcZyqm.png" group-title="港台频道",「TW」Taiwan Plus 
+https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV78.m3u8
