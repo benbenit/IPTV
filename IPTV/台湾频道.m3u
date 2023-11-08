@@ -33,9 +33,7 @@ http://seb.sason.top/sc/sllive_fhd.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="原住民電視" tvg-logo="https://i.imgur.com/QqIdVqz.png" group-title="港台频道",「TW」原住民電視
 http://streamipcf.akamaized.net/live/_definst_/live_720/key_b1500.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="台视" tvg-logo="https://i.imgur.com/JB2Ps5T.png" group-title="港台频道",「TW」台视 
-https://ythlsgo.onrender.com/channel/UC8ROUUjHzEQm-ndb69CX8Ww.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="TTV News" tvg-logo="https://i.imgur.com/AfkK0gv.png" group-title="港台频道",「TW」台视新闻
-https://ythlsgo.onrender.com/channel/UC8ROUUjHzEQm-ndb69CX8Ww.m3u8
+http://162.19.247.76:22222/live/taishi/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="唯心電視" tvg-logo="https://i.imgur.com/s8tiTeb.png" group-title="港台频道",「TW」唯心電視 
 https://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/chunklist_w1177047531.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Taiwan Plus " tvg-logo="https://i.imgur.com/SfcZyqm.png" group-title="港台频道",「TW」Taiwan Plus 
