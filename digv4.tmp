@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:-1,tvg-id="" tvg-name="五星体育" tvg-logo="https://epg.112114.eu.org/logo/五星体育.png" group-title="数字频道",五星体育
+http://live.aptvapp.com/PLTV/bestv.php?id=wxtyhd8m/8000000
 #EXTINF:-1,tvg-id="" tvg-name="" tvg-logo="https://epg.112114.eu.org/logo/CGTN英语.png" group-title="数字频道",CGTN英语
 http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221225747/2/index.m3u8
 #EXTINF:-1,tvg-id="" tvg-name="" tvg-logo="https://epg.112114.eu.org/logo/CGTN记录.png" group-title="数字频道",CGTN记录
