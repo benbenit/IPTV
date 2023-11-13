@@ -10,7 +10,7 @@ http://fxgm.fxjf.work:9901/tsfile/live/0004_1.m3u8
 #EXTINF:-1 tvg-id="5" tvg-name="CCTV5" tvg-logo="https://upload.112114.xyz/logo/CCTV5.png" group-title="央视频道",CCTV-5 体育
 http://fxgm.fxjf.work:9901/tsfile/live/0005_1.m3u8
 #EXTINF:-1 tvg-id="5+" tvg-name="CCTV5+" tvg-logo="https://upload.112114.xyz/logo/CCTV5+.png" group-title="央视频道",CCTV-5+ 体育赛事
-http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226221/index.m3u8
+http://[2409:8087:2001:20:2800:0:df6e:eb26]/ott.mobaibox.com/PLTV/1/224/3221228277/index.m3u8
 #EXTINF:-1 tvg-id="6" tvg-name="CCTV6" tvg-logo="https://upload.112114.xyz/logo/CCTV6.png" group-title="央视频道",CCTV-6 电影
 http://fxgm.fxjf.work:9901/tsfile/live/0006_1.m3u8
 #EXTINF:-1 tvg-id="7" tvg-name="CCTV7" tvg-logo="https://upload.112114.xyz/logo/CCTV7.png" group-title="央视频道",CCTV-7 国防军事
