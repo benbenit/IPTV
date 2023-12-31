@@ -1,15 +1,9 @@
-#EXTINF:-1 tvg-id="" tvg-name="MovieKingdom" tvg-logo="" group-title="欧美频道",「US」MovieKingdom
-https://a.jsrdn.com/broadcast/e9b4093a41/%2B0000/high/c.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Newsma xTV" tvg-logo="" group-title="欧美频道",「US」Newsma xTV
 http://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="PBSAmerica" tvg-logo="" group-title="欧美频道",「US」PBSAmerica
-https://pbs-samsunguk.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Retro TV" tvg-logo="" group-title="欧美频道",「US」Retro TV
-http://592f16fa90d9b.streamlock.net/retrotv/smil:retrotv2.smil/chunklist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="WOW TV" tvg-logo="" group-title="欧美频道",「US」WOW TV
 http://cdn.elsalvadordigital.com:1935/wowtv/wowtv/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="CA" tvg-logo="" group-title="欧美频道",「CA」CA
-#EXTINF:-1 group-title="•地区",「广东」深圳电视剧
+#EXTINF:-1 group-title="•地区",「广东」深圳东部
 #EXTINF:-1 tvg-id="" tvg-name="CanadaOne" tvg-logo="" group-title="欧美频道",「CA」CanadaOne
 http://cdn8.live247stream.com/canadaone/tv/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="TheShoppingChannel" tvg-logo="" group-title="欧美频道",「CA」TheShoppingChannel
