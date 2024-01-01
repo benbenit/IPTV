@@ -6,7 +6,7 @@ http://203.162.235.41:15094
 #EXTINF:-1 tvg-id="" tvg-name="Nippon TV" tvg-logo="https://static.epg.best/jp/NipponTV.jp.png" group-title="日韩频道",「JP」日本テレビ
 http://203.162.235.41:16095
 #EXTINF:-1 tvg-id="" tvg-name="TV Asahi" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/TV_Asahi_Logo.svg/300px-TV_Asahi_Logo.svg.png" group-title="日韩频道",「JP」テレビ朝日
-http://203.162.235.41:17097
+http://203.162.235.41:18097
 #EXTINF:-1 tvg-id="" tvg-name="AT-X" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/AT-X_logo.svg/2880px-AT-X_logo.svg.png" group-title="日韩频道",「JP」AT-X
 http://asia.vthanhtivi.pw/AT-X/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="MTV Japan" tvg-logo="" group-title="日韩频道",「JP」MTV Japan
