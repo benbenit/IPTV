@@ -1,23 +1,23 @@
 #EXTINF:-1 tvg-id="" tvg-name="风云剧场" tvg-logo="https://epg.112114.xyz/logo/风云剧场.png" group-title="数字频道",风云剧场
-http://148.135.93.213:81/ysp.php?id=fyjc
+http://175.178.236.58:8088/china/ysp.php?ch=fyjc
 #EXTINF:-1 tvg-id="" tvg-name="风云音乐" tvg-logo="https://epg.112114.xyz/logo/风云音乐.png" group-title="数字频道",风云音乐
-http://148.135.93.213:81/ysp.php?id=fyyy
+http://175.178.236.58:8088/china/ysp.php?ch=fyyy
 #EXTINF:-1 tvg-id="" tvg-name="第一剧场" tvg-logo="https://epg.112114.xyz/logo/第一剧场.png" group-title="数字频道",第一剧场
-http://148.135.93.213:81/ysp.php?id=dyjc
+http://175.178.236.58:8088/china/ysp.php?ch=dyjc
 #EXTINF:-1 tvg-id="" tvg-name="女性时尚" tvg-logo="https://epg.112114.xyz/logo/女性时尚.png" group-title="数字频道",女性时尚
-http://148.135.93.213:81/ysp.php?id=nxss
+http://175.178.236.58:8088/china/ysp.php?ch=nxss
 #EXTINF:-1 tvg-id="" tvg-name="风云足球" tvg-logo="https://epg.112114.xyz/logo/风云足球.png" group-title="数字频道",风云足球
-http://148.135.93.213:81/ysp.php?id=fyzq
+http://175.178.236.58:8088/china/ysp.php?ch=fyzq
 #EXTINF:-1 tvg-id="" tvg-name="兵器科技" tvg-logo="https://epg.112114.xyz/logo/BQKJ.png" group-title="数字频道",兵器科技
-http://148.135.93.213:81/ysp.php?id=bqkj
+http://175.178.236.58:8088/china/ysp.php?ch=bqkj
 #EXTINF:-1 tvg-id="" tvg-name="怀旧剧场" tvg-logo="https://epg.112114.xyz/logo/HJJC.png" group-title="数字频道",怀旧剧场
-http://148.135.93.213:81/ysp.php?id=hjjc
+http://175.178.236.58:8088/china/ysp.php?ch=hjjc
 #EXTINF:-1 tvg-id="" tvg-name="世界地理" tvg-logo="https://epg.112114.xyz/logo/SJDL.png" group-title="数字频道",世界地理
-http://148.135.93.213:81/ysp.php?id=sjdl
+http://175.178.236.58:8088/china/ysp.php?ch=sjdl
 #EXTINF:-1 tvg-id="" tvg-name="央视台球" tvg-logo="https://epg.112114.xyz/logo/YSTQ.png" group-title="数字频道",央视台球
-http://148.135.93.213:81/ysp.php?id=ystq
+http://175.178.236.58:8088/china/ysp.php?ch=ystq
 #EXTINF:-1 tvg-id="" tvg-name="电视指南" tvg-logo="https://live.fanmingming.com/tv/电视指南.png" group-title="数字频道",电视指南
-http://148.135.93.213:81/ysp.php?id=dszn
+http://175.178.236.58:8088/china/ysp.php?ch=dszn
 #EXTINF:-1 tvg-id="" tvg-name="欢笑剧场" tvg-logo="http://live.cooltv.top/logo/hxjc.png" group-title="数字频道",欢笑剧场
 http://148.135.93.213:81/sxg.php?id=hxjc-4k_8000
 #EXTINF:-1 tvg-id="" tvg-name="CHC动作电影" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CHC1.jpg" group-title="数字频道",动作电影
