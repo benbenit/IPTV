@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV1" tvg-logo="https://upload.112114.xyz/logo/CCTV-1.png" group-title="央视频道",CCTV-1 综合
-http://1.117.143.147/ysp.php?ch=cctv1
+http://39.136.18.199/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225777/1/index.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-id="2" tvg-name="CCTV2" tvg-logo="https://upload.112114.xyz/logo/CCTV2.png" group-title="央视频道",CCTV-2 财经
 http://1.117.143.147/ysp.php?ch=cctv2
 #EXTINF:-1 tvg-id="3" tvg-name="CCTV3" tvg-logo="https://upload.112114.xyz/logo/CCTV3.png" group-title="央视频道",CCTV-3 综艺
