@@ -1,23 +1,23 @@
 #EXTINF:-1 tvg-id="" tvg-name="风云剧场" tvg-logo="https://epg.112114.xyz/logo/风云剧场.png" group-title="数字频道",风云剧场
-http://101.43.3.246/ysp.php?ch=fyjc
+http://1.117.143.147/ysp.php?ch=fyjc
 #EXTINF:-1 tvg-id="" tvg-name="风云音乐" tvg-logo="https://epg.112114.xyz/logo/风云音乐.png" group-title="数字频道",风云音乐
-http://101.43.3.246/ysp.php?ch=fyyy
+http://1.117.143.147/ysp.php?ch=fyyy
 #EXTINF:-1 tvg-id="" tvg-name="第一剧场" tvg-logo="https://epg.112114.xyz/logo/第一剧场.png" group-title="数字频道",第一剧场
-http://101.43.3.246/ysp.php?ch=dyjc
+http://1.117.143.147/ysp.php?ch=dyjc
 #EXTINF:-1 tvg-id="" tvg-name="女性时尚" tvg-logo="https://epg.112114.xyz/logo/女性时尚.png" group-title="数字频道",女性时尚
-http://101.43.3.246/ysp.php?ch=nxss
+http://1.117.143.147/ysp.php?ch=nxss
 #EXTINF:-1 tvg-id="" tvg-name="风云足球" tvg-logo="https://epg.112114.xyz/logo/风云足球.png" group-title="数字频道",风云足球
-http://101.43.3.246/ysp.php?ch=fyzq
+http://1.117.143.147/ysp.php?ch=fyzq
 #EXTINF:-1 tvg-id="" tvg-name="兵器科技" tvg-logo="https://epg.112114.xyz/logo/BQKJ.png" group-title="数字频道",兵器科技
-http://101.43.3.246/ysp.php?ch=bqkj
+http://1.117.143.147/ysp.php?ch=bqkj
 #EXTINF:-1 tvg-id="" tvg-name="怀旧剧场" tvg-logo="https://epg.112114.xyz/logo/HJJC.png" group-title="数字频道",怀旧剧场
-http://101.43.3.246/ysp.php?ch=hjjc
+http://1.117.143.147/ysp.php?ch=hjjc
 #EXTINF:-1 tvg-id="" tvg-name="世界地理" tvg-logo="https://epg.112114.xyz/logo/SJDL.png" group-title="数字频道",世界地理
-http://101.43.3.246/ysp.php?ch=sjdl
+http://1.117.143.147/ysp.php?ch=sjdl
 #EXTINF:-1 tvg-id="" tvg-name="央视台球" tvg-logo="https://epg.112114.xyz/logo/YSTQ.png" group-title="数字频道",央视台球
-http://101.43.3.246/ysp.php?ch=ystq
+http://1.117.143.147/ysp.php?ch=ystq
 #EXTINF:-1 tvg-id="" tvg-name="电视指南" tvg-logo="https://live.fanmingming.com/tv/电视指南.png" group-title="数字频道",电视指南
-http://101.43.3.246/ysp.php?ch=dszn
+http://1.117.143.147/ysp.php?ch=dszn
 #EXTINF:-1 tvg-id="" tvg-name="CHC动作电影" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CHC1.jpg" group-title="数字频道",动作电影
 http://[2409:8087:7001:20:2::3]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226465/1.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="CHC高清电影" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CHC3.jpg" group-title="数字频道",高清电影
