@@ -1,0 +1,45 @@
+#EXTM3U x-tvg-url="http://epg.51zmt.top:8000/e.xml"  url-tvg="https://epg.hklive.tv"  url-tvg="https://epg.112114.xyz/pp.xml"
+#EXTINF:-1 tvg-id="126" tvg-name="翡翠台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVB翡翠台.png" group-title="港台",翡翠台
+http://23.237.10.66:16410?%241280x720
+#EXTINF:-1 tvg-id="126" tvg-name="翡翠台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVB翡翠台.png" group-title="港台",翡翠台
+http://r.jdshipin.com/62WM7
+#EXTINF:-1 tvg-id="126" tvg-name="翡翠台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVB翡翠台.png" group-title="港台",翡翠台
+http://r.jdshipin.com/n90gt
+#EXTINF:-1 tvg-id="126" tvg-name="翡翠台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVB翡翠台.png" group-title="港台",华丽翡翠台
+http://r.jdshipin.com/thuYX
+#EXTINF:-1 tvg-id="416" tvg-name="J2" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVBJ2.png" group-title="港台",J2
+http://r.jdshipin.com/Nr5jq
+#EXTINF:-1 tvg-id="408" tvg-name="ViuTV" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/viutv.png" group-title="港台",ViuTV
+http://r.jdshipin.com/vSJvl
+#EXTINF:-1 tvg-id="126" tvg-name="翡翠台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVB翡翠台.png" group-title="港台",翡翠台
+http://r.jdshipin.com/62WM7
+#EXTINF:-1 tvg-id="126" tvg-name="翡翠台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVB翡翠台.png" group-title="港台",翡翠台
+http://r.jdshipin.com/n90gt
+#EXTINF:-1 tvg-id="126" tvg-name="翡翠台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVB翡翠台.png" group-title="港台",华丽翡翠台
+http://r.jdshipin.com/thuYX
+#EXTINF:-1 tvg-id="416" tvg-name="J2" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVBJ2.png" group-title="港台",J2
+http://r.jdshipin.com/Nr5jq
+#EXTINF:-1 tvg-id="126" tvg-name="翡翠台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVB翡翠台.png" group-title="港台",翡翠台
+http://23.237.10.66:16410
+#EXTINF:-1 tvg-id="126" tvg-name="翡翠台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVB翡翠台.png" group-title="港台",華麗翡翠台
+http://2022.stream-link.org/live/1684250157
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="港台", 八度空間
+http://2022.stream-link.org/live/1753190198
+#EXTINF:-1 tvg-id="126" tvg-name="翡翠台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVB翡翠台.png" group-title="港台",翡翠台
+http://2022.stream-link.org/live/131217689
+#EXTINF:-1 tvg-id="416" tvg-name="J2" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVBJ2.png" group-title="港台",J2
+http://2022.stream-link.org/live/1869661640
+#EXTINF:-1 tvg-id="130" tvg-name="无线新闻" tvg-logo="https://www.hkdtmb.com/png_logo/83.png" group-title="港台",無綫新聞台
+http://2022.stream-link.org/live/1488149502
+#EXTINF:-1 tvg-id="133" tvg-name="无线财经" tvg-logo="https://www.hkdtmb.com/png_logo/85.png" group-title="港台",無綫財經資訊台
+http://2022.stream-link.org/live/201000012
+#EXTINF:-1 tvg-id="7122" tvg-name="有线新闻台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/youxianxinwen.png" group-title="港台",有線新聞台
+http://2022.stream-link.org/live/970235901
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="港台",有線財經資訊台
+http://2022.stream-link.org/live/1757618804
+#EXTINF:-1 tvg-id="77" tvg-name="香港開電視" tvg-logo="https://www.hklive.tv/png_logo/77.png" group-title="港台",開電視
+http://2022.stream-link.org/live/322793772
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="港台",開電視資訊台
+http://2022.stream-link.org/live/237166685
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="港台",國際財經台
+http://2022.stream-link.org/live/1737572864
