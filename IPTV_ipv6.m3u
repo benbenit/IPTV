@@ -317,6 +317,8 @@ https://mcas-eqms-mx1-live.hls.davlive.stream.ne.jp/mt/master/340f27cd590451b1e7
 https://weather-live-hls01e.akamaized.net/ade36978-4ad3-48de-91ab-7d6edd0b6388/11ed8ed8ca.ism/manifest(format=m3u8-aapl-v3,audio-only=false).m3u8
 #EXTINF:-1 tvg-id="" tvg-name="KBS 1" tvg-logo="" group-title="日韩频道",「KR」KBS 1
 http://202.60.106.14:8080/200/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="KBS 2" tvg-logo="" group-title="日韩频道",「KR」KBS 2
+http://mytv.dothome.co.kr/ch/public/3.php
 #EXTINF:-1 tvg-id="" tvg-name="KBS Drama" tvg-logo="" group-title="日韩频道",「KR」KBS Drama
 http://mytv.dothome.co.kr/ch/catv/2.php
 #EXTINF:-1 tvg-id="" tvg-name="KBS Joy" tvg-logo="" group-title="日韩频道",「KR」KBS Joy
