@@ -303,7 +303,7 @@ jobs:
     - name: 体育频道
       if: env.GET == 'true'
       run: |
-        cat 2.tmp 1.tmp  > tiyu.tmp
+        cat 2.tmp > tiyu.tmp
         awk '
         {
            if($0~/\#EXTM3U/) {print $0};
