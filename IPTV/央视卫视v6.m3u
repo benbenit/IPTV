@@ -25,7 +25,7 @@ http://[2409:8087:7001:20:3::2]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3
 http://[2409:8087:7001:20:3::5]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226240/index.m3u8
 #EXTINF:-1 tvg-id="12" tvg-name="CCTV12" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/CCTV12.png" group-title="央视频道",CCTV-12 社会与法
 http://[2409:8087:7001:20:3::6]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226190/index.m3u8
-#EXTINF:-1 tvg-id="13" tvg-name="CCTV13" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/CCTV13.pngg" group-title="央视频道",CCTV-13 新闻
+#EXTINF:-1 tvg-id="13" tvg-name="CCTV13" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/CCTV13.png" group-title="央视频道",CCTV-13 新闻
 http://[2409:8087:7001:20:3::2]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226233/index.m3u8
 #EXTINF:-1 tvg-id="14" tvg-name="CCTV14" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/CCTV14.png" group-title="央视频道",CCTV-14 少儿
 http://[2409:8087:7001:20:3::2]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226193/index.m3u8
