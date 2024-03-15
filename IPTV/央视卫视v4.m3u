@@ -39,16 +39,16 @@ http://148.135.93.213:81/live.php?id=CCTV17
 http://[2409:8087:2001:20:2800:0:df6e:eb13]:80/ott.mobaibox.com/PLTV/3/224/3221228228/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="CCTV4K" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/CCTV8K.png" group-title="央视频道",CCTV-8K 超高清
 http://[2409:8087:2001:20:2800:0:df6e:eb13]:80/ott.mobaibox.com/PLTV/3/224/3221228228/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CGTN" tvg-logo="https://upload.112114.xyz/logo/CGTN.png" group-title="央视频道",CGTN 国际频道
+#EXTINF:-1 tvg-id="" tvg-name="CGTN" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/CGTN.png" group-title="央视频道",CGTN 国际频道
 http://live.cgtn.com/1000/prog_index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CGTN阿语" tvg-logo="https://upload.112114.xyz/logo/CGTNALBY.png" group-title="央视频道",CGTN 阿语频道
-http://livear.cgtn.com/1000a/prog_index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CGTN俄语" tvg-logo="https://upload.112114.xyz/logo/CGTNEY.png" group-title="央视频道",CGTN 俄语频道
-http://liveru.cgtn.com/1000r/prog_index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CGTN西语" tvg-logo="https://upload.112114.xyz/logo/CGTNXBYY.png" group-title="央视频道",CGTN 西语频道
+#EXTINF:-1 tvg-id="" tvg-name="CGTN西语" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/CGTN_Espanol" group-title="央视频道",CGTN 西语频道
 http://livees.cgtn.com/1000e/prog_index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CGTN法语" tvg-logo="https://upload.112114.xyz/logo/CGTNFY.png" group-title="央视频道",CGTN 法语频道
+#EXTINF:-1 tvg-id="" tvg-name="CGTN法语" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/CGTN_français" group-title="央视频道",CGTN 法语频道
 https://livefr.cgtn.com/1000f/prog_index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="CGTN阿语" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/CGTN_arabic" group-title="央视频道",CGTN 阿语频道
+http://livear.cgtn.com/1000a/prog_index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="CGTN俄语" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/CGTN_Russian" group-title="央视频道",CGTN 俄语频道
+http://liveru.cgtn.com/1000r/prog_index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="湖南卫视" tvg-logo="https://upload.112114.xyz/logo/HNTV.png" group-title="卫视频道",湖南卫视
 http://148.135.93.213:81/live.php?id=湖南卫视
 #EXTINF:-1,tvg-id="" tvg-name="浙江卫视" tvg-logo="https://upload.112114.xyz/logo/ZJTV.png" group-title="卫视频道",浙江卫视

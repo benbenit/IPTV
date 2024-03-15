@@ -35,16 +35,16 @@ http://[2409:8087:7001:20:3::4]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3
 http://[2409:8087:7001:20:3::9]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226921/index.m3u8
 #EXTINF:-1 tvg-id="17" tvg-name="CCTV17" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/CCTV17.png" group-title="央视频道",CCTV-17 农业农村
 http://[2409:8087:7001:20:3::5]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226198/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CGTN" tvg-logo="https://upload.112114.xyz/logo/CGTN.png" group-title="央视频道",CGTN 国际频道
+#EXTINF:-1 tvg-id="" tvg-name="CGTN" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/CGTN.png" group-title="央视频道",CGTN 国际频道
 http://[2409:8087:7000:20::4]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221225745/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CGTN阿语" tvg-logo="https://upload.112114.xyz/logo/CGTNALBY.png" group-title="央视频道",CGTN 阿语频道
-http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002826/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
-#EXTINF:-1 tvg-id="" tvg-name="CGTN俄语" tvg-logo="https://upload.112114.xyz/logo/CGTNEY.png" group-title="央视频道",CGTN 俄语频道
-http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002883/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
-#EXTINF:-1 tvg-id="" tvg-name="CGTN西语" tvg-logo="https://upload.112114.xyz/logo/CGTNXBYY.png" group-title="央视频道",CGTN 西语频道
+#EXTINF:-1 tvg-id="" tvg-name="CGTN西语" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/CGTN_Espanol" group-title="央视频道",CGTN 西语频道
 http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002716/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
-#EXTINF:-1 tvg-id="" tvg-name="CGTN法语" tvg-logo="https://upload.112114.xyz/logo/CGTNFY.png" group-title="央视频道",CGTN 法语频道
+#EXTINF:-1 tvg-id="" tvg-name="CGTN法语" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/CGTN_français" group-title="央视频道",CGTN 法语频道
 http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002827/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
+#EXTINF:-1 tvg-id="" tvg-name="CGTN阿语" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/CGTN_arabic" group-title="央视频道",CGTN 阿语频道
+http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002826/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
+#EXTINF:-1 tvg-id="" tvg-name="CGTN俄语" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/CGTN_Russian" group-title="央视频道",CGTN 俄语频道
+http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002883/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 #EXTINF:-1 tvg-id="" tvg-name="湖南卫视" tvg-logo="https://upload.112114.xyz/logo/HNTV.png" group-title="卫视频道",湖南卫视
 http://[2409:8087:7001:20:3::4]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221225799/index.m3u8
 #EXTINF:-1,tvg-id="" tvg-name="浙江卫视" tvg-logo="https://upload.112114.xyz/logo/ZJTV.png" group-title="卫视频道",浙江卫视
