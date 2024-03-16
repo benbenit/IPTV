@@ -103,7 +103,7 @@ http://[2409:8087:1a0b:df::4001]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/
 http://[2409:8087:1a0b:df::4004]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225632/index.m3u8
 #EXTINF:-1,tvg-id="" tvg-name="内蒙古卫视" tvg-logo="https://upload.112114.xyz/logo/NMGTV.png" group-title="卫视频道",内蒙古卫视
 http://[2409:8087:1a0b:df::4017]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225634/index.m3u8
-#EXTINF:-1,tvg-id="" tvg-name="陕西卫视" tvg-logo="https://upload.112114.xyz/logo/SXTV.png" group-title="卫视频道",陕西卫视
+#EXTINF:-1,tvg-id="" tvg-name="陕西卫视" tvg-logo="https://upload.112114.xyz/logo/sxys.png" group-title="卫视频道",陕西卫视
 http://[2409:8087:7001:20:3::9]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226326/index.m3u8
 #EXTINF:-1,tvg-id="" tvg-name="西藏卫视" tvg-logo="https://upload.112114.xyz/logo/XZTV.png" group-title="卫视频道",西藏卫视
 http://[2409:8087:7001:20:2::4]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226212/index.m3u8
