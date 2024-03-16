@@ -1,5 +1,5 @@
 #EXTINF:-1 tvg-id="1778" tvg-name="湖北卫视" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/HBWS1.png" group-title="本地频道",湖北卫视
-http://wh.re168.com:8089/udp/239.69.1.42:9892
+http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226406/index.m3u8
 #EXTINF:-1 tvg-id="1778" tvg-name="湖北综合频道" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/HBZH.png" group-title="本地频道",湖北综合
 http://wh.re168.com:8089/udp/239.69.1.42:9892
 #EXTINF:-1 tvg-id="1779" tvg-name="湖北影视频道" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/HBYS.png" group-title="本地频道",湖北影视
