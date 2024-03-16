@@ -113,19 +113,21 @@ http://[2409:8087:7001:20:3::3]:80/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3
 http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226516/index.m3u8
 #EXTINF:-1,tvg-id="" tvg-name="兵团卫视" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/BTTV_black.png" group-title="卫视频道",兵团卫视
 http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226439/index.m3u8
-#EXTINF:-1 tvg-id="1778" tvg-name="湖北综合频道" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/HUBEI2.png" group-title="本地频道",湖北综合
+#EXTINF:-1 tvg-id="1778" tvg-name="湖北卫视" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/HBWS1.png" group-title="本地频道",湖北卫视
 http://wh.re168.com:8089/udp/239.69.1.42:9892
-#EXTINF:-1 tvg-id="1779" tvg-name="湖北影视频道" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/HUBEI3.png" group-title="本地频道",湖北影视
+#EXTINF:-1 tvg-id="1778" tvg-name="湖北综合频道" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/HBZH.png" group-title="本地频道",湖北综合
+http://wh.re168.com:8089/udp/239.69.1.42:9892
+#EXTINF:-1 tvg-id="1779" tvg-name="湖北影视频道" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/HBYS.png" group-title="本地频道",湖北影视
 http://wh.re168.com:8089/udp/239.69.1.204:10866
-#EXTINF:-1 tvg-id="1780" tvg-name="湖北教育频道" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/HUBEI4.png" group-title="本地频道",湖北教育
+#EXTINF:-1 tvg-id="1780" tvg-name="湖北教育频道" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/HBJY.png" group-title="本地频道",湖北教育
 http://wh.re168.com:8089/udp/239.69.1.206:10878
-#EXTINF:-1 tvg-id="1781" tvg-name="湖北生活频道" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/HUBEI5.png" group-title="本地频道",湖北生活
+#EXTINF:-1 tvg-id="1781" tvg-name="湖北生活频道" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/HBSH.png" group-title="本地频道",湖北生活
 http://wh.re168.com:8089/udp/239.69.1.205:10872
-#EXTINF:-1 tvg-id="1783" tvg-name="湖北公共·新闻" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/HUBEI7.png" group-title="本地频道",湖北公共
+#EXTINF:-1 tvg-id="1783" tvg-name="湖北公共·新闻" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/HBGG.png" group-title="本地频道",湖北公共
 http://wh.re168.com:8089/udp/239.69.1.40:9880
-#EXTINF:-1 tvg-id="1784" tvg-name="湖北经视" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/HUBEI8.png" group-title="本地频道",湖北经视
+#EXTINF:-1 tvg-id="1784" tvg-name="湖北经视" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/HBJS.png" group-title="本地频道",湖北经视
 http://wh.re168.com:8089/udp/239.69.1.41:9886
-#EXTINF:-1 tvg-id="1785" tvg-name="湖北垄上频道" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/HBLS.png" group-title="本地频道",湖北垄上
+#EXTINF:-1 tvg-id="1785" tvg-name="湖北垄上频道" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/HBLS.png" group-title="本地频道",湖北垄上
 http://wh.re168.com:8089/udp/239.69.1.43:9898
 #EXTINF:-1 tvg-id="1787" tvg-name="武汉新闻综合频道" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/WHTV1.png" group-title="本地频道",武汉新闻综合
 http://wh.re168.com:8089/udp/239.69.1.145:10506
