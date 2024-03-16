@@ -23,17 +23,17 @@
 
 
 
-#EXTINF:-1 tvg-id="" tvg-name="CGTN" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/CGTN.png" group-title="央视频道",CGTN 国际频道
+#EXTINF:-1 tvg-id="" tvg-name="CGTN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CGTN.svg/800px-CGTN.svg.png" group-title="央视频道",CGTN 国际频道
 http://live.cgtn.com/1000/prog_index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CGTN西语" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/CGTN_Espanol.png" group-title="央视频道",CGTN 西语频道
+#EXTINF:-1 tvg-id="" tvg-name="CGTN西语" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9c/CGTN_Espanol.png" group-title="央视频道",CGTN 西语频道
 http://livees.cgtn.com/1000e/prog_index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CGTN法语" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/CGTN_français.png" group-title="央视频道",CGTN 法语频道
+#EXTINF:-1 tvg-id="" tvg-name="CGTN法语" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/78/CGTN_-_français.png" group-title="央视频道",CGTN 法语频道
 https://news.cgtn.com/resource/live/french/cgtn-f.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CGTN阿语" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/CGTN_arabic.png" group-title="央视频道",CGTN 阿语频道
+#EXTINF:-1 tvg-id="" tvg-name="CGTN阿语" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/97/CGTN_arabic.png" group-title="央视频道",CGTN 阿语频道
 http://livear.cgtn.com/1000a/prog_index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CGTN俄语" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/CGTN_Russian.png" group-title="央视频道",CGTN 俄语频道
+#EXTINF:-1 tvg-id="" tvg-name="CGTN俄语" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0c/CGTN_Russian.png" group-title="央视频道",CGTN 俄语频道
 http://liveru.cgtn.com/1000r/prog_index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CGTNDocumentary" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/CGTN_Documentary.png" group-title="央视频道",CGTN 纪录频道
+#EXTINF:-1 tvg-id="" tvg-name="CGTNDocumentary" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d6/CGTN_Documentary_logo.png" group-title="央视频道",CGTN 纪录频道
 http://livedoc.cgtn.com/1000d/prog_index.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="湖南卫视" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/SSAT_beta1/HNTV_black.png" group-title="卫视频道",湖南卫视
