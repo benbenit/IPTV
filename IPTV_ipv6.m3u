@@ -45,73 +45,73 @@ http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002827/index.m3
 http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002826/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 #EXTINF:-1 tvg-id="" tvg-name="CGTN俄语" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/CGTN_Russian.png" group-title="央视频道",CGTN 俄语频道
 http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002883/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
-#EXTINF:-1 tvg-id="" tvg-name="湖南卫视" tvg-logo="https://upload.112114.xyz/logo/HNTV.png" group-title="卫视频道",湖南卫视
+#EXTINF:-1 tvg-id="" tvg-name="湖南卫视" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/HNTV_black.png" group-title="卫视频道",湖南卫视
 http://[2409:8087:7001:20:3::4]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221225799/index.m3u8
-#EXTINF:-1,tvg-id="" tvg-name="浙江卫视" tvg-logo="https://upload.112114.xyz/logo/zjtv.png" group-title="卫视频道",浙江卫视
+#EXTINF:-1,tvg-id="" tvg-name="浙江卫视" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/ZJTV_black.png" group-title="卫视频道",浙江卫视
 http://[2409:8087:7001:20:3::3]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221225798/index.m3u8
-#EXTINF:-1,tvg-id="" tvg-name="江苏卫视" tvg-logo="https://upload.112114.xyz/logo/JSTV.png" group-title="卫视频道",江苏卫视
+#EXTINF:-1,tvg-id="" tvg-name="江苏卫视" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/JSTV_black.png" group-title="卫视频道",江苏卫视
 http://[2409:8087:7000:20::17]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221225800/index.m3u8
-#EXTINF:-1,tvg-id="" tvg-name="东方卫视" tvg-logo="https://upload.112114.xyz/logo/DFTV.png" group-title="卫视频道",东方卫视
+#EXTINF:-1,tvg-id="" tvg-name="东方卫视" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/DFTV_black.png" group-title="卫视频道",东方卫视
 http://[2409:8087:7001:20:3::6]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221225797/index.m3u8
-#EXTINF:-1,tvg-id="" tvg-name="北京卫视" tvg-logo="https://upload.112114.xyz/logo/BJTV.png" group-title="卫视频道",北京卫视
+#EXTINF:-1,tvg-id="" tvg-name="北京卫视" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/BJTV_black.png" group-title="卫视频道",北京卫视
 http://[2409:8087:7001:20:2::2]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221225796/index.m3u8
-#EXTINF:-1,tvg-id="" tvg-name="天津卫视" tvg-logo="https://upload.112114.xyz/logo/TJTV.png" group-title="卫视频道",天津卫视
+#EXTINF:-1,tvg-id="" tvg-name="天津卫视" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/TJTV_black.png" group-title="卫视频道",天津卫视
 http://[2409:8087:7001:20:3::3]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226204/index.m3u8
-#EXTINF:-1,tvg-id="" tvg-name="深圳卫视" tvg-logo="https://upload.112114.xyz/logo/sztv.png" group-title="卫视频道",深圳卫视
+#EXTINF:-1,tvg-id="" tvg-name="深圳卫视" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/sztv_black.png" group-title="卫视频道",深圳卫视
 http://[2409:8087:7000:20::15]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221225801/index.m3u8
-#EXTINF:-1,tvg-id="" tvg-name="广东卫视" tvg-logo="https://upload.112114.xyz/logo/GDTV.png" group-title="卫视频道",广东卫视
+#EXTINF:-1,tvg-id="" tvg-name="广东卫视" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/GDTV_black.png" group-title="卫视频道",广东卫视
 http://[2409:8087:7001:20:3::3]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221225803/index.m3u8
-#EXTINF:-1,tvg-id="" tvg-name="安徽卫视" tvg-logo="https://upload.112114.xyz/logo/AHTV.png" group-title="卫视频道",安徽卫视
+#EXTINF:-1,tvg-id="" tvg-name="安徽卫视" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/AHTV_black.png" group-title="卫视频道",安徽卫视
 http://[2409:8087:7001:20:3::6]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226196/index.m3u8
-#EXTINF:-1,tvg-id="" tvg-name="山东卫视" tvg-logo="https://upload.112114.xyz/logo/SDTV.png" group-title="卫视频道",山东卫视
+#EXTINF:-1,tvg-id="" tvg-name="山东卫视" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/SDTV_black.png" group-title="卫视频道",山东卫视
 http://[2409:8087:7001:20:3::3]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226209/index.m3u8
-#EXTINF:-1,tvg-id="" tvg-name="湖北卫视" tvg-logo="https://upload.112114.xyz/logo/HBTV.png" group-title="卫视频道",湖北卫视
+#EXTINF:-1,tvg-id="" tvg-name="湖北卫视" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/HBTV_black.png" group-title="卫视频道",湖北卫视
 http://[2409:8087:7001:20:3::3]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226206/index.m3u8
-#EXTINF:-1,tvg-id="" tvg-name="辽宁卫视" tvg-logo="https://upload.112114.xyz/logo/LNTV.png" group-title="卫视频道",辽宁卫视
+#EXTINF:-1,tvg-id="" tvg-name="辽宁卫视" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/LNTV_black.png" group-title="卫视频道",辽宁卫视
 http://[2409:8087:7001:20:2::4]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226201/index.m3u8
-#EXTINF:-1,tvg-id="" tvg-name="黑龙江卫视" tvg-logo="https://upload.112114.xyz/logo/HLJTV.png" group-title="卫视频道",黑龙江卫视
+#EXTINF:-1,tvg-id="" tvg-name="黑龙江卫视" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/HLJTV_black.png" group-title="卫视频道",黑龙江卫视
 http://[2409:8087:7000:20::f]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226010/index.m3u8
-#EXTINF:-1,tvg-id="" tvg-name="青海卫视" tvg-logo="https://upload.112114.xyz/logo/QHTV.png" group-title="卫视频道",青海卫视
+#EXTINF:-1,tvg-id="" tvg-name="青海卫视" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/QHTV_black.png" group-title="卫视频道",青海卫视
 http://[2409:8087:1a0b:df::4002]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225628/index.m3u8
-#EXTINF:-1,tvg-id="" tvg-name="甘肃卫视" tvg-logo="https://upload.112114.xyz/logo/GSTV.png" group-title="卫视频道",甘肃卫视
+#EXTINF:-1,tvg-id="" tvg-name="甘肃卫视" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/GSTV_black.png" group-title="卫视频道",甘肃卫视
 http://[2409:8087:1a0b:df::4005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225633/index.m3u8
-#EXTINF:-1,tvg-id="" tvg-name="云南卫视" tvg-logo="https://upload.112114.xyz/logo/YNTV.png" group-title="卫视频道",云南卫视
+#EXTINF:-1,tvg-id="" tvg-name="云南卫视" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/YNTV_black.png" group-title="卫视频道",云南卫视
 http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226444/index.m3u8
-#EXTINF:-1,tvg-id="" tvg-name="河北卫视" tvg-logo="https://upload.112114.xyz/logo/hbws.png" group-title="卫视频道",河北卫视
+#EXTINF:-1,tvg-id="" tvg-name="河北卫视" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/HBWS_black.png" group-title="卫视频道",河北卫视
 http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226406/index.m3u8
-#EXTINF:-1,tvg-id="" tvg-name="广西卫视" tvg-logo="https://upload.112114.xyz/logo/GXTV.png" group-title="卫视频道",广西卫视
+#EXTINF:-1,tvg-id="" tvg-name="广西卫视" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/GXTV_black.png" group-title="卫视频道",广西卫视
 http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226380/index.m3u8
-#EXTINF:-1,tvg-id="" tvg-name="四川卫视" tvg-logo="https://upload.112114.xyz/logo/SCTV.png" group-title="卫视频道",四川卫视
+#EXTINF:-1,tvg-id="" tvg-name="四川卫视" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/SCTV_black.png" group-title="卫视频道",四川卫视
 http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226338/index.m3u8
-#EXTINF:-1,tvg-id="" tvg-name="重庆卫视" tvg-logo="https://upload.112114.xyz/logo/CQTV.png" group-title="卫视频道",重庆卫视
+#EXTINF:-1,tvg-id="" tvg-name="重庆卫视" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/CQTV_black.png" group-title="卫视频道",重庆卫视
 http://[2409:8087:7000:20::18]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226202/index.m3u8
-#EXTINF:-1,tvg-id="" tvg-name="东南卫视" tvg-logo="https://upload.112114.xyz/logo/DNTV.png" group-title="卫视频道",东南卫视
+#EXTINF:-1,tvg-id="" tvg-name="东南卫视" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/DNTV_black.png" group-title="卫视频道",东南卫视
 http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226341/index.m3u8
-#EXTINF:-1,tvg-id="" tvg-name="新疆卫视" tvg-logo="https://upload.112114.xyz/logo/XJTV.png" group-title="卫视频道",新疆卫视
+#EXTINF:-1,tvg-id="" tvg-name="新疆卫视" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/XJTV_black.png" group-title="卫视频道",新疆卫视
 http://[2409:8087:1a0b:df::4005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225635/index.m3u8
-#EXTINF:-1,tvg-id="" tvg-name="河南卫视" tvg-logo="https://upload.112114.xyz/logo/HNWS.png" group-title="卫视频道",河南卫视
+#EXTINF:-1,tvg-id="" tvg-name="河南卫视" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/HNWS_black.png" group-title="卫视频道",河南卫视
 http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226480/index.m3u8
-#EXTINF:-1,tvg-id="" tvg-name="吉林卫视" tvg-logo="https://upload.112114.xyz/logo/JLTV.png" group-title="卫视频道",吉林卫视
+#EXTINF:-1,tvg-id="" tvg-name="吉林卫视" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/JLTV_black.png" group-title="卫视频道",吉林卫视
 http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226397/index.m3u8
-#EXTINF:-1,tvg-id="" tvg-name="江西卫视" tvg-logo="https://upload.112114.xyz/logo/JXTV.png" group-title="卫视频道",江西卫视
+#EXTINF:-1,tvg-id="" tvg-name="江西卫视" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/JXTV_black.png" group-title="卫视频道",江西卫视
 http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226344/index.m3u8
-#EXTINF:-1,tvg-id="" tvg-name="贵州卫视" tvg-logo="https://upload.112114.xyz/logo/GZTV.png" group-title="卫视频道",贵州卫视
+#EXTINF:-1,tvg-id="" tvg-name="贵州卫视" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/GZTV_black.png" group-title="卫视频道",贵州卫视
 http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226474/index.m3u8
-#EXTINF:-1,tvg-id="" tvg-name="山西卫视" tvg-logo="https://upload.112114.xyz/logo/sxws.png" group-title="卫视频道",山西卫视
+#EXTINF:-1,tvg-id="" tvg-name="山西卫视" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/XSTV_black.png" group-title="卫视频道",山西卫视
 http://[2409:8087:1a0b:df::4001]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225624/index.m3u8
-#EXTINF:-1,tvg-id="" tvg-name="宁夏卫视" tvg-logo="https://upload.112114.xyz/logo/NXTV.png" group-title="卫视频道",宁夏卫视
+#EXTINF:-1,tvg-id="" tvg-name="宁夏卫视" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/NXTV_black.png" group-title="卫视频道",宁夏卫视
 http://[2409:8087:1a0b:df::4004]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225632/index.m3u8
-#EXTINF:-1,tvg-id="" tvg-name="内蒙古卫视" tvg-logo="https://upload.112114.xyz/logo/NMGTV.png" group-title="卫视频道",内蒙古卫视
+#EXTINF:-1,tvg-id="" tvg-name="内蒙古卫视" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/NMGTV_black.png" group-title="卫视频道",内蒙古卫视
 http://[2409:8087:1a0b:df::4017]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225634/index.m3u8
-#EXTINF:-1,tvg-id="" tvg-name="陕西卫视" tvg-logo="https://upload.112114.xyz/logo/sxys.png" group-title="卫视频道",陕西卫视
+#EXTINF:-1,tvg-id="" tvg-name="陕西卫视" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/SXWS_black.png" group-title="卫视频道",陕西卫视
 http://[2409:8087:7001:20:3::9]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226326/index.m3u8
-#EXTINF:-1,tvg-id="" tvg-name="西藏卫视" tvg-logo="https://upload.112114.xyz/logo/XZTV.png" group-title="卫视频道",西藏卫视
+#EXTINF:-1,tvg-id="" tvg-name="西藏卫视" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/XZTV_black.png" group-title="卫视频道",西藏卫视
 http://[2409:8087:7001:20:2::4]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226212/index.m3u8
-#EXTINF:-1,tvg-id="" tvg-name="厦门卫视" tvg-logo="https://upload.112114.xyz/logo/XMTV.png" group-title="卫视频道",厦门卫视
+#EXTINF:-1,tvg-id="" tvg-name="厦门卫视" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/XMTV_black.png" group-title="卫视频道",厦门卫视
 http://[2409:8087:7001:20:3::3]:80/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226219/index.m3u8
-#EXTINF:-1,tvg-id="" tvg-name="延边卫视" tvg-logo="https://upload.112114.xyz/logo/YBTV.png" group-title="卫视频道",延边卫视
+#EXTINF:-1,tvg-id="" tvg-name="延边卫视" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/YBTV_black.png" group-title="卫视频道",延边卫视
 http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226516/index.m3u8
-#EXTINF:-1,tvg-id="" tvg-name="兵团卫视" tvg-logo="https://upload.112114.xyz/logo/BTTV.png" group-title="卫视频道",兵团卫视
+#EXTINF:-1,tvg-id="" tvg-name="兵团卫视" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/BTTV_black.png" group-title="卫视频道",兵团卫视
 http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226439/index.m3u8
 #EXTINF:-1 tvg-id="1778" tvg-name="湖北综合频道" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/HUBEI2.png" group-title="本地频道",湖北综合
 http://wh.re168.com:8089/udp/239.69.1.42:9892
