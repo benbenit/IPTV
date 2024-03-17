@@ -1,16 +1,16 @@
-#EXTINF:-1 tvg-id="1778" tvg-name="湖北综合频道" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/HUBEI/HBZH.png" group-title="本地频道",湖北综合
+#EXTINF:-1 tvg-id="1778" tvg-name="湖北综合频道" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/HUBEI2/HBZH.png" group-title="本地频道",湖北综合
 http://ned2188.eicp.net:8888/udp/239.69.1.42:9892
-#EXTINF:-1 tvg-id="1779" tvg-name="湖北影视频道" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/HUBEI/HBYS.png" group-title="本地频道",湖北影视
+#EXTINF:-1 tvg-id="1779" tvg-name="湖北影视频道" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/HUBEI2/HBYS.png" group-title="本地频道",湖北影视
 http://hzzzz530.com:4022/udp/239.69.1.204:10866
-#EXTINF:-1 tvg-id="1780" tvg-name="湖北教育频道" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/HUBEI/HBJY.png" group-title="本地频道",湖北教育
+#EXTINF:-1 tvg-id="1780" tvg-name="湖北教育频道" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/HUBEI2/HBJY.png" group-title="本地频道",湖北教育
 http://hzzzz530.com:4022/udp/239.69.1.206:10878
-#EXTINF:-1 tvg-id="1781" tvg-name="湖北生活频道" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/HUBEI/HBSH.png" group-title="本地频道",湖北生活
+#EXTINF:-1 tvg-id="1781" tvg-name="湖北生活频道" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/HUBEI2/HBSH.png" group-title="本地频道",湖北生活
 http://hzzzz530.com:4022/udp/239.69.1.205:10872
-#EXTINF:-1 tvg-id="1783" tvg-name="湖北公共·新闻" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/HUBEI/HBGG.png" group-title="本地频道",湖北公共
+#EXTINF:-1 tvg-id="1783" tvg-name="湖北公共·新闻" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/HUBEI2/HBGG.png" group-title="本地频道",湖北公共
 http://hzzzz530.com:4022/udp/239.69.1.40:9880
-#EXTINF:-1 tvg-id="1784" tvg-name="湖北经视" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/HUBEI/HBJS.png" group-title="本地频道",湖北经视
+#EXTINF:-1 tvg-id="1784" tvg-name="湖北经视" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/HUBEI2/HBJS.png" group-title="本地频道",湖北经视
 http://hzzzz530.com:4022/udp/239.69.1.41:9886
-#EXTINF:-1 tvg-id="1785" tvg-name="湖北垄上频道" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/HUBEI/HBLS.png" group-title="本地频道",湖北垄上
+#EXTINF:-1 tvg-id="1785" tvg-name="湖北垄上频道" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/HUBEI2/HBLS.png" group-title="本地频道",湖北垄上
 http://hzzzz530.com:4022/udp/239.69.1.43:9898
 
 #EXTINF:-1 tvg-id="1787" tvg-name="武汉新闻综合频道" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/HUBEI/WHTV1.png" group-title="本地频道",武汉新闻综合
