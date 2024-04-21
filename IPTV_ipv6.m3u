@@ -289,32 +289,6 @@ http://183.110.27.87/mtnlive/720/playlist.m3u8
 http://183.110.27.87/mtnlive/720/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="TBS Seoul" tvg-logo="" group-title="日韩频道",「KR」TBS Seoul
 https://cdntv.tbs.seoul.kr/tbs/tbs_tv_web.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Newsma xTV" tvg-logo="" group-title="欧美频道",「US」Newsma xTV
-http://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="WOW TV" tvg-logo="" group-title="欧美频道",「US」WOW TV
-http://cdn.elsalvadordigital.com:1935/wowtv/wowtv/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CA" tvg-logo="" group-title="欧美频道",「CA」CA
-https://19183.live.streamtheworld.com/CAPITAL958FM_PREM.aac
-#EXTINF:-1 tvg-id="" tvg-name="CanadaOne" tvg-logo="" group-title="欧美频道",「CA」CanadaOne
-http://cdn8.live247stream.com/canadaone/tv/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="TheShoppingChannel" tvg-logo="" group-title="欧美频道",「CA」TheShoppingChannel
-http://tscstreaming-lh.akamaihd.net/i/TSCLiveStreaming_1@91031/master.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Baden TV" tvg-logo="" group-title="欧美频道",「DE」Baden TV
-http://badentv-stream2.siebnich.info/rtplive/btv.stream/live.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="ALKORQAPLUS" tvg-logo="" group-title="欧美频道",「RU」ALKORQAPLUS
-http://32.shqiptv.org/korca/albplus/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="GITV" tvg-logo="" group-title="欧美频道",「RU」GITV
-http://hls-igi.cdnvideo.ru/igi/igi_hq/playlist.m3u8?zshijd
-#EXTINF:-1 tvg-id="" tvg-name="TivikomUlan-Udje" tvg-logo="" group-title="欧美频道",「RU」TivikomUlan-Udje
-http://tvcom.stream.intelema.ru/tvcom/studio/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Орск" tvg-logo="" group-title="欧美频道",「RU」Орск
-http://infochhdcdn.trkeurasia.ru/orsk-infochhd/infochhd/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Самара" tvg-logo="" group-title="欧美频道",「RU」Самара
-http://live.guberniatv.cdnvideo.ru/guberniatv/guberniatv.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="TRT World" tvg-logo="" group-title="欧美频道",「TU」TRT World
-https://tv-trtworld.live.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="半岛新闻" tvg-logo="" group-title="欧美频道",「QA」半岛新闻
-https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV59.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/qw1363673600/PNG/main/ipanda2.jpg" group-title="熊猫频道",成都高清
 http://gcalic.v.myalicdn.com/gc/ipanda_1td/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/qw1363673600/PNG/main/ipanda2.jpg" group-title="熊猫频道",都江堰高清
