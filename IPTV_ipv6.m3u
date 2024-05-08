@@ -253,6 +253,8 @@ http://mytv.dothome.co.kr/ch/public/3.php
 http://mytv.dothome.co.kr/ch/catv/2.php
 #EXTINF:-1 tvg-id="" tvg-name="KBS Joy" tvg-logo="" group-title="日韩频道",「KR」KBS Joy
 http://mytv.dothome.co.kr/ch/catv/3.php
+#EXTINF:-1 tvg-id="" tvg-name="KBS Kids" tvg-logo="" group-title="日韩频道",「KR」KBS Kids
+http://mytv.dothome.co.kr/ch/catv/6.php
 #EXTINF:-1 tvg-id="" tvg-name="KBS LiveCam DokDo" tvg-logo="" group-title="日韩频道",「KR」KBS LiveCam DokDo
 http://kbs-dokdo.gscdn.com/dokdo_300/dokdo_300.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="KBS Story" tvg-logo="" group-title="日韩频道",「KR」KBS Story
