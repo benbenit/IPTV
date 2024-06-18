@@ -1,5 +1,5 @@
 #EXTINF:-1 tvg-id="" tvg-name="KBS 1" tvg-logo="" group-title="日韩频道",「KR」KBS 1
-http://202.60.106.14:8080/200/playlist.m3u8
+http://mytv.dothome.co.kr/ch/public/1.php
 #EXTINF:-1 tvg-id="" tvg-name="KBS 2" tvg-logo="" group-title="日韩频道",「KR」KBS 2
 http://mytv.dothome.co.kr/ch/public/3.php
 #EXTINF:-1 tvg-id="" tvg-name="KBS Drama" tvg-logo="" group-title="日韩频道",「KR」KBS Drama
@@ -13,7 +13,7 @@ http://kbs-dokdo.gscdn.com/dokdo_300/dokdo_300.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="KBS Story" tvg-logo="" group-title="日韩频道",「KR」KBS Story
 http://mytv.dothome.co.kr/ch/catv/4.php
 #EXTINF:-1 tvg-id="" tvg-name="KBS World" tvg-logo="" group-title="日韩频道",「KR」KBS World
-https://kbsworld-ott.akamaized.net/hls/live/2002341/kbsworld/master.m3u8
+http://mytv.dothome.co.kr/ch/catv/7.php
 #EXTINF:-1 tvg-id="" tvg-name="CJ OnStyle" tvg-logo="" group-title="日韩频道",「KR」CJ OnStyle
 https://live-ch1.cjonstyle.net/cjmalllive/stream2/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="CJ OnStyle Plus" tvg-logo="" group-title="日韩频道",「KR」CJ OnStyle Plus
