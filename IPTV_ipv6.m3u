@@ -325,8 +325,6 @@ http://andong.webcasting.co.kr/live/mbc/playlist.m3u8
 http://183.110.27.87/mtnlive/720/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="MTN" tvg-logo="" group-title="日韩频道",「KR」MTN
 http://183.110.27.87/mtnlive/720/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="TBS Seoul" tvg-logo="" group-title="日韩频道",「KR」TBS Seoul
-https://cdntv.tbs.seoul.kr/tbs/tbs_tv_web.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/qw1363673600/PNG/main/ipanda2.jpg" group-title="熊猫频道",成都高清
 http://gcalic.v.myalicdn.com/gc/ipanda_1td/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/qw1363673600/PNG/main/ipanda2.jpg" group-title="熊猫频道",都江堰高清
