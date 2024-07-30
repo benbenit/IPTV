@@ -102,17 +102,17 @@ http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/
 #EXTINF:-1,tvg-id="" tvg-name="贵州卫视" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/SATT_beta1/GZTV.png" group-title="卫视频道",贵州卫视
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226474/index.m3u8
 #EXTINF:-1,tvg-id="" tvg-name="山西卫视" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/SATT_beta1/SXTV.png" group-title="卫视频道",山西卫视
-http://[2409:8087:5e01:34::21]:6610/ZTE_CMS/00000001000000060000000000000318/index.m3u8?IAS
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000002000021220/1.m3u8
 #EXTINF:-1,tvg-id="" tvg-name="宁夏卫视" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/SATT_beta1/NXTV.png" group-title="卫视频道",宁夏卫视
 http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221226454/index.m3u8
 #EXTINF:-1,tvg-id="" tvg-name="内蒙古卫视" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/SATT_beta1/NMGTV.png" group-title="卫视频道",内蒙古卫视
 https://livestream-bt.nmtv.cn/nmtv/2314general.m3u8?txSecret=dc348a27bd36fe1bd63562af5e7269ea&txTime=771EF880
 #EXTINF:-1,tvg-id="" tvg-name="陕西卫视" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/SATT_beta1/SXWS.png" group-title="卫视频道",陕西卫视
-http://[2409:8087:5e01:34::22]:6610/ZTE_CMS/00000001000000060000000000000313/index.m3u8?IAS
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000002000007495/1.m3u8
 #EXTINF:-1,tvg-id="" tvg-name="西藏卫视" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/SATT_beta1/XZTV.png" group-title="卫视频道",西藏卫视
-http://[2409:8087:5e01:34::21]:6610/ZTE_CMS/00000001000000060000000000000317/index.m3u8?IAS
+http://[2409:8087:5e00:24::1e]:6060/000000001000/6603041244077933770/1.m3u8
 #EXTINF:-1,tvg-id="" tvg-name="厦门卫视" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/SATT_beta1/XMTV.png" group-title="卫视频道",厦门卫视
-http://[2409:8087:5e01:34::22]:6610/ZTE_CMS/00000001000000060000000000000193/index.m3u8?IAS
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000005000266006/1.m3u8
 #EXTINF:-1,tvg-id="" tvg-name="延边卫视" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/SATT_beta1/YBTV.png" group-title="卫视频道",延边卫视
 http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226516/index.m3u8
 #EXTINF:-1,tvg-id="" tvg-name="兵团卫视" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/SATT_beta1/BTTV.png" group-title="卫视频道",兵团卫视
@@ -167,12 +167,18 @@ http://[2409:8087:5e08:24::12]:6610/000000001000/2000000004000000009/index.m3u8?
 http://[2409:8087:5e08:24::12]:6610/000000001000/2000000004000000008/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000004000000008&IASHttpSessionId=OTT19019320240419154124000281
 #EXTINF:-1 tvg-id="" tvg-name="求索科学" tvg-logo="" group-title="数字频道",求索科学
 http://[2409:8087:5e08:24::12]:6610/000000001000/2000000004000000011/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000004000000011&IASHttpSessionId=OTT19019320240419154124000281
+#EXTINF:-1 tvg-id="" tvg-name="金鹰纪实" tvg-logo="" group-title="数字频道",金鹰纪实
+http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000011000031203/1.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="金鹰卡通" tvg-logo="" group-title="数字频道",金鹰卡通
 http://[2409:8087:1a0b:df::4008]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225653/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="卡酷少儿" tvg-logo="" group-title="数字频道",卡酷少儿
 http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225654/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="快乐垂钓" tvg-logo="" group-title="数字频道",快乐垂钓
+http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000011000031206/1.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="第一财经" tvg-logo="" group-title="数字频道",第一财经
 http://[2409:8087:5e08:24::12]:6610/000000001000/2000000002000000004/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000004&IASHttpSessionId=OTT19019320240419154124000281
+#EXTINF:-1 tvg-id="" tvg-name="茶友频道" tvg-logo="" group-title="数字频道",茶友频道
+http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000011000031209/1.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="家庭剧场" tvg-logo="" group-title="数字频道",家庭剧场
 http://[2409:8087:1a0b:df::4007]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225677/index.m3u8
 #EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5" tvg-logo="https://upload.112114.xyz/logo/CCTV5.png" group-title="体育频道",CCTV-5 体育
