@@ -36,9 +36,9 @@ http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/
 #EXTINF:-1 tvg-id="17" tvg-name="CCTV17" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/CCTV_beta5/CCTV17.png" group-title="央视频道",CCTV-17 农业农村
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225765/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="CCTV4K" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/CCTV_beta5/CCTV4K.png" group-title="央视频道",CCTV-4K 超高清
-http://liveop.cctv.cn/hls/4KHD/playlist.m3u8
+http://hlslive-tx-cdn.ysp.cctv.cn/ysp/2024081302.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-id="" tvg-name="CCTV4K" tvg-logo="https://raw.githubusercontent.com/GlowsSama/IPTV/main/logo/CCTV_beta5/CCTV8K.png" group-title="央视频道",CCTV-8K 超高清
-http://liveop.cctv.cn/hls/4KHD/playlist.m3u8
+http://hlslive-tx-cdn.ysp.cctv.cn/ysp/2024081302.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-id="" tvg-name="CGTN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CGTN.svg/800px-CGTN.svg.png" group-title="央视频道",CGTN 国际频道
 https://0472.org/hls/cgtn.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="CGTN西语" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9c/CGTN_Espanol.png" group-title="央视频道",CGTN 西语频道
