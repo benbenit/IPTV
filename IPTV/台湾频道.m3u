@@ -1,40 +1,22 @@
 #EXTINF:-1 tvg-id="" tvg-name="中天新聞台" tvg-logo="https://i.imgur.com/u81tZtA.png" group-title="港台频道",「TW」中天新聞台
 https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV28.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="中天綜合台" tvg-logo="https://i.imgur.com/tqsKObw.png" group-title="港台频道",「TW」中天綜合台
-http://23.237.10.66:16372
 #EXTINF:-1 tvg-id="" tvg-name="華視" tvg-logo="https://i.imgur.com/ISl9WsI.png" group-title="港台频道",「TW」華視
-http://seb.sason.top/sc/hsxw_fhd.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="華視新聞資訊" tvg-logo="https://i.imgur.com/V1EVtRm.png" group-title="港台频道",「TW」華視新聞資訊
-http://seb.sason.top/sc/hsxw_fhd.m3u8
+http://tianhewan.top/ZIPP.php?url=http://211.72.65.236:8503/.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="大愛1" tvg-logo="https://i.imgur.com/KdJi9af.png" group-title="港台频道",「TW」大愛1
 https://pulltv1.wanfudaluye.com/live/tv1.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="大愛2" tvg-logo="https://i.imgur.com/KdJi9af.png" group-title="港台频道",「TW」大愛2
 https://pulltv2.wanfudaluye.com/live/tv2.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="大立電視台" tvg-logo="https://i.imgur.com/pFIMLsA.png" group-title="港台频道",「TW」大立電視台
 http://www.dalitv.com.tw:4568/live/dali/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="東森財經新聞台" tvg-logo="https://i.imgur.com/uFDkOhV.png" group-title="港台频道",「TW」東森財經新聞台
-http://seb.sason.top/sc/dscjxw_fhd.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="東森新聞台" tvg-logo="https://i.imgur.com/QFZs80p.png" group-title="港台频道",「TW」東森新聞台
-http://seb.sason.top/sc/dsxw_fhd.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="民視" tvg-logo="https://i.imgur.com/q8ahtbT.png" group-title="港台频道",「TW」民視
-http://seb.sason.top/ptv/ftv.php?id=ms
+http://tianhewan.top/ZIPP.php?url=http://211.72.65.236:8540/.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="民視第一台" tvg-logo="https://i.imgur.com/HBT2o0I.png" group-title="港台频道",「TW」民視第一台
-http://seb.sason.top/ptv/ftv.php?id=dy
-#EXTINF:-1 tvg-id="" tvg-name="GOOD TV CH1 綜合台 " tvg-logo="https://i.imgur.com/k28Kc3o.png" group-title="港台频道",「TW」Good1
-https://live.streamingfast.net/osmflivech1.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Good2" tvg-logo="https://i.imgur.com/YxFRoft.png" group-title="港台频道",「TW」Good2
-https://live.streamingfast.net/osmflivech2.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="TVBS Asia" tvg-logo="https://i.imgur.com/4S1rkhm.png" group-title="港台频道",「TW」TVBS亚洲台
-http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="TVBS News" tvg-logo="https://i.imgur.com/171lwfg.png" group-title="港台频道",「TW」TVBS新聞台
-http://seb.sason.top/sc/tvbsxw_fhd.m3u8
+http://37.27.111.214:8080/live/4/hls.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="三立新聞" tvg-logo="https://i.imgur.com/EGVbAvJ.png" group-title="港台频道",「TW」三立新聞
-http://seb.sason.top/sc/sllive_fhd.m3u8
+http://tianhewan.top/ZIPP.php?url=http://211.72.65.236:8543/.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="原住民電視" tvg-logo="https://i.imgur.com/QqIdVqz.png" group-title="港台频道",「TW」原住民電視
 http://streamipcf.akamaized.net/live/_definst_/live_720/key_b1500.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="台视" tvg-logo="https://i.imgur.com/JB2Ps5T.png" group-title="港台频道",「TW」台视 
-http://162.19.247.76:22222/live/taishi/index.m3u8
+https://epg.pw/stream/d683ec1b74bb3cac71e6c52bd56e9e0bc2ce256500de142e9ad3f8c63c680cea.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="唯心電視" tvg-logo="https://i.imgur.com/s8tiTeb.png" group-title="港台频道",「TW」唯心電視 
 https://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/chunklist_w1177047531.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Taiwan Plus " tvg-logo="https://i.imgur.com/SfcZyqm.png" group-title="港台频道",「TW」Taiwan Plus 
-https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/6282251407001/playlist.m3u8
