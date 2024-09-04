@@ -2,10 +2,6 @@
 http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000004794/1.m3u8
 #EXTINF:-1 tvg-id="CCTV5+" tvg-name="CCTV5+" tvg-logo="https://upload.112114.xyz/logo/CCTV5+.png" group-title="体育频道",CCTV-5+ 体育赛事
 http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221225603/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CCTV16-4K-25P-SDR源" tvg-logo="https://upload.112114.xyz/logo/16.png" group-title="体育频道",CCTV-16 奥林匹克
-https://live.goodiptv.club/api/cqyx.php?id=CCTV16_4K
-#EXTINF:-1 tvg-id="" tvg-name="纬来体育" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/VideolandSportsHD.png" group-title="体育频道",纬来体育
-http://tianhewan.top/ZIPP.php?url=http://211.72.65.236:8585/.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="风云足球" tvg-logo="https://upload.112114.xyz/logo/FYZQ.png" group-title="体育频道",风云足球
 http://120.9.52.42:4022/rtp/239.253.93.254:6432
 #EXTINF:-1 tvg-id="" tvg-name="新视觉" tvg-logo="https://raw.githubusercontent.com/qw1363673600/PNG/main/xsj.png" group-title="体育频道",新视觉
@@ -14,5 +10,3 @@ http://120.76.248.139/live/bfgd/4200000249.m3u8
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225715/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="精品体育" tvg-logo="https://raw.githubusercontent.com/qw1363673600/PNG/main/newtvcjty.png" group-title="体育频道",精品体育
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010078/1.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="咪咕" tvg-logo="https://www.hualigs.cn/image/6153f9c6aa2ae.jpg",group-title="体育频道",咪咕体育
-http://39.135.134.67/000000001000/3000000001000028638/index.m3u8
